@@ -1,0 +1,45 @@
+/*--pink-lavender: #cdb4dbff;
+--orchid-pink: #ffc8ddff;
+--nadeshiko-pink: #ffafccff;
+--uranian-blue: #bde0feff;
+--baby-blue-eyes: #a2d2ffff;*/
+
+/*--banana-mania: #fee7a9ff;
+--cherry-blossom-pink: #ffb2c2ff;
+--thistle: #d7bbe4ff;
+--purple-mountain-majesty: #9b7fafff;
+--mauve-taupe: #795466ff;
+--dark-slate-blue: #3d3a6fff;*/
+
+#main {
+	background: #bde0feff;
+	color: #3d3a6fff;
+}
+
+#navbar, #content, #header, #footer {
+	border-color: #ffb2c2ff;
+	background: pink;
+}
+
+#navbar {
+	background: #fee7a9ff;
+	color: #795466ff;
+}
+
+#content {
+	background: #ffc8ddff;
+}
+
+#footer, #header {
+	background: #9b7fafff;
+}
+
+#header {
+	color: white;
+}
+
+
+.doll {
+	background: #e3879eff;
+	border-color: #ffb2c2ff;
+}

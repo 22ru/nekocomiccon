@@ -1,0 +1,55 @@
+#main {
+	background-image: url("../img/houndstooth.gif");
+    background-repeat: repeat;
+}
+
+h2, h3, h4 {
+	color: rgb(209, 0, 105);
+}
+
+h1, p, ul, ol, dl, dd, dt {
+	color: white;
+}
+
+#navbar, #content, #header, #footer, #blognav, #animationButton{
+	border-color: rgb(209, 0, 105);
+    background: black;
+    color: white;
+}
+
+
+.doll {
+	background: rgb(223, 168, 200);
+	border-color:  rgb(209, 0, 105);
+}
+
+ul.dolldesc {
+	color: black;
+}
+
+body {
+	background-color: black;
+}
+
+a, a:link, a:visited {
+	color: rgb(228, 135, 181);
+	text-decoration: none;
+	cursor: wait;
+}
+
+a:hover {
+	color:  rgb(209, 0, 105);
+	cursor: wait;
+}
+
+.disabledLink, .disabledLink:hover {
+	color: rgb(39, 39, 39);
+}
+
+.date {
+	color: rgb(138, 138, 138);
+}
+
+#animationButton {
+	cursor: not-allowed;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>hat's 猫コミコン</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link id="theme" rel="stylesheet" href="css/theme_fashion.css">
+	<script src="js/blog.js"></script> 
+	<script src="js/animations.js"></script> 
+</head>
+<body id="main" onload="startiFrame()">
+	<div class="container">
+		<div id="header">
+			<h1>
+			hat's nekocomiccon
+			</h1>
+		</div>
+		<div id="navbar">
+			<ol>
+			<li><a class="a:link" onclick="changeiFrame('blog')">home</a></li>
+			<li><a class="a:link" onclick="changeiFrame('aboutme');">about me</a></li>
+			<li>dolls</li>
+			<ul>
+				<li><a class="a:link" onclick="changeiFrame('dolls');">my dolls</a></li>
+				<li><a class="a:link" onclick="changeiFrame('dollguide');">doll guide</a></li>
+			</ul>
+			<li><a class="a:link" onclick="changeiFrame('camera');">camera</a></li>
+			<li><a class="a:link" onclick="changeiFrame('room');">my room</a></li>
+			<li><a class="a:link" onclick="changeiFrame('manifesto');">hat's manifesto</a></li>
+			<li><a class="a:link" onclick="changeiFrame('links');">links</a></li>
+			</ol>
+		</div>
+
+		<iframe id="content" title="content" name="content"> </iframe>
+
+		<div id="blognav"> 
+			<h4>
+			<a id="back" onclick="back()"><</a> 
+			<a id="recent" onclick="resetBlogPage()">recent</a> 
+			<a id="forward" onclick="forward()">></a>
+			</h4>
+		</div>
+
+		<div id="footer">
+			<p>
+			thanks for lookin
+			</p>
+		</div>
+		<div id="disclaimer">
+			<p>all iframes are my own and do not reflect the opinion of my employer or mother</p>
+		</div>
+
+		<div id="animationButton" onclick="startAnimations();">
+			<p>go nuts</p>
+		</div>
+		
+	</div>
+</body>

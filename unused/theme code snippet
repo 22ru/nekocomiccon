@@ -1,0 +1,19 @@
+
+
+<button onclick="swapCSS()")>theme</button>
+</body>
+
+
+<script>
+	function swapCSS() {
+		if (document.getElementById("theme").getAttribute("href") == "theme_pastel.css") {
+			document.getElementById("theme").setAttribute('href', "theme_fashion.css");
+		} else {
+			document.getElementById("theme").setAttribute('href', "theme_pastel.css");
+		}
+	}
+	function addTheme() {
+
+		
+	}
+</script>
