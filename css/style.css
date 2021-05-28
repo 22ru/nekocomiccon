@@ -107,6 +107,12 @@ ul {
 	list-style-type: hiragana;
 }
 
+ol p, ul p {
+	margin-top:0px;
+	margin-bottom: 0px;
+	color: #ddadc5;
+}
+
 img {
 	display: block;
 	margin-left: auto;
