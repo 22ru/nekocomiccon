@@ -133,6 +133,11 @@ ol p, ul p {
 	color: #ddadc5;
 }
 
+.comment {
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
 img {
 	display: block;
 	margin-left: auto;
