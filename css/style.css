@@ -123,6 +123,10 @@ ol {
 	list-style-type: hiragana-iroha;
 }
 
+.top10 {
+	list-style-type: decimal;
+}
+
 ul {
 	list-style-type: hiragana;
 }
