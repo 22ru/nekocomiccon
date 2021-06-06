@@ -165,14 +165,14 @@ img {
 	height: 200px;
 	left: 250px;
 	top: -50px;
-	z-index: 14;
+	z-index: 18;
 }
 
 #rose2 {
 	height: 200px;
 	left: 120px;
 	top: 10px;
-	z-index: 13;
+	z-index: 16;
 }
 
 #rose1 {
