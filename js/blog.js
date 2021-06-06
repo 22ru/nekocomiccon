@@ -2,7 +2,7 @@
 // Feel free to use this if you can figure it out
 
 // All blog posts go under blog/
-	// files must be named 1.html 2.html etc
+	// files must be named 1.html 2.html ... n.html
 // All other pages go in main directory
 	// Blog navigation bar is hidden while viewing any page outside of the blog
 
@@ -12,7 +12,7 @@
 // Will give you a 404 if you enter 0
 // (please someone tell me how to check the number of files 
 // in a directory using vanilla JS)
-var totalPages = 28;
+var totalPages = 29;
 var page = totalPages;
 
 // Run on load of main body in document

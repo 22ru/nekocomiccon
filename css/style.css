@@ -20,7 +20,7 @@
 	left: 20px;
 	top: 150px;
 	width: 170px;
-	z-index: 1;
+	z-index: 15;
 }
 
 #content {
@@ -28,14 +28,14 @@
 	top: 100px;
 	height: 800px;
 	width: 680px;
-	z-index: 3;
+	z-index: 30;
 }
 
 #blognav {
 	left: 50px;
 	top: 820px;
 	padding: 5px;
-	z-index: 4;
+	z-index: 25;
 }
 
 #header {
@@ -43,7 +43,7 @@
 	left: 120px;
 	height: 120px;
 	width: 400px;
-	z-index: 2;
+	z-index: 10;
 }
 
 #footer {
@@ -51,7 +51,7 @@
 	top: 870px;
 	width: 800px;
 	padding-left: 20px;
-	z-index: 0;
+	z-index: 5;
 }
 
 #disclaimer {
@@ -59,7 +59,30 @@
 	font-size: xx-small;
 	left: 200px;
 	top: 900px;
-	z-index: 1;
+	z-index: 40;
+}
+
+#animationButton {
+	left: 820px;
+	top: 910px;
+	z-index: 40;
+}
+
+#animationButton p, #blognav h4 {
+	margin: 5px;
+}
+
+#disclaimer {
+	position: absolute;
+	font-size: xx-small;
+	left: 200px;
+	top: 900px;
+	z-index: 40;
+}
+
+button {
+	top: 930px;
+	position: absolute;
 }
 
 .doll {
@@ -86,10 +109,7 @@
 	padding-left: 10px;
 }
 
-button {
-	top: 930px;
-	position: absolute;
-}
+
 
 dt {
 	margin-left: 1em;
@@ -121,11 +141,65 @@ img {
 	margin-bottom: .5em;
 }
 
-#animationButton {
-	left: 820px;
-	top: 910px;
-	z-index: 6;
+
+
+#decor img {
+	position: absolute;
 }
-#animationButton p, #blognav h4 {
-	margin: 5px;
+
+#flower2 {
+	height: 150px;
+	left: 120px;
+	top: 720px;
+	z-index: 7;
+}
+
+#flower5 {
+	height: 120px;
+	left: 0px;
+	top: 760px;
+	z-index: 8;
+}
+
+#rose3 {
+	height: 200px;
+	left: 250px;
+	top: -50px;
+	z-index: 14;
+}
+
+#rose2 {
+	height: 200px;
+	left: 120px;
+	top: 10px;
+	z-index: 13;
+}
+
+#rose1 {
+	height: 130px;
+	left: 20px;
+	top: 40px;
+	z-index: 1;
+	transform: rotate(-20deg);
+}
+
+#flower1 {
+	height: 200px;
+	left: 80px;
+	top: 380px;
+	z-index: 3;
+}
+
+#flower3 {
+	height: 170px;
+	left: 820px;
+	top: 810px;
+	z-index: 16;
+}
+
+#flower4 {
+	height: 120px;
+	left: 870px;
+	top: 60px;
+	z-index: 14;
 }
