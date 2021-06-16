@@ -66,6 +66,7 @@
 	left: 820px;
 	top: 910px;
 	z-index: 40;
+	visibility: hidden;
 }
 
 #animationButton p, #blognav h4 {
@@ -158,23 +159,42 @@ img {
 
 #flower2 {
 	height: 150px;
-	left: 120px;
-	top: 720px;
+	left: 140px;
+	top: 640px;	
+	transform: rotate(0deg);
 	z-index: 7;
 }
 
 #flower5 {
-	height: 120px;
+	height: 160px;
+	left: 100px;
+	top: 730px;
+	transform: rotate(30deg);
+	z-index: 7;
+}
+
+#flower6 {
+	height: 130px;
 	left: 0px;
-	top: 760px;
+	top: 770px;
+	transform: rotate(-90deg);
 	z-index: 8;
 }
+
+
 
 #rose3 {
 	height: 200px;
 	left: 250px;
 	top: -50px;
 	z-index: 18;
+}
+
+#bee {
+	height: 100px;
+	left: 415px;
+	top: 10px;
+	z-index: 17;
 }
 
 #rose2 {
@@ -184,31 +204,54 @@ img {
 	z-index: 16;
 }
 
-#rose1 {
-	height: 130px;
-	left: 20px;
-	top: 40px;
+#rose4 {
+	height: 170px;
+	left: 15px;
+	top: 35px;
 	z-index: 1;
 	transform: rotate(-20deg);
 }
 
-#flower1 {
+#rose5 {
 	height: 200px;
 	left: 80px;
 	top: 380px;
 	z-index: 3;
 }
 
+#flower8 {
+	height: 170px;
+	left: 850px;
+	top: 730px;
+	z-index: 15;
+}
+
 #flower3 {
 	height: 170px;
-	left: 820px;
-	top: 810px;
-	z-index: 16;
+	left: 790px;
+	top: 820px;
+	z-index: 14;
+}
+
+#rose1 {
+	height: 120px;
+	left: 850px;
+	top: 660px;
+	transform: rotate(50deg);
+	z-index: 10;
 }
 
 #flower4 {
 	height: 120px;
-	left: 870px;
-	top: 60px;
-	z-index: 14;
+	left: 880px;
+	top: -5px;
+	z-index: 12;
+}
+
+
+#flower1 {
+	height: 210px;
+	left: 820px;
+	top: 55px;
+	z-index: 13;
 }
