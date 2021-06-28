@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # another mediocre script by fran hat
-# uploads or deletes only modified files
+# uploads or deletes only modified files since last pushgit 
 # ignores .gitignore and all files ignored as well as the temp file used here
 
 # must be using git and must have neocities CLI installed
 # place in the base folder! feel free to add it to the git pre-push!
+# add the line "./upload.sh" to file .git/hooks/ to do that
 
 filename='temp'
 
