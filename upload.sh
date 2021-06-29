@@ -15,11 +15,9 @@
 filename='temp'
 apikey=$(cat $"apikey")
 
-echo $apikey
+#curl "https://${apikey}@neocities.org/api/info"
 
-curl "https://"$apikey"@neocities.org/api/info"
-
-git status --porcelain > temp
+git status --porcelain > tempfile
 
 while read line || [[ -n $line ]];
 do
@@ -27,16 +25,20 @@ do
     file=${line:2}
     if [ $file == '.gitignore' ] || [ $file == 'tempfile' ] || [ $file == 'upload.sh' ] || [ $file == 'apikey' ]
     then
-        #this gets messed up with a rename but doesnt break the code
+        # this gets messed up with a rename but doesnt break the code
         echo Not uploading $file    
     elif [ $action == 'M' ] || [ $action == 'A' ]
     then 
         echo Uploading $file 
+        curl -F "${file}=@${file}" "https://${apikey}@neocities.org/api/upload"
     elif [ $action == 'D' ]
     then
+        # doesn't work
         echo Deleting $file 
+         curl -d "filenames[]=${file}" "https://${apikey}@neocities.org/api/delete"
     elif [ $action == 'R' ]
     then
+        #not yet implemented
         echo Renaming $file 
     fi
-done < temp
+done < tempfile
