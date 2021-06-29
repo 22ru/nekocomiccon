@@ -1,2 +1,7 @@
- M temp
- M upload.sh
+M  .gitignore
+D  img/detective/1205094.jpg
+D  img/detective/HAT04661b.gif
+R  img/detective/1205094.gif -> img/detective/pika.gif
+A  pokemon.html
+MM temp
+MM upload.sh
