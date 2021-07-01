@@ -35,7 +35,7 @@ do
     then
         # doesn't work
         echo Deleting $file 
-         curl -d "filenames[]=${file}" "https://${apikey}@neocities.org/api/delete"
+        curl -d "filenames[]=${file}" "https://${apikey}@neocities.org/api/delete"
     elif [ $action == 'R' ]
     then
         #not yet implemented
