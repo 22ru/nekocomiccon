@@ -2,7 +2,7 @@
 are you tired of the neocities CLI reuploading every single goat dam file
 i am. very much.
 
-this script will (hopefully) upload your files according to their changes in your git
+this script will (hopefully someday) update your neocities files according to their changes on your git
 run this in the root folder of your neocities site
 you should probably run the neocities uploader before the first use since this only uploads changed files
 
