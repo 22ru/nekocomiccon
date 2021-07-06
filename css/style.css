@@ -149,6 +149,7 @@ img {
 	margin-right: auto;
 	margin-top: .5em;
 	margin-bottom: .5em;
+	border-radius: 7px;
 }
 
 .buttonlist img {
@@ -157,6 +158,7 @@ img {
 
 #decor img {
 	position: absolute;
+	border-radius: 0px;
 }
 
 #flower2 {
