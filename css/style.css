@@ -10,7 +10,7 @@
 	max-height: 100vh;
 }
 
-#navbar, #content, #header, #footer, #blognav, #animationButton {
+#navbar, #content, #header, #footer, #blognav {
 	border-radius: 25px;
 	border-style: solid;
 	position: absolute;
@@ -63,13 +63,17 @@
 }
 
 #animationButton {
-	left: 820px;
+	/*left: 820px;
 	top: 910px;
-	z-index: 40;
-	visibility: hidden;
+	z-index: 40;*/
+	height: 100px;
+	left: 415px;
+	top: 10px;
+	z-index: 17;
+	visibility: visible;
 }
 
-#animationButton p, #blognav h4 {
+#blognav h4 {
 	margin: 5px;
 }
 
@@ -79,11 +83,6 @@
 	left: 200px;
 	top: 900px;
 	z-index: 40;
-}
-
-button {
-	top: 930px;
-	position: absolute;
 }
 
 .doll {
@@ -156,7 +155,7 @@ img {
 	display: inline;
 }
 
-#decor img {
+.decor img {
 	position: absolute;
 	border-radius: 0px;
 }
@@ -258,4 +257,15 @@ img {
 	left: 820px;
 	top: 55px;
 	z-index: 13;
+}
+
+#rating {
+	height: 200px;
+	width: 220px;
+	border-radius: 25px;
+	border-style: solid;
+	position: absolute;
+	top: 220px;
+	left: 920px;
+	z-index: 100;
 }

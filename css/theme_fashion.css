@@ -11,12 +11,11 @@ h1, p, ul, ol, dl, dd, dt {
 	color: white;
 }
 
-#navbar, #content, #header, #footer, #blognav, #animationButton{
+#navbar, #content, #header, #footer, #blognav{
 	border-color: rgb(209, 0, 105);
     background: black;
     color: white;
 }
-
 
 .doll {
 	background: rgb(223, 168, 200);
@@ -62,4 +61,9 @@ pre {
 	border-style: solid;
 	border-width: 2px;
 	white-space: pre-line;
+}
+
+#rating {
+	border-color: rgb(209, 0, 105);
+    background: black;
 }
