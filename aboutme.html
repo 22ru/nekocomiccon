@@ -5,11 +5,20 @@
     <title>hat's 猫コミコン</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link id="theme" rel="stylesheet" href="css/theme_fashion.css">
+
+	<script>
+		function timeRefresh() {
+			document.getElementById("secSinceCreation").innerText = (Math.floor((new Date).getTime() / 1000)) - 1385780044;
+		}
+	</script>
+	
 </head>
-<body>
+<body onload="setInterval(timeRefresh, 1000);">
 	<h1>
 	<marquee>i am hat</marquee>
 	</h1>
+
+	<p>this website has been online for <span id="secSinceCreation">a couple</span> seconds!</p>
 
 	<img src="img/hat.jpg" />
 

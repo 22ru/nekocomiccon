@@ -1,4 +1,4 @@
-rating = Math.floor((Date.now()-1630476455735) / 300000);
+rating = Math.floor((Date.now()-1630476455735) / 90000000);
 
 function refreshScore() {
     document.getElementById("currentRating").innerText = "Current rating: " + rating;
@@ -6,7 +6,7 @@ function refreshScore() {
 
 function upvote() {
     rating++;
-    document.getElementById("response").innerText = "thank you!!!!";
+    document.getElementById("response").innerText = "thank you!!!! XD";
     refreshScore();
 }
 
