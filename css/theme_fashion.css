@@ -3,11 +3,11 @@
     background-repeat: repeat;
 }
 
-h2, h3, h4 {
+h2, h4 {
 	color: rgb(209, 0, 105);
 }
 
-h1, p, ul, ol, dl, dd, dt {
+h1, h3, p, ul, ol, dl, dd, dt {
 	color: white;
 }
 

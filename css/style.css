@@ -62,6 +62,10 @@
 	z-index: 40;
 }
 
+#disclaimer p, #footer p, #ratebox p {
+	margin: revert;
+}
+
 #animationButton {
 	/*left: 820px;
 	top: 910px;
@@ -77,12 +81,18 @@
 	margin: 5px;
 }
 
-#disclaimer {
-	position: absolute;
-	font-size: xx-small;
-	left: 200px;
-	top: 900px;
-	z-index: 40;
+
+
+h1,h2,h3,h4 {
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 0px;
+}
+.date {
+	margin-bottom: 1em;
+	margin-top: 1em;
 }
 
 .doll {
@@ -276,7 +286,7 @@ img {
 	width: 100%;
 	background-image: url("../img/decor/houndstooth.gif");
 	z-index: 1001;
-	opacity: 0%;
+	opacity: 0%; /*this will be ignored when neocities takes a snapshot*/
 	position: fixed;
 	pointer-events: none;
 	top: 0;
@@ -285,8 +295,9 @@ img {
 .hide {
 	position: fixed;
 	z-index: 2000;
-	opacity: 0%;
-	height: 750px;
+	opacity: 0%; /*this will be ignored when neocities takes a snapshot*/
+	left: 100px;
+	height: 720px;
 	width: auto;
 	filter: invert(15%) sepia(91%) saturate(5006%) hue-rotate(320deg) brightness(80%) contrast(108%);
 }
