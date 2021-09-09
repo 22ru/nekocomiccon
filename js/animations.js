@@ -28,7 +28,7 @@ function moveBackground() {
 
 function vibrate() {
     var t = document.getElementsByTagName("h1")[0];
-    var rand = Math.floor(Math.random()*15);
+    var rand = Math.floor(Math.random()*17);
     if (rand == 0) {
         t.innerText = "ハットのnekoコミコン";
     } else if (rand == 1) {
@@ -36,29 +36,33 @@ function vibrate() {
     } else if (rand == 2) {
         t.innerText = "HAT の nekocomicコン";        
     } else if (rand == 3) {
-        t.style.color = "#ed87a6";
+        t.style.color = "#3F00D1";
     } else if (rand == 4) {
         t.innerText = "hat's nekoコミコン";
     } else if (rand == 5) {
-        t.style.color = "#d2272f";
+        t.style.color = "#AA00D1";
     } else if (rand == 6) {
         t.innerText = "ハット's 猫コミコン";
     } else if (rand == 7) {
         t.innerText = "hat's 猫comiccon";
     } else if (rand == 8) {
-        t.style.color = "#e87507";
+        t.style.color = "#D100B0";
     } else if (rand == 9) {
-        t.style.color = "#fccf4f";
+        t.style.color = "#D10300";
     } else if (rand == 10) {
         t.style.fontFamily = "Monaco";
     } else if (rand == 11) {
-        t.style.color = "#f7cc77";
+        t.style.color = "#D16F00";
     } else if (rand == 12) {
         t.style.fontFamily = "Times New Roman";
     } else if (rand == 13) {
         t.style.fontFamily = "Copperplate";
     } else if (rand == 14) {
         t.style.fontFamily = "Courier New";
+    } else if (rand == 15) {
+        t.style.color = "#FFFFFF";
+    } else if (rand == 16) {
+        t.style.color = "#D10069";
     }
     t.style.marginTop = 21 + rand/2 + "px";
     t.style.marginLeft = rand*2 + "px";

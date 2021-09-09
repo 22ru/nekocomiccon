@@ -1,3 +1,10 @@
+/*#
+rgb(209, 0, 105)
+#d10069
+hsl(330, 100%, 41%)
+*/
+
+
 #main {
 	background-image: url("../img/decor/houndstooth.gif");
     background-repeat: repeat;
@@ -11,7 +18,7 @@ h1, h3, p, ul, ol, dl, dd, dt {
 	color: white;
 }
 
-#navbar, #content, #header, #footer, #blognav{
+.navbar, #content, #header, #footer, #blognav{
 	border-color: rgb(209, 0, 105);
     background: black;
     color: white;

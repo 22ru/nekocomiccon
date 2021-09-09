@@ -10,17 +10,35 @@
 	max-height: 100vh;
 }
 
-#navbar, #content, #header, #footer, #blognav {
+.navbar, #content, #header, #footer, #blognav {
 	border-radius: 25px;
 	border-style: solid;
 	position: absolute;
 }
 
-#navbar {
+#navbar1 {
 	left: 20px;
-	top: 150px;
+	top: 160px;
 	width: 170px;
 	z-index: 15;
+}
+
+#navbar2 {
+	left: 930px;
+	top: 540px;
+	width: 170px;
+	z-index: 15;
+}
+
+#rating {
+	height: 200px;
+	width: 220px;
+	border-radius: 25px;
+	border-style: solid;
+	position: absolute;
+	top: 220px;
+	left: 930px;
+	z-index: 100;
 }
 
 #content {
@@ -270,16 +288,7 @@ img {
 	z-index: 13;
 }
 
-#rating {
-	height: 200px;
-	width: 220px;
-	border-radius: 25px;
-	border-style: solid;
-	position: absolute;
-	top: 220px;
-	left: 920px;
-	z-index: 100;
-}
+
 
 #overlay {
 	height: 100vh;
