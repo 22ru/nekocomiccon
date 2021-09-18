@@ -291,20 +291,24 @@ img {
 	z-index: 13;
 }
 
-
-
 #overlay {
 	height: 100vh;
 	width: 100%;
-	background-image: url("../img/decor/houndstooth.gif");
 	z-index: 1001;
-	opacity: 0%; /*this will be ignored when neocities takes a snapshot*/
 	position: fixed;
 	pointer-events: none;
 	top: 0;
 }
 
-.hide {
+#neocitiesthumb {
+	background-color: white;
+	opacity: 0%; /*this will be ignored when neocities takes a snapshot*/
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.hidden {
 	position: fixed;
 	z-index: 2000;
 	opacity: 0%; /*this will be ignored when neocities takes a snapshot*/
@@ -312,4 +316,19 @@ img {
 	height: 700px;
 	width: auto;
 	filter: invert(15%) sepia(91%) saturate(5006%) hue-rotate(320deg) brightness(80%) contrast(108%);
+}
+
+#subtitles {
+	position: fixed;
+	color:yellow;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 2px;
+	font-family: Helvetica, sans-serif;
+	font-size: xxx-large;
+	z-index: 1020;
+	bottom: 7%;
+	left: 12.5%;
+	width: 75%;
+	text-align: center;
+	display: none;
 }

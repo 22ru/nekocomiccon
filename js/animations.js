@@ -1,20 +1,36 @@
 var x = 0;
 var y = 0;
 var i = 0;
+var j = 0;
 
 var bg;
 var ti;
+var sub;
+
+var subs = [["Onii-chan daisuki!!"],
+            ["Doordashers will be shot on sight."],
+            ["My Melody did nothing wrong."],
+            ["Woomy if you want to woomy."],
+            ["I can't find my phone."],
+            ["irashaimasen"]];
 
 
 function startAnimations() {
     document.getElementById("animationButton").setAttribute("onClick","endAnimations()");
+    document.getElementById("subtitles").style.display = "block";
+
     bg = setInterval(moveBackground, 70);
     ti = setInterval(vibrate, 100);
+    sub = setInterval(changeSubs, 3000);
+    
 }
 function endAnimations() {
     document.getElementById("animationButton").setAttribute("onClick","startAnimations()");
+    document.getElementById("subtitles").style.display = "none";
+
     clearInterval(bg);
     clearInterval(ti);
+    clearInterval(sub);
 }
 
 function moveBackground() {
@@ -24,6 +40,12 @@ function moveBackground() {
 
     document.getElementById("main").style.backgroundPositionX = x + "px";
     document.getElementById("main").style.backgroundPositionY = y + "px";
+}
+
+function changeSubs() {
+    if (j > subs.length - 1) j = 0;
+    document.getElementById("subtitles").textContent = subs[j];
+    j++;
 }
 
 function vibrate() {
@@ -67,3 +89,4 @@ function vibrate() {
     t.style.marginTop = 21 + rand/2 + "px";
     t.style.marginLeft = rand*2 + "px";
 }
+
