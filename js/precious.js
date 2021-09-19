@@ -8,14 +8,20 @@ class preciousThing {
 var preciousArray = [
     new preciousThing("img/precious/asuka.gif", "this asuka is so cute!"),
     new preciousThing("img/precious/draggie.gif", "a little draggie"),
-    new preciousThing("img/precious/gameboy.gif", "it's older than me"),
+    new preciousThing("img/precious/tamagotchi.gif", "i cried when my teacher took this from me in 5th grade"),
+    new preciousThing("img/precious/smoking.gif", "old habits die hard"),
     new preciousThing("img/precious/kittykittykitten.gif", "KITTY. KITTY. KITTEN."),
     new preciousThing("img/precious/komasan.gif", "he guards my tea rack"),
     new preciousThing("img/precious/macaroni.gif", "my yoshi, Macaroni"),
-    new preciousThing("img/precious/myadoptedson.gif", "my adopted son"),
     new preciousThing("img/precious/ohshit.gif", "i ran out of this years ago"),
     new preciousThing("img/precious/pokemoncard.gif", "my favorite card"),
     new preciousThing("img/precious/furby.gif", "my first furby! (i think)"),
+    new preciousThing("img/precious/phoneback.gif", "ryan's phone back that i stole in 2014"),
+    new preciousThing("img/precious/pocketpikachu.gif", "i cant get this dude to stop running away!"),
+    new preciousThing("img/precious/gameboy.gif", "it's older than me"),
+    new preciousThing("img/precious/teapot.gif", '"well seasoned"'),
+    new preciousThing("img/precious/myadoptedson.gif", "my adopted son"),
+    //the last one is the exit button
     new preciousThing("img/decor/rose4.gif", "Get me outta here!!!")
 ]
 
