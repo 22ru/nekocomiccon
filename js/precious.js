@@ -1,3 +1,6 @@
+// If you really want you can steal this code,
+// but I do not give you permission to steal the precious thing!
+
 class preciousThing {
     constructor(imgurl, description) {
         this.imgurl = imgurl;
@@ -21,7 +24,10 @@ var preciousArray = [
     new preciousThing("img/precious/gameboy.gif", "it's older than me"),
     new preciousThing("img/precious/teapot.gif", '"well seasoned"'),
     new preciousThing("img/precious/myadoptedson.gif", "my adopted son"),
-    //the last one is the exit button
+    new preciousThing("img/precious/bigspoon.gif", "if i could eat all my meals with the big spoon, i would"),
+    new preciousThing("img/precious/tamagotchion.gif", "my best friend bought this for me ;A;"),
+    new preciousThing("img/precious/engel.gif", "i bought this mug in germany!"),
+    //the last one is the exit button, which is always unblurred
     new preciousThing("img/decor/rose4.gif", "Get me outta here!!!")
 ]
 
