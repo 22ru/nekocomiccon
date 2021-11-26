@@ -12,6 +12,8 @@ var subs = [["Onii-chan daisuki!!"],
             ["My Melody did nothing wrong."],
             ["Woomy if you want to woomy."],
             ["I can't find my phone."],
+            ["free meal for every hummybird"],
+            ["Dump my body in the well and bury my soul in Azalea Town."],
             ["irashaimasen"]];
 
 
