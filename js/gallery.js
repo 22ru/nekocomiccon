@@ -60,16 +60,25 @@ function startGallery() {
     imgViewer.style.setProperty("margin-left", "120px");
     document.body.appendChild(imgViewer);
 
-    var title = document.createElement("h2");
-    title.innerText = document.getElementsByTagName("h2")[0].innerText;
-    document.getElementsByTagName("h2")[0].style.setProperty("display", "none");
-    imgViewer.appendChild(title);
+    //console.log("Converting " + document.getElementsByTagName("h2").length + " titles.");
+    var h2_len = document.getElementsByTagName("h2").length;
+    for (var i = 0; i < h2_len; i++) {
+        var title = document.createElement("h2");
+        title.innerText = document.getElementsByTagName("h2")[i].innerText;
+        document.getElementsByTagName("h2")[i].style.setProperty("display", "none");
+        imgViewer.appendChild(title);
+        //console.log(i + " converted.");
+    }
 
-    var date = document.createElement("h4");
-    date.innerText = document.getElementsByTagName("h4")[0].innerText;
-    document.getElementsByTagName("h4")[0].style.setProperty("display", "none");
-    date.className = "date";
-    imgViewer.appendChild(date);
+   // console.log("Converting " + document.getElementsByTagName("h4").length + " dates.");
+    var h4_len = document.getElementsByTagName("h4").length;
+    for (var i = 0; i < h4_len; i++) {
+        var date = document.createElement("h4");
+        date.innerText = document.getElementsByTagName("h4")[i].innerText;
+        document.getElementsByTagName("h4")[i].style.setProperty("display", "none");
+        date.className = "date";
+        imgViewer.appendChild(date);
+    }
 
     var photo = document.createElement("img");
     imgViewer.appendChild(photo);
