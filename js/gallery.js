@@ -32,13 +32,14 @@ function checkKey(e) {
     var key = e.key;
     console.log(e.key + " key pressed.");
 
-    if (key === 'ArrowLeft' || key === 'ArrowUp' && current > 0) {
+    if ((key === 'ArrowLeft' || key === 'ArrowUp') && current > 0) {
         current--;
         showPhoto(current);
-    } else if (key === 'ArrowRight' || key === 'ArrowDown' && current < memoryArray.length - 1) {
+    } else if ((key === 'ArrowRight' || key === 'ArrowDown') && current < memoryArray.length - 1) {
         current++;
         showPhoto(current);
     }
+    console.log("Viewing photo " + current);
 }
 
 // Initialization
