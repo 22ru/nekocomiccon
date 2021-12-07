@@ -12,7 +12,7 @@
 // Will give you a 404 if you enter 0
 // (please someone tell me how to check the number of files 
 // in a directory using vanilla JS)
-var totalPages = 63;
+var totalPages = 64;
 var page = totalPages;
 
 // Run on load of main body in document
@@ -72,6 +72,11 @@ function changeiFrame(pageName) {
 		document.getElementById("content").src = pageName + ".html";
 		document.getElementById("blognav").style.display = "none";
 	}
+}
+
+function updateAddrBar() {
+	var newAddr = document.getElementById("content").src;
+	console.log("page change to " + newAddr);
 }
 
 // Blog navigation functions
