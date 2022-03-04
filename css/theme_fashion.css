@@ -14,7 +14,7 @@ h2, h4 {
 	color: rgb(209, 0, 105);
 }
 
-h1, h3, p, ul, ol, dl, dd, dt {
+h1, h3, p, ul, ol, dl, dd, dt, label {
 	color: white;
 }
 
