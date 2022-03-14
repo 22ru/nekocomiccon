@@ -27,6 +27,10 @@ var preciousArray = [
     new preciousThing("img/precious/bigspoon.gif", "if i could eat all my meals with the big spoon, i would"),
     new preciousThing("img/precious/tamagotchion.gif", "my best friend bought this for me ;A;"),
     new preciousThing("img/precious/engel.gif", "i bought this mug in germany!"),
+    new preciousThing("img/precious/wateringcan.gif", "the perfect can"),
+    new preciousThing("img/precious/quatchi.gif", "he wasnt so matted before i slept on him for 10 years"),
+    new preciousThing("img/precious/babpikachu.gif", "what have i done..."),
+    new preciousThing("img/precious/button.gif", "dont talk to me or my son ever again"),
     //the last one is the exit button, which is always unblurred
     new preciousThing("img/decor/rose4.gif", "Get me outta here!!!")
 ]
@@ -42,7 +46,7 @@ function loadThings () {
         j.style["left"] = Math.random() * (document.documentElement.clientWidth - j.width) + "px";
         j.style["top"] = Math.random() * (document.documentElement.clientHeight - j.height) + "px";
         j.style["z-index"] = i + 1;
-        j.style["filter"] = "blur(" + (preciousArray.length - j.style["z-index"]) + "px)";
+        j.style["filter"] = "blur(" + (preciousArray.length - j.style["z-index"])/2 + "px)";
 
         j.addEventListener("mouseenter", function() {
             document.getElementById("subtitles").innerText = this.alt;
@@ -50,7 +54,7 @@ function loadThings () {
         });
         j.addEventListener("mouseout", function() {
             document.getElementById("subtitles").innerText = "";
-            this.style["filter"] = "blur("+ (preciousArray.length - this.style["z-index"]) +"px)";
+            this.style["filter"] = "blur("+ (preciousArray.length - this.style["z-index"])/2 +"px)";
         });
         document.body.appendChild(j);
     }

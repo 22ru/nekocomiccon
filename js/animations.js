@@ -83,7 +83,7 @@ function startAnimations() {
     document.getElementById("animationButton").setAttribute("onClick","endAnimations()");
     document.getElementById("subtitles").style.display = "block";
 
-    bg = setInterval(moveBackground, 70);
+    bg = setInterval(moveBackground, 30);
     ti = setInterval(vibrate, 100);
     sub = setInterval(changeSubs, 3000);
     
@@ -98,12 +98,15 @@ function endAnimations() {
 }
 
 function moveBackground() {
+    // if i was smart, i would have commented this disaster
     i = (i + 1) % 120;
     x = Math.cos(i/30 * Math.PI) * 15;
     y = Math.sin(i/30 * Math.PI) * 15;
 
     document.getElementById("main").style.backgroundPositionX = x + "px";
     document.getElementById("main").style.backgroundPositionY = y + "px";
+
+    document.getElementById("main").style.backgroundColor = "rgb(" + String(Math.floor(255-x*2)) + ", " + String(Math.floor(255-y*16)) + ", " + String(Math.floor(255-y*12)) + ")";
 }
 
 function changeSubs() {

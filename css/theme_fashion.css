@@ -8,6 +8,7 @@ hsl(330, 100%, 41%)
 #main {
 	background-image: url("../img/decor/houndstooth.gif");
     background-repeat: repeat;
+	background-color: rgb(255, 255, 255);
 }
 
 h2, h4 {
