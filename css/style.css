@@ -184,6 +184,22 @@ img {
 
 .buttonlist img {
 	display: inline;
+	border-radius: 0px;
+	margin: 0;
+}
+
+.gbcphoto img {
+	display: inline;
+	width: 128px;
+	height: 128px;
+	object-fit: contain;
+	border-radius: 0;
+	margin: 0;
+}
+
+.gbcphoto { /* find a way to not have this hardcoded someday... */
+	width: 528px;
+	margin: auto;
 }
 
 .decor img {
