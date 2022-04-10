@@ -173,6 +173,18 @@ ol p, ul p {
 	margin-left: 25px;
 }
 
+.quote {
+	width: 80%; 
+	margin: auto;
+	font-style: italic;
+}
+
+.quoteauthor {
+	text-align: right; 
+	margin-right: 20%;
+
+}
+
 img {
 	display: block;
 	margin-left: auto;
