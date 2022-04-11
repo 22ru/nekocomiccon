@@ -10,7 +10,7 @@
 	max-height: 100vh;
 }
 
-.navbar, #content, #header, #footer, #blognav {
+.navbar, #content, #header, #footer, #blognav, #rating, #webring {
 	border-radius: 25px;
 	border-style: solid;
 	position: absolute;
@@ -33,9 +33,6 @@
 #rating {
 	height: 200px;
 	width: 220px;
-	border-radius: 25px;
-	border-style: solid;
-	position: absolute;
 	top: 220px;
 	left: 930px;
 	z-index: 100;
@@ -78,6 +75,14 @@
 	left: 200px;
 	top: 900px;
 	z-index: 40;
+}
+
+#webring {
+	height: 58px;
+	width: 290px;
+	top: 910px;
+	left: 520px;
+	z-index: 35;
 }
 
 #disclaimer p, #footer p, #ratebox p {
