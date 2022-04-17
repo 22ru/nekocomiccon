@@ -324,6 +324,13 @@ img {
 	z-index: 13;
 }
 
+#decohina {
+	height: 500px;
+	left: 1020px;
+	top: 415px;
+	z-index: 13;
+}
+
 #overlay {
 	height: 100vh;
 	width: 100%;

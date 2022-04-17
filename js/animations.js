@@ -76,6 +76,7 @@ var subs = [["Onii-chan daisuki!!"],
             ["franch toast"],
             ["i lost my keyboard???"],
             ["wheres my mommy..."],
+            ["a yamane in the hand is worth 2 in the bush"],
             ["irashaimasen"]];
 
 
@@ -83,7 +84,7 @@ function startAnimations() {
     document.getElementById("animationButton").setAttribute("onClick","endAnimations()");
     document.getElementById("subtitles").style.display = "block";
 
-    bg = setInterval(moveBackground, 30);
+    bg = setInterval(moveBackground, 40);
     ti = setInterval(vibrate, 100);
     sub = setInterval(changeSubs, 3000);
     
@@ -97,16 +98,21 @@ function endAnimations() {
     clearInterval(sub);
 }
 
+//rgb(223, 168, 200);
+//rgb(228, 135, 181);
 function moveBackground() {
     // if i was smart, i would have commented this disaster
     i = (i + 1) % 120;
-    x = Math.cos(i/30 * Math.PI) * 15;
-    y = Math.sin(i/30 * Math.PI) * 15;
+    mult = 15; // higher number for larger loops, can never be 0
+    x = Math.cos(i/30 * Math.PI) * mult;
+    y = Math.sin(i/30 * Math.PI) * mult;
 
     document.getElementById("main").style.backgroundPositionX = x + "px";
     document.getElementById("main").style.backgroundPositionY = y + "px";
 
-    document.getElementById("main").style.backgroundColor = "rgb(" + String(Math.floor(255-x*2)) + ", " + String(Math.floor(255-y*16)) + ", " + String(Math.floor(255-y*12)) + ")";
+    //rgb(209, 0, 105) at x==mult
+    // someday i will clean up this awful math i promise
+    document.getElementById("main").style.backgroundColor = "rgb(" + String(Math.floor(255-x/mult*(255-228))) + ", " + String(Math.floor(255-x/mult*(255-135))) + ", " + String(Math.floor(255-x/mult*(255-181))) + ")";
 }
 
 function changeSubs() {
