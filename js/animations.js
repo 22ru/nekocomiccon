@@ -53,7 +53,7 @@ var subs = [["Onii-chan daisuki!!"],
             ["if i won the internet i would die"],
             ["Irc bullying ends life's End irc cyber bullying"],
             ["Fat n happy "],
-            ["i want a naked man in a giant bear costume to knock on my door"],
+            ["Bought a ps4 today! I'm so excited to find out what msgv is all about with you guys!! Chicken hat!!!! XD"],
             ["who is gonna karaoke burn my dread with me"],
             ["1 like = 1 prayer for Reagan"],
             ["Cute girl hours be cute if u up"],
@@ -99,20 +99,21 @@ function endAnimations() {
 }
 
 //rgb(223, 168, 200);
-//rgb(228, 135, 181);
+//rgb(209, 0, 105)
 function moveBackground() {
     // if i was smart, i would have commented this disaster
     i = (i + 1) % 120;
-    mult = 15; // higher number for larger loops, can never be 0
-    x = Math.cos(i/30 * Math.PI) * mult;
-    y = Math.sin(i/30 * Math.PI) * mult;
 
-    document.getElementById("main").style.backgroundPositionX = x + "px";
-    document.getElementById("main").style.backgroundPositionY = y + "px";
+    amp = 20; // higher number for larger loops, please dont set to 0
+    x = Math.cos(i/30 * Math.PI);
+    y = Math.sin(i/30 * Math.PI);
 
-    //rgb(209, 0, 105) at x==mult
+    document.getElementById("main").style.backgroundPositionX = x * amp + "px";
+    document.getElementById("main").style.backgroundPositionY = y * amp + "px";
+
+    //rgb(228, 135, 181) at x==amp
     // someday i will clean up this awful math i promise
-    document.getElementById("main").style.backgroundColor = "rgb(" + String(Math.floor(255-x/mult*(255-228))) + ", " + String(Math.floor(255-x/mult*(255-135))) + ", " + String(Math.floor(255-x/mult*(255-181))) + ")";
+    document.getElementById("main").style.backgroundColor = "rgb(" + String(Math.floor(255-x*(255-228))) + ", " + String(Math.floor(255-x*(255-135))) + ", " + String(Math.floor(255-x*(255-181))) + ")";
 }
 
 function changeSubs() {
