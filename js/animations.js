@@ -7,6 +7,8 @@ var bg;
 var ti;
 var sub;
 
+
+// boy i wish i knew how to put this in another file
 var subs = [["Onii-chan daisuki!!"],
             ["Doordashers will be shot on sight."],
             ["My Melody did nothing wrong."],
@@ -77,8 +79,69 @@ var subs = [["Onii-chan daisuki!!"],
             ["i lost my keyboard???"],
             ["wheres my mommy..."],
             ["a yamane in the hand is worth 2 in the bush"],
+            ["uh oh was i the only one???"],
+            ["They're after me!!"],
+            ["V has come to"],
+            ["It's made out of babies!!!"],
+            ["making eggfriends!!!"],
+            ["i loooooooooooooove reshiram!"],
+            ["I want to be that cool guy in a leather jacket"],
+            ["panic! at the dollhaus"],
+            ["I failed Spanish please help"],
+            ["Cute girl hours be cute if u up"],
+            ["bye nerds~"],
+            ["I DIDNT GO TO ROBOT SCHOOL FOR NOTHING!!!"],
+            ["Who is going to karaoke kimi no kioku with me at sakuracon??"],
+            ["where did i put my pencil..."],
+            ["ISO part time work at a CRT store"],
+            ["mama mia..."],
+            ["It's 3 pm and I have already joined a fraternity"],
+            ["dr fran hat professor of reagan studies"],
+            ["Ask my Mom anything!!"],
+            ["Fran hat is 89 years old"],
+            ["thank you!!!!!"],
+            ["SHOULD I COSPLAY HIGH NOON??"],
+            ["I will not rest until dolls have equal representation in our media"],
+            ["Just found out about candy and honestly I'm impressed"],
+            ["I regret to announce that I have been banned from Grocery Outlet"],
+            ["I want to go I want to go to the zooooo"],
+            ['When the bus driver said "welcome aboard", I really felt that.'],
+            ["dm me if you know about texas"],
+            ["Hello!! I'm about to start my stream in a few minutes!! You can watch by sitting on my couch and watching me play!!!"],
+            ["Anyone want to buy a copy of tron bonne? $5 can meet at eccc"],
+            ["I want to overdose on heroin at the chaz"],
+            ["Can't wait to cosplay sophie hatter in 5 years when I turn 83"],
+            ["I will solve the opioid crisis"],
+            ["Awaken... pneumonia !!!"],
+            ["I too want to meltdown in shibuya"],
+            ["Why do tide pods look and smell so delicious It's not fair"],
+            ["My furby graduated with honors"],
+            ["I wish I was a cowboy"],
+            ["I want to lose my wallet in Yokohama"],
+            ["Fran hat did nothing wrong"],
+            ["I did not lie in April"],
+            ["I fear the day we run out of Texas Pete"],
+            ["Cabbages #ThingsRichPeopleBuy"],
+            ["It's 2:47 AM! My time to shine!"],
+            ["Thinkin bout that spicy water"],
+            ["NO I can't spare a square!!"],
+            ["Just wait until live pd pulls me over and finds my doll collection"],
+            ["I'm fresh out of smochi"],
+            ["Thinkin bout dolls again..!!!"],
+            ["I just patented eggs and I don't know how you fooligans are going to deal with it"],
+            ["Ok gamer"],
+            ["Here's a thread of all the anime characters I want to room with at sakuracon: (1/??)"],
+            ["Meet me at the combination kfc Pizza Hut Taco Bell"],
+            ["i am so meow right now"],
+            ["What if we kissed... at gay conversion therapy?"],
+            ["If anyone comes to my house and says a bad thing about my dolls, they will receive the doll curse"],
+            ["where can i buy a doll sized beryllium hemisphere?"],
+            ["I just want to look at anime boys with gay earrings is that too much to ask"],
+            ["I BOUGHT THE NEW JUSTIN BIEBER CD"],
+            ["We need more blankets!!!!"],
+            ["Is it Christmas yet"],
             ["irashaimasen"]];
-
+//[""],
 
 function startAnimations() {
     document.getElementById("animationButton").setAttribute("onClick","endAnimations()");
@@ -117,9 +180,12 @@ function moveBackground() {
 }
 
 function changeSubs() {
-    if (j > subs.length - 1) j = 0;
-    document.getElementById("subtitles").textContent = subs[j];
-    j++;
+    //if (j > subs.length - 1) j = 0;
+    //document.getElementById("subtitles").textContent = subs[j];
+    //j++;
+
+    var rand = Math.floor(Math.random()*subs.length);
+    document.getElementById("subtitles").textContent = subs[rand];
 }
 
 function vibrate() {
