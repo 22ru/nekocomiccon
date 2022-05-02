@@ -180,10 +180,12 @@ function moveBackground() {
 }
 
 function changeSubs() {
-    //if (j > subs.length - 1) j = 0;
-    //document.getElementById("subtitles").textContent = subs[j];
-    //j++;
+    if (j > subs.length - 1) j = 0;
+    document.getElementById("subtitles").textContent = subs[j];
+    j++;
+}
 
+function changeSubsRand() {
     var rand = Math.floor(Math.random()*subs.length);
     document.getElementById("subtitles").textContent = subs[rand];
 }
