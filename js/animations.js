@@ -188,6 +188,8 @@ function changeSubs() {
     document.getElementById("subtitles").textContent = subs[rand];
 }
 
+
+// these rand calculations are wasteful and i need to look into improving this animation
 function vibrate() {
     var t = document.getElementsByTagName("h1")[0];
     var rand = Math.floor(Math.random()*17);
