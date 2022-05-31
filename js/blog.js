@@ -12,7 +12,7 @@
 // Will give you a 404 if you enter 0
 // (please someone tell me how to check the number of files 
 // in a directory using vanilla JS)
-var totalPages = 96;
+var totalPages = 97;
 var page = totalPages;
 
 // Run on load of main body in document
