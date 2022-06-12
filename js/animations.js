@@ -190,47 +190,59 @@ function changeSubsRand() {
     document.getElementById("subtitles").textContent = subs[rand];
 }
 
+var vibeList = [
+    ["t.innerText = \"ハットのnekoコミコン\";"],
+    ["t.style.fontFamily = \"Arial\";"],
+    ["t.innerText = \"HAT の nekocomicコン\";"],
+    ["t.style.color = \"#3F00D1\";"],
+    ["t.style.fontFamily = \"Copperplate\";"],
+    ["t.innerText = \"hat's nekoコミコン\";"],
+    ["t.style.color = \"#AA00D1\";"],
+    ["t.innerText = \"ハット's 猫コミコン\";"],
+    ["t.innerText = \"hat's 猫comiccon\";"],
+    ["t.style.color = \"#D100B0\";"],
+    ["t.style.fontFamily = \"Monaco\";"],
+    ["t.style.color = \"#D16F00\";"],
+    ["t.style.fontFamily = \"Times New Roman\";"],
+    ["t.style.color = \"#D10300\";"],
+    ["t.style.fontFamily = \"Courier New\";"],
+    ["t.style.color = \"#FFFFFF\";"],
+    ["t.style.color = \"#D10069\";"]
+]
+
+var distance = [12, 15, 2, 8, 3, 6, 18, 1, 7, 6, 9];
+
+function prepare() {
+    var hinaimg = document.getElementById("decohina");
+    hinaimg.onmouseover = covfefe;
+
+
+    // To do: randomize lists at start up
+}
+
+function covfefe() {
+    var title = document.getElementsByTagName("h1")[0];
+    title.onmouseover = spicycovfefe;
+
+    title.innerText = "hat's covfefe";
+}
+
+function spicycovfefe() {
+    document.getElementsByTagName("h1")[0].innerText = "hat's spicy covfefe ";
+    document.getElementById("footer").innerHTML = "<p>HECK you!!! 🌶️☕</p>";
+    document.body.style.backgroundImage = "url('img/HAT06199.jpg')";
+    document.body.style.backgroundSize = "cover";
+}
 
 // these rand calculations are wasteful and i need to look into improving this animation
 function vibrate() {
     var t = document.getElementsByTagName("h1")[0];
-    var rand = Math.floor(Math.random()*17);
-    if (rand == 0) {
-        t.innerText = "ハットのnekoコミコン";
-    } else if (rand == 1) {
-        t.style.fontFamily = "Arial";
-    } else if (rand == 2) {
-        t.innerText = "HAT の nekocomicコン";        
-    } else if (rand == 3) {
-        t.style.color = "#3F00D1";
-    } else if (rand == 4) {
-        t.innerText = "hat's nekoコミコン";
-    } else if (rand == 5) {
-        t.style.color = "#AA00D1";
-    } else if (rand == 6) {
-        t.innerText = "ハット's 猫コミコン";
-    } else if (rand == 7) {
-        t.innerText = "hat's 猫comiccon";
-    } else if (rand == 8) {
-        t.style.color = "#D100B0";
-    } else if (rand == 9) {
-        t.style.color = "#D10300";
-    } else if (rand == 10) {
-        t.style.fontFamily = "Monaco";
-    } else if (rand == 11) {
-        t.style.color = "#D16F00";
-    } else if (rand == 12) {
-        t.style.fontFamily = "Times New Roman";
-    } else if (rand == 13) {
-        t.style.fontFamily = "Copperplate";
-    } else if (rand == 14) {
-        t.style.fontFamily = "Courier New";
-    } else if (rand == 15) {
-        t.style.color = "#FFFFFF";
-    } else if (rand == 16) {
-        t.style.color = "#D10069";
-    }
-    t.style.marginTop = 21 + rand/2 + "px";
-    t.style.marginLeft = rand*2 + "px";
-}
+    var instr = vibeList.shift();
+    eval(instr.toString());
+    vibeList.push(instr);
 
+    var dist = distance.shift();
+    t.style.marginTop = 21 + dist/2 + "px";
+    t.style.marginLeft = dist*2 + "px";
+    distance.push(dist);
+}
