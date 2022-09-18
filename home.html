@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+welcome to my hatsite! 
+
+i do have javascript code running, but i'm not using any cookies or tracking you and you're free to check out my code. 
+
+all of this content is created by me. i cant stop you from taking it though! 
+exceptions: buttons on my links page, the photos of me in my about page, the official volks lifecycle and size charts on the volks page.
+-->
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>hat's 猫コミコン</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link id="theme" rel="stylesheet" href="css/theme_fashion.css">
+	<link rel="icon" type="image/gif" href="img/decor/favicon.gif">
+	<script src="js/blog.js"></script> 
+	<script src="js/animations.js"></script>
+</head>
+
+<body id="main" onload="startiFrame(); prepare();">
+	<div id="overlay">
+		<!--check this out! change your neocities thumbnail by
+		setting a clickthrough overlay with opacity 0%-->
+		<div id="neocitiesthumb" >
+			<img src="img/decor/oppogagamstyle.svg" class="hidden"/>
+		</div>
+		<div id="subtitles">Don't forget to like, follow, and subscribe. Hit the bell for updates!</div>
+	</div>
+	<div class="container">
+		<div id="header">
+			<h1>
+			hat's nekocomiccon
+			</h1>
+		</div>
+		<div class="navbar" id="navbar1">
+			<ol>
+			<li><a class="a:link" onclick="changeiFrame('blog')">blog</a></li>
+			<li><a class="a:link" onclick="changeiFrame('aboutme');">about me</a></li>
+
+			<li><a class="a:link" href="precious.html" >precious things</a></li>
+			
+			<li><a class="a:link" onclick="changeiFrame('camera');">camera</a></li>
+			<li><a class="a:link" onclick="changeiFrame('room');">my room</a></li>
+			<li>collections</li>
+			<ul>
+				<li><a class="a:link" onclick="changeiFrame('manga');">manga</a></li>
+				<li><a class="a:link" onclick="changeiFrame('yofuku');">yofuku</a></li>
+				<li><a class="a:link" onclick="changeiFrame('wafuku');">wafuku</a></li>
+			</ul>
+			<li>shrines</li>
+			<ul>
+				<li><a class="a:link" onclick="changeiFrame('detective');">detective</a></li>
+				<li><a class="a:link" onclick="changeiFrame('pokemon');">pokemon</a></li>
+				<!--<li><a class="a:link" onclick="changeiFrame('touhou');">touhou</a></li>-->
+				<!--<li><a class="a:link" onclick="changeiFrame('miku');">初音ミク</a></li>-->
+			</ul>
+			<!--<li><a class="a:link" onclick="changeiFrame('favorites');">favorites</a></li>-->
+			<li><a class="a:link" onclick="changeiFrame('wishlist');">wishlist</a></li>
+			<li>hot takes</li>
+			<ul>
+				<li><a class="a:link" onclick="changeiFrame('animereviews');">anime</a></li>
+				<li><a class="a:link" onclick="changeiFrame('gamereviews');">games</a></li>
+				<li><a class="a:link" onclick="changeiFrame('foodreviews');">foods</a></li>
+				<li><a class="a:link" onclick="changeiFrame('musicreviews');">music</a></li>
+			</ul>
+			<li>art</li>
+			<ul>
+				<li><a class="a:link" onclick="changeiFrame('artbyme');">by me</a></li>
+				<li><a class="a:link" onclick="changeiFrame('artforme');">for me</a></li>
+				<li><a class="a:link" onclick="changeiFrame('photoshop');">photoshop</a></li>
+			</ul>
+			<li><a class="a:link" onclick="changeiFrame('manifesto');">hat's manifesto</a></li>
+			<li><a class="a:link" onclick="changeiFrame('archive');">archive</a></li>
+			<li><a class="a:link" onclick="changeiFrame('links');">links</a></li>
+			</ol>
+		</div>
+
+		<div class="navbar" id="navbar2">
+		<ol>
+			<li>dolls</li>
+			<ul>
+				<li><a class="a:link" onclick="changeiFrame('dolls');">my dolls</a></li>
+				<li><a class="a:link" onclick="changeiFrame('dollwishlist');">wishlist</a></li>
+				<li><a class="a:link" onclick="changeiFrame('dollguide');">guide</a></li>
+				<!--<li><a class="a:link" onclick="changeiFrame('dollwigs');">wigs</a></li>-->
+				<li><a class="a:link" onclick="changeiFrame('dollopinions');">opinions</a></li>
+				<li><a class="a:link" onclick="changeiFrame('dolllinks');">links</a></li>
+				<li><a class="a:link" onclick="changeiFrame('dollmemories');">memories</a></li>
+				<li><a class="a:link" onclick="changeiFrame('dollpatterns');">patterns</a></li>
+				<li><a class="a:link" onclick="changeiFrame('volks');">volks</a></li>
+			</ul>
+		</ol>
+		</div>
+
+		<iframe id="content" title="content" name="content" onload="updateAddrBar();"> </iframe>
+
+		<div id="blognav"> 
+			<h4>
+			<a id="back" onclick="back()"><</a> 
+			<a id="recent" onclick="resetBlogPage()">recent</a> 
+			<a id="forward" onclick="forward()">></a>
+			</h4>
+		</div>
+
+		<div id="footer">
+			<p>
+			thanks for lookin
+			</p>
+		</div>
+		<div id="disclaimer">
+			<p>all iframes are my own and do not reflect the opinion of my mother</p>
+		</div>
+
+		<!--<div id="animationButton" onclick="startAnimations();">
+			<p>go nuts</p>
+		</div>-->
+
+		<div class="decor">
+			<img src="img/decor/flower1.gif" id="flower1" />
+			<img src="img/decor/flower2.gif" id="flower2" />
+			<img src="img/decor/flower3.gif" id="flower3" />
+			<img src="img/decor/flower4.gif" id="flower4" />
+			<img src="img/decor/flower5.gif" id="flower5" />
+			<img src="img/decor/flower6.gif" id="flower6" />
+			<img src="img/decor/flower8.gif" id="flower8" />
+			<img src="img/decor/rose1.gif" id="rose1" />
+			<img src="img/decor/rose2.gif" id="rose2" />
+			<img src="img/decor/rose3.gif" id="rose3" />
+			<img src="img/decor/rose4.gif" id="rose4" />
+			<img src="img/decor/rose5.gif" id="rose5" />
+			<img id="animationButton" onclick="startAnimations();" src="img/decor/bee.gif"/>
+			<img src="https://22ru.github.io/nekocomiccon/img/decor/hina.apng" id="decohina" /> <!--THANKS NEOCITIES FOR YOUR APNG SUPPORT-->
+		</div>
+
+		<iframe id="rating" src="rating.html"></iframe>
+		
+		<iframe id="webring" src="webring.html"></iframe>
+	</div>
+</body>
