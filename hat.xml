@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>hat's nekocomiccon</title>
+        <link>https://hat.neocities.org/</link>
+        <description>#1 Hina Fansite!</description>
+        <lastBuildDate>January 1, 1970 12:00:00 AM</lastBuildDate>
+        <item>
+            <pubDate>October 2, 2022</pubDate>
+            <title>Blog #121 has arrived!</title>
+            <link>https://hat.neocities.org/home.html#121</link>
+            <description>New blog post, new RSS feed! Added a page on FCS SD-100 finalists and moved some stuff around for the VolksUSA online FCS ordering information into a new page.</description>
+        </item>
+    </channel>
+</rss>
