@@ -5,11 +5,20 @@
         <link>https://hat.neocities.org/</link>
         <description>#1 Hina Fansite!</description>
         <lastBuildDate>January 1, 1970 12:00:00 AM</lastBuildDate>
+
+        <item>
+            <pubDate>October 5, 2022</pubDate>
+            <title>Blog #122 has arrived</title>
+            <link>https://hat.neocities.org/home.html#122</link>
+            <description>Hina NFT installed as a link to this RSS feed! Isn't she cute? Two Japanese Volks wiki links added to the Volks shrine along with Aridede's design sheet for SD16 Diamond. A furby collection page has been created.</description>
+        </item>
+
         <item>
             <pubDate>October 2, 2022</pubDate>
             <title>Blog #121 has arrived!</title>
             <link>https://hat.neocities.org/home.html#121</link>
-            <description>New blog post, new RSS feed! Added a page on FCS SD-100 finalists and moved some stuff around for the VolksUSA online FCS ordering information into a new page.</description>
+            <description>New blog post, new RSS feed! Added a page on FCS SD-F-100 finalists and moved some stuff around for the VolksUSA online FCS ordering information into a new page.</description>
         </item>
+
     </channel>
 </rss>

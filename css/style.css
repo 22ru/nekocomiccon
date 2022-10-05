@@ -324,6 +324,13 @@ img {
 	z-index: 13;
 }
 
+#hinaNFT {
+	position: absolute;
+	left: 980px;
+	top: 40px;
+	z-index: 50;
+}
+
 #decohina {
 	height: 500px;
 	left: 1020px;
