@@ -216,7 +216,9 @@ function prepare() {
     var hinaimg = document.getElementById("decohina");
     hinaimg.onmouseover = covfefe;
 
-
+    var hinaNFT = document.getElementById("hinaNFT");
+    hinaNFT.onmouseover = showNFTinfo;
+    hinaNFT.onmouseout = hideNFTinfo;
     // To do: randomize lists at start up
 }
 
@@ -232,6 +234,14 @@ function spicycovfefe() {
     document.getElementById("footer").innerHTML = "<p>HECK you!!! 🌶️☕</p>";
     document.body.style.backgroundImage = "url('img/HAT06199.jpg')";
     document.body.style.backgroundSize = "cover";
+}
+
+function showNFTinfo() {
+    document.getElementById("hinaNFTinfo").style.display = "block";
+}
+
+function hideNFTinfo() {
+    document.getElementById("hinaNFTinfo").style.display = "none";
 }
 
 // these rand calculations are wasteful and i need to look into improving this animation

@@ -35,7 +35,7 @@
 	width: 220px;
 	top: 220px;
 	left: 930px;
-	z-index: 100;
+	z-index: 40;
 }
 
 #content {
@@ -329,6 +329,23 @@ img {
 	left: 980px;
 	top: 40px;
 	z-index: 50;
+	filter: url(#NFTshadow);
+}
+
+#hinaNFT:hover {
+	filter: url(#NFTshadowhover);
+}
+
+#hinaNFTinfo {
+	display: none;
+	position: absolute;
+	border-radius: 25px;
+	border-style: solid;
+	max-width: 300px;
+	padding: 5px;
+	top: 95px;
+	left: 1085px;
+	z-index: 45;
 }
 
 #decohina {

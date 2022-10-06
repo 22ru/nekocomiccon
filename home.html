@@ -105,9 +105,19 @@ welcome to my hatsite!
 			<p>all iframes are my own and do not reflect the opinion of my mother</p>
 		</div>
 
-		<!--<div id="animationButton" onclick="startAnimations();">
-			<p>go nuts</p>
-		</div>-->
+		<div id="hinaNFTinfo">
+			<h2>Blessed Angel Hina</h2>
+			<h3>Creator</h3>
+			<p>Fran Hat 0x03a4...bbe7</p>
+			<h3>Description</h3>
+			<p>fran hat's beautiful Volks SD Lieselotte.
+				This NFT is not for sale.</p>
+			<h3>NFT Details</h3>
+			<p>Contract Address: 0x37f4...9c38<br/>
+				Token ID: 932873...4332<br />
+				Blockchain: Ethereum<br />
+				Token Standard: ERC-721</p>
+		</div>
 
 		<div class="decor">
 			<img src="img/decor/flower1.gif" id="flower1" />
@@ -124,12 +134,18 @@ welcome to my hatsite!
 			<img src="img/decor/rose5.gif" id="rose5" />
 			<img id="animationButton" onclick="startAnimations();" src="img/decor/bee.gif"/>
 			<img src="https://22ru.github.io/nekocomiccon/img/decor/hinasummer.apng" id="decohina" /> <!--THANKS NEOCITIES FOR YOUR APNG SUPPORT-->
-			<a href="hat.xml" >
-				<svg height="100" width="100" viewBox="0 0 100 100" id="hinaNFT">
+			<a href="hat.xml" id="hinaNFT" >
+				<svg height="100" width="100" viewBox="0 0 100 100">
 					<defs>
 						<clipPath id="hexClip" transform="translate(50,10) scale(.52) rotate(90,50,50)" >
 							<path d="M73.61215932167728 7.499999999999999Q86.60254037844386 0 99.59292143521044 7.5L160.21469970012114 42.5Q173.20508075688772 50 173.20508075688772 65L173.20508075688772 135Q173.20508075688772 150 160.21469970012114 157.5L99.59292143521044 192.5Q86.60254037844386 200 73.61215932167728 192.5L12.990381056766578 157.5Q0 150 0 135L0 65Q0 50 12.99038105676658 42.5Z"></path>
 						</clipPath>
+						<filter id='NFTshadow'>
+							<feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="rgb(209, 0, 105)" flood-opacity=".8"/>
+						</filter>
+						<filter id='NFTshadowhover'>
+							<feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="rgb(209, 0, 105)" flood-opacity="1"/>
+						</filter>
 					</defs>
 					<foreignobject clip-path="url(#hexClip)" width="100" height="100" > 
 						<img src="img/decor/hinaNFT.jpg" >

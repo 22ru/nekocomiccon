@@ -19,7 +19,7 @@ h1, h3, p, ul, ol, dl, dd, dt, label {
 	color: white;
 }
 
-.navbar, #content, #header, #footer, #blognav, #rating, #webring{
+.navbar, #content, #header, #footer, #blognav, #rating, #webring, #hinaNFTinfo {
 	border-color: rgb(209, 0, 105);
     background: black;
     color: white;
