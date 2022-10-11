@@ -30,6 +30,8 @@ function startiFrame() {
         page = totalPages;
         document.getElementById("blognav").style.display = "none";
         document.getElementById("content").src = pageName + ".html";
+		if (pageName == "worms") displayWorms();
+		else removeWorms();
 
 	} else { // blog hash, go to blog page
 		page = pageName;
@@ -61,6 +63,7 @@ function changeBlogPage() {
 // Stores last blog location (if not refreshed)
 function changeiFrame(pageName) {
 	if (pageName == 'blog') {
+		removeWorms();
 		if (page != totalPages) {
 			window.location.hash = page;
 		} else {
@@ -71,6 +74,8 @@ function changeiFrame(pageName) {
 		window.location.hash = "#" + pageName;
 		document.getElementById("content").src = pageName + ".html";
 		document.getElementById("blognav").style.display = "none";
+		if (pageName == "worms") displayWorms();
+		else removeWorms();
 	}
 }
 
@@ -101,4 +106,16 @@ function back() {
 		window.location.hash = "#" + page;
 		changeBlogPage();
 	}
+}
+
+// Worms
+
+function displayWorms() {
+	document.getElementById("decor").style.display = "none";
+	document.getElementById("worms").style.display = "block";
+}
+
+function removeWorms() {
+	document.getElementById("worms").style.display = "none";
+	document.getElementById("decor").style.display = "block";
 }

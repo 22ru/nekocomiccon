@@ -219,9 +219,14 @@ img {
 	margin: auto;
 }
 
-.decor img {
+#decor img, #worms img {
 	position: absolute;
 	border-radius: 0px;
+}
+
+#worms {
+	display: none;
+	pointer-events: none;
 }
 
 #flower2 {
@@ -247,8 +252,6 @@ img {
 	transform: rotate(-90deg);
 	z-index: 8;
 }
-
-
 
 #rose3 {
 	height: 200px;
@@ -353,6 +356,44 @@ img {
 	left: 1020px;
 	top: 415px;
 	z-index: 13;
+}
+
+#worm1 {
+	height: 400px;
+	left: 600px;
+	top: 550px;
+	z-index: 50;
+}
+
+#worm5 {
+	width: 400px;
+	left: 40px;
+	top: 750px;
+	z-index: 50;
+	transform: rotate(50deg);
+}
+
+#worm4 {
+	width: 450px;
+	left: 200px;
+	top: 320px;
+	z-index: 50;
+	transform: rotate(50deg);
+}
+
+#worm3 {
+	height: 300px;
+	left: 820px;
+	top: 55px;
+	z-index: 50;
+}
+
+#worm2 {
+	width: 400px;
+	left: 10px;
+	top: 40px;
+	z-index: 50;
+	transform: rotate(-30deg);
 }
 
 #overlay {
