@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="css/rss.css" ?>
 <rss version="2.0">
     <channel>
         <title>hat's nekocomiccon</title>
-        <link>https://hat.neocities.org/</link>
         <description>#1 Hina Fansite!</description>
+        <link>https://hat.neocities.org/</link>
         <lastBuildDate>January 1, 1970 12:00:00 AM</lastBuildDate>
+
+        <item>
+            <pubDate>October 13, 2022</pubDate>
+            <title>Blog 123 is here!</title>
+            <link>https://hat.neocities.org/home.html#123</link>
+            <description>I hope you didn't notice I missed 2 questions in the 2022 BJD Questionnaire! I definitely did not miss 55 and 77! I went through my doll blog log after discovering a small group of bloggers still left on Blogspot. I got a few more in there and moved around the ones that died in the last few months. RIP. I added a CSS file for this RSS feed. Why didn't anyone tell me RSS was awesome??</description>
+        </item>
 
         <item>
             <pubDate>October 10, 2022</pubDate>

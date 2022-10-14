@@ -12,7 +12,7 @@
 // Will give you a 404 if you enter 0
 // (please someone tell me how to check the number of files 
 // in a directory using vanilla JS)
-var totalPages = 122;
+var totalPages = 123;
 var page = totalPages;
 
 // Run on load of main body in document
@@ -109,13 +109,33 @@ function back() {
 }
 
 // Worms
+var normalAmountOfWorms = 5;
+//surely I have better things to do than to hard code another global in here
 
 function displayWorms() {
+	var i, j;
+
 	document.getElementById("decor").style.display = "none";
-	document.getElementById("worms").style.display = "block";
+	if (document.getElementsByClassName("worm").length < normalAmountOfWorms) {
+		for (i = 0; i < normalAmountOfWorms; i++) {
+			j = document.createElement("img");
+			j.src = "img/decor/worms/worm" + (i+1) + ".gif";
+			j.id = "worm" + (i+1);
+			j.className = "worm";
+			document.getElementById("worms").appendChild(j);
+		}
+	}
 }
 
 function removeWorms() {
-	document.getElementById("worms").style.display = "none";
+	var i, j, currentWorms;
+
 	document.getElementById("decor").style.display = "block";
+	currentWorms = document.getElementsByClassName("worm").length;
+
+	for (i = 0; i < currentWorms; i++) {
+		var j = document.getElementById("worm" + (i+1));
+		document.getElementById("worms").removeChild(j);
+	}
+
 }

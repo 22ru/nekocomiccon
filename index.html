@@ -12,8 +12,16 @@
                 location.assign("home.html" + window.location.hash);
             }
         }
+        function checkTime() {
+            var tim = Date.now();
+            //console.log(tim % 10);
+            if (tim % 10 == 7) {
+                document.getElementsByTagName("img")[0].src = "img/decor/worms/worm4.gif";
+                document.getElementsByTagName("a")[0].href = "home.html#worms"
+            }
+        }
     </script>
 </head>
-<body onload="checkURL();">
+<body onload="checkURL(); checkTime();">
     <a href="home.html" ><img src="img/decor/fbibanner.jpg"/></a>
 </body>

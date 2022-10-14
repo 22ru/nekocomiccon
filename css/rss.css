@@ -1,0 +1,55 @@
+rss {
+    background-image: url("../img/decor/houndstooth.gif");
+    background-repeat: repeat;
+	background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+channel {
+    display: block;
+    border-radius: 25px;
+	border-style: solid;
+    padding: 1em;
+    background: #000;
+    border-color: rgb(209, 0, 105);
+    max-width: 80%;
+    margin-left: auto;
+	margin-right: auto;
+    margin-top: 1em;
+}
+
+title {
+    color: rgb(209, 0, 105);
+    font-size: xx-large;
+}
+
+lastBuildDate {
+    display: none;
+}
+
+description {
+    display: block;
+    color: #ddadc5;;
+}
+
+item {
+    display: block;
+    padding: 1em;
+}
+
+item title {
+    font-size: medium;
+    display: block;
+}
+
+item description {
+    color: white;
+}
+
+pubDate {
+    color: rgb(138, 138, 138);
+}
+
+link {
+	color: rgb(228, 135, 181);
+}

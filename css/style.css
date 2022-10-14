@@ -225,7 +225,6 @@ img {
 }
 
 #worms {
-	display: none;
 	pointer-events: none;
 }
 
@@ -367,8 +366,8 @@ img {
 
 #worm5 {
 	width: 400px;
-	left: 40px;
-	top: 750px;
+	left: 30px;
+	top: 720px;
 	z-index: 50;
 	transform: rotate(50deg);
 }
