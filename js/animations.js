@@ -140,6 +140,9 @@ var subs = [["Onii-chan daisuki!!"],
             ["I BOUGHT THE NEW JUSTIN BIEBER CD"],
             ["We need more blankets!!!!"],
             ["Is it Christmas yet"],
+            ["I listen to everything but Tom Petty and the Heartbreakers"],
+            ["if your doll isn't tempura do you even love them?"],
+            ["Elon Musk fired me because he said there were too many emojis in my code! 😤 #twitterlayoffs"],
             ["irashaimasen"]];
 //[""],
 
