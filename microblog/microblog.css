@@ -1,0 +1,89 @@
+body {
+	background-color: rgb(69,56,56);
+	background-image: url("../img/decor/detective.gif");
+	background-repeat: repeat;
+}
+
+#header {
+  width: 450px;
+  background-image:url("../img/HAT05113.JPG");
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#name {
+  color: white;
+  text-shadow: 0px 0px 4px rgb(209, 0, 105);
+}
+
+#username {
+  color: #bdbdbd;
+  text-shadow: 0px 0px 3px rgb(209, 0, 105);
+}
+
+#bio {
+  color: #bdbdbd;
+  text-shadow: 0px 0px 3px rgb(209, 0, 105);
+}
+
+.post {
+  display: flex;
+  justify-content: flex-start;
+  width: 450px;
+	margin: 15px;
+	border-radius: 5px;
+	border-color: #695656;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+	background-color: #493d3d;
+}
+
+.profilePic {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  filter: drop-shadow(0px 0px 4px rgb(228, 135, 181));
+}
+
+.profilePic:hover {
+  filter: drop-shadow(0px 0px 6px rgb(209, 0, 105));
+}
+
+.postContent {
+  display: inline-block;
+  margin-left: 5px;
+  width:100%;
+}
+
+.authorDate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  color: rgb(209, 0, 105);
+  font-weight: bold;
+}
+
+.postDate {
+  color: #695656;
+  text-decoration: none;
+}
+
+.postDate:hover {
+  color: rgb(228, 135, 181);
+}
+
+.postText {
+  display: inline-block;
+  color: rgb(138, 138, 138);
+}
+
+.postImage {
+  display: block;
+  max-width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+}

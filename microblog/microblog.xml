@@ -5,19 +5,34 @@
   <title>hat's microblog</title>
   <link>https://hat.neocities.org/microblog</link>
   <description>deep thoughts and ponderings</description>
-
+  <author>hat @hatsune_deals</author>
+  
+  <image>
+    <url>https://hat.neocities.org/img/decor/hinaNFT.jpg</url>
+    <title>Blessed Angel Hina NFT</title>
+    <link>https://hat.neocities.org</link>
+  </image>
+  
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>Thank you to hors and Flonne for helping with my CSS troubles!!</title>
+    <pubDate>11/12/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#2</link>
+    <description></description>
   </item>
 
   <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <title>Tyler brought back a massive yukiho!!! SHES HUGE</title>
+    <pubDate>11/11/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#1</link>
+    <description>../img/LOL00991.jpg</description>
+  </item>
+
+  <item>
+    <title>My NFT has been STOLEN!!!</title>
+    <pubDate>11/11/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#0</link>
+    <description>../img/stolenNFT.jpg</description>
   </item>
 
 </channel>
-
 </rss> 

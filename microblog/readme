@@ -1,0 +1,36 @@
+I miss 2015 twitter! Maybe you do too. Feel free to recreate the experience of sending out your funniest joke to the world with this RSS feed viewer and Twitter simulator.
+
+Be sure to place 
+onload="retrieveXML()"
+in your body tag!
+
+XML/RSS file tag requirements:
+channel
+    title
+    link
+    description
+    author
+
+    image
+        url
+        title
+        link
+    
+    item
+        title
+        pubDate
+        link
+        description
+
+
+These all fit the minimum RSS requirements so this should be RSS reader readable.
+
+The author tag is your name. Feel free to add your @ and verified checkmark.
+
+The image tag is your profile picture. I'm using a direct link instead of a relative link but I have no idea if it makes a difference to RSS readers.
+
+Your first post goes at the bottom and should be 0 if you choose to link it. The latest post is at the top with the highest post number. It's not my problem if you delete a post and it breaks everything.
+
+The item title is your post. Keep it under 140 characters!
+
+The (misused) item description tag is your included image. This is optional. Leave the tag empty if you do not want to include an image with your post.
