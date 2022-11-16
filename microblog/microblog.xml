@@ -4,8 +4,9 @@
 <channel>
   <title>hat's microblog</title>
   <link>https://hat.neocities.org/microblog</link>
-  <description>deep thoughts and ponderings</description>
-  <author>hat @hatsune_deals</author>
+  <description>14 | your/ours | ISHY | weekist | Triggers: teacups / Bridge on the River Kwai | SachikoP</description>
+  <webMaster>franken hat<img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
+  <generator>@hatsune_deals<img src="https://neocities.org/img/verified-badge.svg" style="width:1.0em; height:1.0em;" /></generator>
   
   <image>
     <url>https://hat.neocities.org/img/decor/hinaNFT.jpg</url>
@@ -14,13 +15,47 @@
   </image>
   
   <item>
-    <title>BIG MEAT</title>
-    <pubDate>11/12/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#3</link>
-    <description>../img/LOL00995.jpg</description>
+    <guid>7</guid>
+    <title>if howl is a british man voiced by a british man, why does he have an american accent? #makesuthink</title>
+    <pubDate>11/15/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#7</link>
+    <description></description>
+  </item>
+  
+  <item>
+    <guid>6</guid>
+    <title>i got a new washing machine!!</title>
+    <pubDate>11/15/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#6</link>
+    <description><img src="../img/LOL01034.jpg" /></description>
+  </item>
+  
+  <item>
+    <guid>5</guid>
+    <title>I'm going to run out of thai basil one of these days and it's going to be Rough</title>
+    <pubDate>11/14/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#5</link>
+    <description></description>
   </item>
 
   <item>
+    <guid>4</guid>
+    <title>#notallhoodieshavezippers</title>
+    <pubDate>11/12/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#4</link>
+    <description></description>
+  </item>
+  
+  <item>
+    <guid>3</guid>
+    <title>BIG MEAT</title>
+    <pubDate>11/12/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#3</link>
+    <description><img src="../img/LOL00995.jpg" /></description>
+  </item>
+
+  <item>
+    <guid>2</guid>
     <title>Thank you to hors and Flonne for helping with my CSS troubles!!</title>
     <pubDate>11/12/2022</pubDate>
     <link>https://hat.neocities.org/microblog#2</link>
@@ -28,17 +63,19 @@
   </item>
 
   <item>
+    <guid>1</guid>
     <title>Tyler brought back a massive yukiho!!! SHES HUGE</title>
     <pubDate>11/11/2022</pubDate>
     <link>https://hat.neocities.org/microblog#1</link>
-    <description>../img/LOL00991.jpg</description>
+    <description><img src="../img/LOL00991.jpg" /></description>
   </item>
 
   <item>
+    <guid>0</guid>
     <title>My NFT has been STOLEN!!!</title>
     <pubDate>11/11/2022</pubDate>
     <link>https://hat.neocities.org/microblog#0</link>
-    <description>../img/stolenNFT.jpg</description>
+    <description><img src="../img/stolenNFT.jpg" /></description>
   </item>
 
 </channel>
