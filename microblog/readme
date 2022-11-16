@@ -1,8 +1,8 @@
 I miss 2015 twitter! Maybe you do too. Feel free to recreate the experience of sending out your funniest joke to the world with this RSS feed viewer and Twitter simulator.
 
-Be sure to place 
-onload="retrieveXML()"
-in your body tag!
+Your HTML file should contain both of these lines. If you don't know what to do with them, goof off a little more in HTML and come back later.
+	<script src="microblog.js"></script> 
+    <body onload="retrieveXML()">
 
 XML/RSS file tag requirements:
 channel
@@ -39,15 +39,20 @@ The item title is your post. Keep it under 140 characters!
 The (misused) item description tag is your included image(s). Use an HTML <img /> tag. This is optional and multiple images are supported. Leave the tag empty if you do not want to include any images with your post.
 
 Config settings:
-DisplaySubscribe
-    Set to 1 if you want an RSS link element on your page, set to 0 to not show.
+
 DisplayLatestPosts
     Choose the number of posts displayed on the page. Set to 0 for all posts.
 RSSLink
     The link to your RSS feed
+DisplaySubscribe
+    Set to 1 if you want an RSS link element on your page, set to 0 to not show.
+SubscribeText
+    Choose a string to display as your subscribe button
 DisplayLikes
     Set to 1 to show a useless like button! Not yet implemented.
-
-Your HTML file should contain both of these lines. If you don't know what to do with them, goof off a little more in HTML and come back later.
-	<script src="microblog.js"></script> 
-    <body onload="retrieveXML()">
+LikeSymbol and UnlikeSymbol
+    Choose a string to display as the like and unlike buttons
+DisplayReblog
+    Set to 1 to show a useless reblog button!
+ReblogSymbol and NoReblogSymbol
+    Choose a string to display as the reblog and not reblogged buttons

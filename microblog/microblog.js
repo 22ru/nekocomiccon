@@ -1,8 +1,14 @@
 // Config
-var DisplaySubscribe = 1;
 var DisplayLatestPosts = 0;
 var RSSLink = "microblog.xml";
+var DisplaySubscribe = 1;
+var SubscribeText = "Follow";
 var DisplayLikes = 1;
+var LikeSymbol = "❤️";
+var UnlikeSymbol = "🤍";
+var DisplayReblog = 1;
+var ReblogSymbol = "♻️";
+var NoReblogSymbol = "♼";
 
 // stolen shamelessly from w3schools
 function retrieveXML() {
@@ -17,10 +23,12 @@ function retrieveXML() {
 }
 
 function buildPage(xml) {
-  var items, i, j, authorName, username, iconLink, header, user, bio;
-  var icon, content, author, dateLink, text, image, post, imageLink;
-  var postsDisplayed;
   var xmlDoc;
+  var authorName, username, iconLink, rootLink, bioText;
+  var anchor, i;
+  var container;
+  var postsDisplayed;
+  var items;
     
   xmlDoc = xml.responseXML;
 
@@ -41,7 +49,7 @@ function buildPage(xml) {
   items = xmlDoc.getElementsByTagName("item");
 
   // Check anchor
-  var anchor = window.location.hash.replace("#", '');
+  anchor = window.location.hash.replace("#", '');
 
   // no anchor or invalid anchor, build feed
   if (anchor == "" || isNaN(anchor)) {
@@ -65,6 +73,8 @@ function buildPage(xml) {
 }
 
 function loadHeader(xmlDoc, authorName, username, iconLink, rootLink, bioText) {
+  var header, authorLink, icon, author, user, bio; 
+  
   header = document.createElement("div");
   header.id = "header";
   authorLink = document.createElement("a");
@@ -92,16 +102,23 @@ function loadHeader(xmlDoc, authorName, username, iconLink, rootLink, bioText) {
 }
 
 function loadSubscribe(RSSLink) {
-  var subLink = document.createElement("a");
+  var subLink, subButton;
+  
+  subLink = document.createElement("a");
+  subButton = document.createElement("button");
+  
   subLink.href = RSSLink;
-  var subButton = document.createElement("button");
-  subLink.innerHTML = "Subscribe";
+  subLink.innerHTML = SubscribeText;
   subLink.className = "subscribeButton";
   subButton.appendChild(subLink);
+  
   document.getElementById("container").appendChild(subLink);
 }
 
 function loadSingle(rssItem, authorName, username, iconLink, rootLink) {
+  var post, authorLink, icon, content, authorDate, author, dateLink, text, imageLink;
+  var imagesPrecount, i, images;
+    
   post = document.createElement("div");
   post.className = "post";
   post.id = rssItem.getElementsByTagName("guid")[0].innerHTML;
@@ -148,12 +165,83 @@ function loadSingle(rssItem, authorName, username, iconLink, rootLink) {
   content.appendChild(text);
   if (imageLink.length > 0) {
     content.innerHTML += imageLink;
-    var images = content.getElementsByTagName("img");
-    for (j = imagesPreCount; j < images.length; j++) {
-      images[j].className = "postImage";
+    images = content.getElementsByTagName("img");
+    for (i = imagesPreCount; i < images.length; i++) {
+      images[i].className = "postImage";
     }
+  }
+  
+  if (DisplayReblog || DisplayLikes) {
+    content.append(loadInteractions(rssItem.getElementsByTagName("guid")[0].innerHTML)); 
   }
   
   post.appendChild(content);
   document.getElementById("container").appendChild(post);
+}
+
+function loadInteractions(guid) {
+  var interactions, reblogButton, reblogCount, likeButton, likeCount;
+  
+  interactions = document.createElement("div");
+  interactions.className = "interactions";
+  
+  if (DisplayReblog) {
+    reblogButton = document.createElement("span");
+    reblogButton.className = "reblogButton";
+    reblogButton.setAttribute("onclick", "reblogPost(" + guid + ")");
+    reblogButton.innerHTML = NoReblogSymbol;
+    reblogCount = document.createElement("span");
+    reblogCount.className = "reblogCount";
+    reblogCount.innerHTML = "0";
+  
+    interactions.appendChild(reblogButton);
+    interactions.appendChild(reblogCount);
+  }
+  
+  if (DisplayLikes) {
+    likeButton = document.createElement("span");
+    likeButton.className = "likeButton";
+    likeButton.setAttribute("onclick", "likePost(" + guid + ")");
+    likeButton.innerHTML = UnlikeSymbol;
+    likeCount = document.createElement("span");
+    likeCount.className = "likeCount";
+    likeCount.innerHTML = "0";
+  
+    interactions.appendChild(likeButton);
+    interactions.appendChild(likeCount);
+  }
+  
+  return interactions;
+}
+
+function likePost(guid) {
+  var post;
+  post = document.getElementById(guid).getElementsByClassName("interactions")[0];
+  post.getElementsByClassName("likeButton")[0].setAttribute("onclick", "unlikePost(" + guid + ")");
+  post.getElementsByClassName("likeButton")[0].innerHTML = LikeSymbol;
+  post.getElementsByClassName("likeCount")[0].innerHTML = "1";
+}
+
+function unlikePost(guid) {
+  var post;
+  post = document.getElementById(guid).getElementsByClassName("interactions")[0];
+  post.getElementsByClassName("likeButton")[0].setAttribute("onclick", "likePost(" + guid + ")");
+  post.getElementsByClassName("likeButton")[0].innerHTML = UnlikeSymbol;
+  post.getElementsByClassName("likeCount")[0].innerHTML = "0";
+}
+
+function reblogPost(guid) {
+  var post;
+  post = document.getElementById(guid).getElementsByClassName("interactions")[0];
+  post.getElementsByClassName("reblogButton")[0].setAttribute("onclick", "unreblogPost(" + guid + ")");
+  post.getElementsByClassName("reblogButton")[0].innerHTML = ReblogSymbol;
+  post.getElementsByClassName("reblogCount")[0].innerHTML = "1";
+}
+
+function unreblogPost(guid) {
+  var post;
+  post = document.getElementById(guid).getElementsByClassName("interactions")[0];
+  post.getElementsByClassName("reblogButton")[0].setAttribute("onclick", "reblogPost(" + guid + ")");
+  post.getElementsByClassName("reblogButton")[0].innerHTML = NoReblogSymbol;
+  post.getElementsByClassName("reblogCount")[0].innerHTML = "0";
 }

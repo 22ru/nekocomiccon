@@ -4,8 +4,8 @@
 <channel>
   <title>hat's microblog</title>
   <link>https://hat.neocities.org/microblog</link>
-  <description>14 | your/ours | ISHY | weekist | Triggers: teacups / Bridge on the River Kwai | SachikoP</description>
-  <webMaster>franken hat<img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
+  <description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP | ウェット</description>
+  <webMaster>franken hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
   <generator>@hatsune_deals<img src="https://neocities.org/img/verified-badge.svg" style="width:1.0em; height:1.0em;" /></generator>
   
   <image>
@@ -14,6 +14,14 @@
     <link>https://hat.neocities.org</link>
   </image>
   
+  <item>
+    <guid>8</guid>
+    <title>on the internet no one knows you're a recovering twitter addict 😎</title>
+    <pubDate>11/16/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#8</link>
+    <description></description>
+  </item>
+
   <item>
     <guid>7</guid>
     <title>if howl is a british man voiced by a british man, why does he have an american accent? #makesuthink</title>
