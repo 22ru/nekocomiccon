@@ -1,3 +1,3 @@
-[submodule "microblog"]
-	path = microblog
-	url = https://github.com/22ru/microblog.git
+[submodule "microblog-ext"]
+	path = microblog-ext
+	url = git@github.com:22ru/microblog.git
