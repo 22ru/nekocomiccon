@@ -5,7 +5,7 @@
   <title>hat's microblog</title>
   <link>https://hat.neocities.org/microblog</link>
   <description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP | ウェット</description>
-  <webMaster>franken hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
+  <webMaster>Rawhide hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
   <generator>@hatsune_deals<img src="https://neocities.org/img/verified-badge.svg" style="width:1.0em; height:1.0em;" /></generator>
   
   <image>
@@ -13,6 +13,14 @@
     <title>Blessed Angel Hina NFT</title>
     <link>https://hat.neocities.org</link>
   </image>
+
+  <item>
+    <guid>10</guid>
+    <title>dinner: adorable</title>
+    <pubDate>11/18/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#10</link>
+    <description><img src="../img/LOL01064.jpg" /></description>
+  </item>
 
   <item>
     <guid>9</guid>
