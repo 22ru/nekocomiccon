@@ -5,14 +5,30 @@
   <title>hat's microblog</title>
   <link>https://hat.neocities.org/microblog</link>
   <description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP | ウェット</description>
-  <webMaster>Rawhide hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
-  <generator>@hatsune_deals<img src="https://neocities.org/img/verified-badge.svg" style="width:1.0em; height:1.0em;" /></generator>
+  <webMaster>Rawhide hat <img src="https://neocities.org/img/verified-badge.svg" style="width:1.0em; height:1.0em;" /></webMaster>
+  <generator>@hatsune_deals<img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></generator>
   
   <image>
     <url>https://hat.neocities.org/img/decor/hinaNFT.jpg</url>
     <title>Blessed Angel Hina NFT</title>
     <link>https://hat.neocities.org</link>
   </image>
+
+  <item>
+    <guid>12</guid>
+    <title>RT @poi666 a commemorative stamp #justiceforsans #justiceforpraline</title>
+    <pubDate>11/18/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#12</link>
+    <description><img src="../img/stamps/got-snubbed.gif" /></description>
+  </item>
+
+  <item>
+    <guid>11</guid>
+    <title>1 RT = 1 Earth saved</title>
+    <pubDate>11/18/2022</pubDate>
+    <link>https://hat.neocities.org/microblog#11</link>
+    <description></description>
+  </item>
 
   <item>
     <guid>10</guid>
