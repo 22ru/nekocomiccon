@@ -145,7 +145,8 @@ body {
 }
 
 .postText {
-  display: inline-block;
+  display: block;
+  margin-top: 5px;
   color: rgb(138, 138, 138);
 }
 
