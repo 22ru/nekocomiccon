@@ -31,6 +31,7 @@ var preciousArray = [
     new preciousThing("img/precious/quatchi.gif", "he wasnt so matted before i slept on him for 10 years"),
     new preciousThing("img/precious/babpikachu.gif", "what have i done..."),
     new preciousThing("img/precious/button.gif", "dont talk to me or my son ever again"),
+    new preciousThing("img/precious/cafeslittlebear.gif", "is it his cafe or is he the cafe's bear???"),
     //the last one is the exit button, which is always unblurred
     new preciousThing("img/decor/rose4.gif", "Get me outta here!!!")
 ]
