@@ -90,16 +90,7 @@
 	margin: revert;
 }
 
-#animationButton {
-	/*left: 820px;
-	top: 910px;
-	z-index: 40;*/
-	height: 100px;
-	left: 415px;
-	top: 10px;
-	z-index: 17;
-	visibility: visible;
-}
+
 
 #blognav h4 {
 	margin: 5px;
@@ -145,8 +136,6 @@ p {
 	list-style-type: none;
 	padding-left: 10px;
 }
-
-
 
 dt {
 	margin-left: 1em;
@@ -220,13 +209,20 @@ img {
 	margin: auto;
 }
 
+
 #decor img, #worms img {
+	pointer-events: none;
 	position: absolute;
 	border-radius: 0px;
 }
 
-#worms {
-	pointer-events: none;
+#decor #animationButton {
+	height: 100px;
+	left: 415px;
+	top: 10px;
+	z-index: 17;
+	visibility: visible;
+	pointer-events: all;
 }
 
 #flower2 {
@@ -351,7 +347,8 @@ img {
 	z-index: 45;
 }
 
-#decohina {
+#decor #decohina {
+	pointer-events: all;
 	height: 500px;
 	left: 1020px;
 	top: 415px;
