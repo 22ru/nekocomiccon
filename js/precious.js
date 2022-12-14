@@ -18,7 +18,7 @@ var preciousArray = [
     new preciousThing("img/precious/macaroni.gif", "my yoshi, Macaroni"),
     new preciousThing("img/precious/ohshit.gif", "i ran out of this years ago"),
     new preciousThing("img/precious/pokemoncard.gif", "my favorite card"),
-    new preciousThing("img/precious/furby.gif", "my first furby! (i think)"),
+    new preciousThing("img/precious/furby.gif", "my first furby! (edit: not my first furby)"),
     new preciousThing("img/precious/phoneback.gif", "ryan's phone back that i stole in 2014"),
     new preciousThing("img/precious/pocketpikachu.gif", "i cant get this dude to stop running away!"),
     new preciousThing("img/precious/gameboy.gif", "it's older than me"),
@@ -32,6 +32,7 @@ var preciousArray = [
     new preciousThing("img/precious/babpikachu.gif", "what have i done..."),
     new preciousThing("img/precious/button.gif", "dont talk to me or my son ever again"),
     new preciousThing("img/precious/cafeslittlebear.gif", "is it his cafe or is he the cafe's bear???"),
+    new preciousThing("img/precious/marimo.gif", "i have yet to overwater them"),
     //the last one is the exit button, which is always unblurred
     new preciousThing("img/decor/rose4.gif", "Get me outta here!!!")
 ]
@@ -47,7 +48,7 @@ function loadThings () {
         j.style["left"] = Math.random() * (document.documentElement.clientWidth - j.width) + "px";
         j.style["top"] = Math.random() * (document.documentElement.clientHeight - j.height) + "px";
         j.style["z-index"] = i + 1;
-        j.style["filter"] = "blur(" + (preciousArray.length - j.style["z-index"])/2 + "px)";
+        j.style["filter"] = "blur(" + (preciousArray.length - j.style["z-index"])/4 + "px)";
 
         j.addEventListener("mouseenter", function() {
             document.getElementById("subtitles").innerText = this.alt;
