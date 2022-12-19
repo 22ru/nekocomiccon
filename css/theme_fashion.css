@@ -37,6 +37,12 @@ body {
 	background-color: black;
 }
 
+.stats {
+	color: rgb(228, 135, 181);
+	border-color:  rgb(209, 0, 105);
+	background-color: rgb(39, 39, 39);
+}
+
 a, a:link, a:visited {
 	color: rgb(228, 135, 181);
 	text-decoration: none;
