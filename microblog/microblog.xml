@@ -4,7 +4,7 @@
 <channel>
   <title>hat's microblog</title>
   <link>https://hat.neocities.org/microblog</link>
-  <description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP | ウェット</description>
+  <description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP</description>
   <webMaster>Rawhide hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
   <generator>@hatsune_deals</generator>
   <image>
@@ -12,6 +12,30 @@
     <title>Blessed Angel Hina NFT</title>
     <link>https://hat.neocities.org</link>
   </image>
+
+    <item>
+		<guid>82</guid>
+		<title>Hina learns CSS</title>
+		<pubDate>1/7/2023</pubDate>
+		<link>https://hat.neocities.org/microblog#82</link>
+		<description><img src="../img/LOL01673.jpg" /></description>
+	</item>
+
+    <item>
+		<guid>81</guid>
+		<title>Merry second Christmas to everynyan!!!</title>
+		<pubDate>1/7/2023</pubDate>
+		<link>https://hat.neocities.org/microblog#81</link>
+		<description></description>
+	</item>
+
+    <item>
+		<guid>80</guid>
+		<title>Very late thank you to @maullarmaullar for the Christmas card!!</title>
+		<pubDate>1/6/2023</pubDate>
+		<link>https://hat.neocities.org/microblog#80</link>
+		<description><img src="../img/LOL01662.jpg" /></description>
+	</item>
 
     <item>
 		<guid>79</guid>
