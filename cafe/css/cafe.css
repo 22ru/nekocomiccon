@@ -1,0 +1,126 @@
+/*
+#927b60 dull brown
+#f0c5ad dusty pink
+#836435 brown
+#fbecbe ivory
+#ab6969 dull raspberry
+*/
+
+#mainBody {
+	margin: 0;
+	padding: 0;
+	height:100vh;
+	width:100vw;
+	margin-left: auto;
+	margin-right: auto;
+    background-image: url("../img/assets/yagasuri.gif");
+    background-repeat: repeat;
+	background-color: #836435;
+    background-size: 40px;
+    image-rendering: pixelated;
+    overflow-y: hidden;
+}
+
+#contentBody {
+    background-color: #fbecbe;
+    padding-top: 75px;
+}
+
+#title {
+    font-size: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top:20px;
+    left:20px;
+    filter: opacity(50%);
+    z-index: 500;
+    color: rgb(44, 44, 44);
+    filter: drop-shadow(0px 0px 3px #ab6969);
+}
+
+#title:hover {
+    filter: opacity(100%);
+    filter: drop-shadow(0px 0px 3px #ab6969);
+}
+
+#leftPartition {
+    width: 15vw;
+    height: 100vh;
+    position: relative;
+    float: left;
+    background-image: url("../img/assets/yagasuri.gif");
+    background-repeat: repeat;
+    min-width: fit-content;
+}
+
+#navigation {
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2em;
+    padding-left: 2em;
+    width: fit-content;
+    height:fit-content;
+    border: 2px;
+    border-style: solid;
+    border-color: #836435;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+#navigation h3 {
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+#navigation ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#navigation ul li {
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+#navigation ul li::before {
+    content: "\200B";
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    display: inline-block;
+    width: 50vw;
+    min-width: 600px;
+    min-height: 100%;
+    border-left: 2px;
+    border-right: 5px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: #836435;
+}
+
+#mascot {
+    pointer-events: none;
+    display:block;
+    position: absolute;
+    bottom:0px;
+    margin-left: 70%;
+    z-index: 500;
+}
+
+h1, h2, h3, h4, h5 {
+    color:rgb(44, 44, 44);
+}
+
+p, li {
+    color: #836435;
+}
