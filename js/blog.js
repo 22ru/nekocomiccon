@@ -10,9 +10,10 @@
 
 // To add blog post, you MUST change this value!
 // Will give you a 404 if you enter 0
+// I'm choosing to overwrite it in home.html, where this script is called
 // (please someone tell me how to check the number of files 
 // in a directory using vanilla JS)
-var totalPages = 144;
+var totalPages = 1;
 var page = totalPages;
 
 // Run on load of main body in document
