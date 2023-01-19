@@ -1,0 +1,41 @@
+.dollProfileIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.dollProfileIcons a {
+    background-color: white;
+    filter: opacity(.8);
+    border-radius: 5px;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.dollProfileIcons a:hover {
+    filter: opacity(1);
+}
+
+.dollProfileIcons img {
+    border-radius: 5px;
+    margin: 1em;
+    width: 200px;
+    filter: none;
+}
+
+.dollProfileIcons h3 {
+    display: flex;
+    justify-content: center;
+    color: #ab6969;
+}
+
+.dollHeader {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dollHeader p {
+    float: right;
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+}

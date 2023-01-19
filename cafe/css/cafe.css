@@ -19,6 +19,7 @@
     background-size: 40px;
     image-rendering: pixelated;
     overflow-y: hidden;
+    display: flex;
 }
 
 #contentBody {
@@ -40,24 +41,26 @@
 
 #title:hover {
     filter: opacity(100%);
-    filter: drop-shadow(0px 0px 3px #ab6969);
+    filter: drop-shadow(0px 0px 5px #ab6969);
 }
 
 #leftPartition {
     width: 15vw;
     height: 100vh;
-    position: relative;
-    float: left;
+    align-self: flex-start;
     background-image: url("../img/assets/yagasuri.gif");
     background-repeat: repeat;
     min-width: fit-content;
+    display: inline-flex;
 }
 
 #navigation {
+    align-self: flex-end;
     display: block;
     position: relative;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 1em;
     padding-right: 2em;
     padding-left: 2em;
     width: fit-content;
@@ -84,43 +87,66 @@
 #navigation ul li {
     display: flex;
     justify-content: center;
-    color:white;
 }
 
 #navigation ul li::before {
     content: "\200B";
 }
-
+#navigation a {
+    color: white;
+    text-decoration: none;
+}
 #navigation a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #content {
-    display: inline-block;
+    display: flex;
     width: 50vw;
-    min-width: 600px;
     min-height: 100%;
-    border-left: 2px;
-    border-right: 5px;
+    border-left: 5px;
+    border-right: 2px;
     border-top: 0px;
     border-bottom: 0px;
     border-style: solid;
     border-color: #836435;
 }
 
+#rightPartition {
+    display: flex;
+    width: 35vw;
+    min-height: 100%;
+    background-color: #fbecbe;
+    background-image: url("../img/assets/yagasuri.gif");
+    background-size: 20px;
+}
+
 #mascot {
     pointer-events: none;
-    display:block;
-    position: absolute;
-    bottom:0px;
-    margin-left: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
     z-index: 500;
 }
 
 h1, h2, h3, h4, h5 {
-    color:rgb(44, 44, 44);
+    color: rgb(44, 44, 44);
 }
 
 p, li {
     color: #836435;
+}
+
+img {
+    border-radius: 5px;
+    display: block;
+}
+
+a {
+    color: #836435;
+}
+
+a:hover {
+    filter: drop-shadow(0px 0px 3px #f0c5ad);
 }
