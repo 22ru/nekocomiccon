@@ -54,7 +54,7 @@ function getCurrHashFromIframeLoc() {
         //window.location.hash = "#" + newHash; //should be triggered from event listener
     } else {
         newHash = iframeLoc.split("cafe/")[1];
-        newHash = newHash.substring(0, newHash.length - 5);
+        newHash = iframeLoc.split(".html")[0];
     }
     return newHash;
 }
