@@ -5,9 +5,10 @@
 	<link id="theme" rel="stylesheet" href="../css/cafe.css">
 	<link id="theme" rel="stylesheet" href="../css/profile.css">
 	<link rel="icon" type="image/gif" href="img/assets/favicon.gif">
+	<script src="../js/gallery.js"></script>
 </head>
 
-<body id="contentBody">
+<body id="contentBody" onload="retrieveXML('../gallery/cheby.xml')">
     <h1>Пафнутий Львович Чебышев</h1>
 
 	<div class="dollHeader">
@@ -20,6 +21,8 @@
 			<a href="dollgallery/cheby.html">Gallery</a>
 		</p>
 	</div>
+
+	<div id="gallery" ></div>
 
 	<p>I was a little too obsessed with Sacha Baron-Cohen at the time of Brüno because I originally named him "Sasha". He's now taking on the name of a Russian mathematician with an extremely fun name. Or just Cheby for short.</p>
 	

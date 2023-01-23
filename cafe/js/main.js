@@ -24,6 +24,9 @@ function initializeIframe() {
         changeiFrame("welcome");
     }
 
+    // This is one of my top obnoxious functions of all time.
+    //checkHours();
+
     //doesnt trigger with back and forward
     document.getElementById("content").addEventListener('load', function() {
         console.log("iframe reloaded");
@@ -50,11 +53,22 @@ function getCurrHashFromIframeLoc() {
     iframeLoc = document.getElementById("content").contentWindow.location.href;
     console.log("iframe location: " + iframeLoc);
     if (iframeLoc == "about:blank") {
+        // we don't ever want it to be blank!
         changeiFrame("welcome");
         //window.location.hash = "#" + newHash; //should be triggered from event listener
     } else {
-        newHash = iframeLoc.split("cafe/")[1];
-        newHash = iframeLoc.split(".html")[0];
+        newHash = iframeLoc.split("cafe/")[1].split(".html")[0];
     }
     return newHash;
+}
+
+function checkHours() {
+    var d, t;
+    d = new Date();
+    t = d.getHours();
+    if (t < 6 || t > 16) {
+        document.getElementById("navigation").remove();
+        changeiFrame("closed");
+        document.getElementById("mascot").remove();
+    }
 }
