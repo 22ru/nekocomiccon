@@ -24,7 +24,34 @@
 
 #contentBody {
     background-color: #fbecbe;
-    padding-top: 75px;
+    padding-top: 90px;
+}
+h1 {
+    margin-top: 0;
+}
+
+#overlay {
+	height: 100vh;
+	width: 100%;
+	z-index: 9001;
+	position: fixed;
+	pointer-events: none;
+	top: 0;
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    background-color:rgb(240, 197, 173, .7);
+}
+
+#overlay img {
+    pointer-events: all;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0px 0px 10px #fbecbe);
+}
+#overlay .imgdesc {
+    filter: drop-shadow(0px 0px 3px #fbecbe);
 }
 
 #title {
@@ -37,11 +64,7 @@
     z-index: 500;
     color: rgb(44, 44, 44);
     filter: drop-shadow(0px 0px 3px #ab6969);
-}
-
-#title:hover {
-    filter: opacity(100%);
-    filter: drop-shadow(0px 0px 5px #ab6969);
+    pointer-events: none;
 }
 
 #leftPartition {
@@ -115,15 +138,54 @@
 
 #rightPartition {
     display: flex;
+    flex-flow: column-reverse;
     width: 35vw;
     min-height: 100%;
     background-color: #fbecbe;
     background-image: url("../img/assets/yagasuri.gif");
     background-size: 20px;
 }
+#dialogbox {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    width: fit-content;
+    max-width: 80%;
+    background-color: #fbecbe;
+    border-color: #927b60;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 150px;
+    padding-right:1em;
+    padding-left:1em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
 
-#mascot {
-    pointer-events: none;
+#dialogbox p {
+    text-align: center;
+}
+
+#dialogbox form {
+    display: flex;
+    align-self: center;
+}
+
+#dialogbox input[type=button] {
+    color: #836435;
+    background-color: #f0c5ad;
+    border-color: #ab6969;
+    border-radius: 3px;
+}
+
+#dialogbox input[type=button]:hover {
+    border-color: #836435;
+}
+#dialogbox input[type=text] {
+    resize: none;
+}
+
+#barista {
     margin-left: auto;
     margin-right: auto;
     align-self: flex-end;
@@ -138,9 +200,18 @@ p, li {
     color: #836435;
 }
 
+.imgdesc {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+
 img {
     border-radius: 5px;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {

@@ -30,12 +30,16 @@
 
 .dollHeader {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dollHeader img {
+    max-width: 50%;
 }
 
 .dollHeader p {
-    float: right;
-    text-align: end;
     margin-top: auto;
     margin-bottom: auto;
 }

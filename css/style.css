@@ -200,8 +200,13 @@ img {
 	border-radius: 7px;
 }
 
+.buttonlist {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
 .buttonlist img {
-	display: inline;
 	border-radius: 0px;
 	margin: 0;
 }
