@@ -18,6 +18,8 @@ function updateHash() {
 }
 
 function initializeIframe() {
+    var currentHash;
+
     currentHash = document.location.hash;
     console.log("initializing: current hash is " + currentHash);
     if (currentHash.length > 1) {
@@ -28,7 +30,7 @@ function initializeIframe() {
     }
 
     // This is one of my top obnoxious functions of all time.
-    //checkHours();
+    checkHours();
 
     //doesnt trigger with back and forward
     document.getElementById("content").addEventListener('load', function() {
@@ -53,6 +55,7 @@ function notifyChange() {
 
 function getCurrHashFromIframeLoc() {
     var iframeLoc, newHash;
+
     iframeLoc = document.getElementById("content").contentWindow.location.href;
     console.log("iframe location: " + iframeLoc);
     if (iframeLoc == "about:blank") {
@@ -67,6 +70,7 @@ function getCurrHashFromIframeLoc() {
 
 function checkHours() {
     var d, t;
+
     d = new Date();
     t = d.getHours();
     if (t < 6 || t > 16) {
@@ -81,6 +85,7 @@ function orderLatte() {
     var customerName, offset, dbox, p, wrongChar;
     var prepTimeSeconds = 25*60;
     var rand = Math.random();
+
     customerName = document.getElementById("orderName").value;
     if (customerName.length > 2) {
         orderInProgress = 1;
@@ -106,7 +111,17 @@ function orderLatte() {
 function serveLatte(customerName) {
     changeDialog("Latte for " + customerName + "! Your order is ready<br />☕︎٩(ɷ◡ɷ)۶");
     orderInProgress = 0;
+
     document.getElementById('overlay').style.display = 'flex';
+    /*drinkimg = document.createElement("img");
+    drinkimg.src = "img/assets/mug.gif";
+    drinktext = document.createElement("p");
+    drinktext.setAttribute("class", "imgdesc");
+    drinktext.innerHTML = "It's very small, but it smells good.";
+
+    document.getElementById("drink").appendChild(drinkimg);
+    document.getElementById("drink").appendChild(drinktext);*/
+
     document.getElementById('overlay').onclick = function() {
         document.getElementById('overlay').style.display = 'none';
         setTimeout(function() {
@@ -127,6 +142,8 @@ function pokeBarista() {
 }
 
 function changeDialog(dialog) {
+    var dbox, p;
+
     dbox = document.getElementById("dialogbox");
     dbox.innerHTML = "";
     p = document.createElement("p");
@@ -135,6 +152,8 @@ function changeDialog(dialog) {
 }
 
 function initializeDialog() {
+    var dbox, orderForm, orderName, orderButton;
+
     if (initial) {
         document.getElementById("barista").addEventListener("click", pokeBarista);
         initial = 0;
@@ -163,11 +182,3 @@ function initializeDialog() {
     orderForm.append(orderButton);
     dbox.append(orderForm);
 }
-
-/*
-    <p>Welcome! Would you like a latte?<br />Can I get a name for the order?</p>
-    <form>
-        <input type="text" id="orderName" rows="1" size="15" placeholder="Latte Lover..." required></input>
-        <input type="button" id="orderButton" onclick="orderLatte()" value="Pay $100"></input>
-    </form>
-*/

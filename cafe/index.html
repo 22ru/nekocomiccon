@@ -10,8 +10,10 @@
 
 <body id="mainBody" onload="verifyJavascriptCompatibility(); initializeIframe();initializeDialog();">
     <div id="overlay" onclick="document.getElementById('overlay').style.display = 'none';">
-        <img src="img/assets/hinasummer.apng" />
-        <p class="imgdesc">It smells like roses!</p>
+        <div id="drink">
+            <img src="img/assets/mug.gif" />
+            <p class="imgdesc">It's very small, but it smells good.</p>
+        </div>
     </div>
     <div id="title">top hat cafe</div>
 
@@ -19,30 +21,15 @@
         <div id="navigation">
             <h3>MENU</h3>
             <ul>
-                <!--<li><a class="a:link" onclick="changeiFrame('welcome');">welcome</a></li>
-                <li><a class="a:link" onclick="changeiFrame('staff/index');">staff</a></li>
-                <li><a onclick="changeiFrame('gallery/index');">gallery</a></li>
-                <li><a onclick="changeiFrame('wishlist');">wishlist</a></li>
-                <li><a class="a:link" onclick="changeiFrame('information');">information</a></li>
-                <li><a class="a:link" onclick="changeiFrame('hottakes');">opinions</a></li>
-                <li><a class="a:link" onclick="changeiFrame('links');">links</a></li>
-                <li><a class="a:link" onclick="changeiFrame('memories');">memories</a></li>
-                <li><a class="a:link" onclick="changeiFrame('patterns');">patterns</a></li>
-                <li><a class="a:link" onclick="changeiFrame('issues');">issues</a></li>
-                <li><a class="a:link" onclick="changeiFrame('volks/index');">volks</a></li>-->
-
                 <li><a href="welcome.html" target="content">welcome</a></li>
                 <li><a href="staff/index.html" target="content">staff</a></li>
                 <li><a href="gallery/index.html" target="content">gallery</a></li>
                 <li><a href="wishlist.html" target="content">wishlist</a></li>
                 <li><a href="information/index.html" target="content">information</a></li>
                 <li><a href="hottakes.html" target="content">opinions</a></li>
-                <li><a href="links.html" target="content">links</a></li>
                 <li><a href="memories.html" target="content">memories</a></li>
                 <li><a href="patterns.html" target="content">patterns</a></li>
-                <li><a href="volks/index.html" target="content">issues</a></li>
-                <li><a href="volks/index.html" target="content">volks</a></li>
-
+                <li><a href="links.html" target="content">links</a></li>
                 <li><a href="../home.html">return home</a></li>
                 </ul>
             </ul>
@@ -52,7 +39,7 @@
     <iframe id="content" name="content"><noscript>*sweats*</noscript></iframe>
     
     <div id="rightPartition">
-        <img id="barista" src="img/assets/kikielf.gif" />
+        <img id="barista" src="img/assets/cherrylimeade.gif" />
         <div id="dialogbox"></div>
     </div>
 

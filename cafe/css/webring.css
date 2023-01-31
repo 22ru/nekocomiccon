@@ -1,0 +1,35 @@
+#webring {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border: 1px;
+    border-style:solid;
+    border-color: #836435;
+    border-radius: 5px;
+    background-color: #f0c5ad;
+    justify-content: space-between;
+    padding: .5em;
+}
+#webring img {
+    display: flex;
+    margin-right: 5px;
+    height: 50px;
+}
+#webringText {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+#webringName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+}
+#webringLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+}

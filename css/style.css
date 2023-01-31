@@ -24,10 +24,12 @@
 }
 
 #navbar2 {
+	padding: 10px;
 	left: 930px;
-	top: 540px;
-	width: 170px;
+	top: 670px;
+	width: fit-content;
 	z-index: 15;
+	text-align: center;
 }
 
 #rating {
