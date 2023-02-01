@@ -85,7 +85,8 @@ h1 {
 
 #navigation {
     align-self: flex-end;
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: relative;
     margin-right: auto;
     margin-left: auto;
@@ -106,6 +107,7 @@ h1 {
     display: block;
     text-align: center;
     color: white;
+    margin-bottom: 0;
 }
 
 #navigation ul {

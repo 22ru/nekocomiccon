@@ -74,11 +74,17 @@ function checkHours() {
     d = new Date();
     t = d.getHours();
     if (t < 6 || t > 16) {
-        document.getElementById("navigation").remove();
+        document.getElementById("navigation").style.display = 'none';
         changeiFrame("closed");
-        document.getElementById("barista").remove();
-        document.getElementById("dialogbox").remove();
+        document.getElementById("barista").style.display = 'none';
+        document.getElementById("dialogbox").style.display = 'none';
     }
+}
+
+function openup() {
+    document.getElementById("navigation").style.display = 'flex';
+    document.getElementById("barista").style.display = 'flex';
+    document.getElementById("dialogbox").style.display = 'flex';
 }
 
 function orderLatte() {
