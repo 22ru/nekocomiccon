@@ -40,7 +40,7 @@ h1 {
     display: none;
     flex-direction: column;
     align-content: center;
-    background-color:rgb(240, 197, 173, .65);
+    background-color:rgb(240, 197, 173, .8);
 }
 #drink {
     display: flex;
@@ -168,6 +168,7 @@ h1 {
     padding-left:1em;
     padding-bottom: .5em;
     padding-top: .5em;
+    z-index: 10000;
 }
 
 #dialogbox p {
@@ -199,7 +200,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     align-self: flex-end;
-    z-index: 500;
+    z-index: 10000;
     image-rendering: smooth;
 }
 
