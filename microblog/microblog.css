@@ -144,10 +144,14 @@ body {
   color: rgb(228, 135, 181);
 }
 
-.postText {
+.postText, .postContent p {
   display: block;
   margin-top: 5px;
   color: rgb(138, 138, 138);
+}
+
+.postText a {
+  color: rgb(228, 135, 181, .5);
 }
 
 .postImage {
