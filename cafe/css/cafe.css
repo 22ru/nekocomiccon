@@ -24,6 +24,8 @@
 
 #contentBody {
     background-color: #fbecbe;
+    background-image: url("../img/assets/cafebg.svg");
+    background-size: 180px;
     padding-top: 90px;
 }
 h1 {
