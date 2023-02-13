@@ -4,6 +4,36 @@
 var orderInProgress = 0;
 var initial = 1;
 
+var mugs = [
+    ["engel", "The sunlight comes in the windows brightly as you drink this."],
+    ["LOL01224", "A little bear in the cafe."],
+    ["LOL02017", "It's lightly scented with chocolate and strawberries."],
+    ["LOL02018", "Somehow, this latte makes you smile just a little brighter."],
+    ["LOL02019", "It's so sweet!"],
+    ["LOL02020", "You call your German speaking friend to find out this isn't coffee."],
+    ["LOL02021", "Drinking this reminds you of the silly birds that woke you up this morning."],
+    ["LOL02022", "Miki Miki hani kira kira afuu<br />Frustrated hani afuu-nano?"],
+    ["LOL02024", "Did Cherry pick the ugliest mug in the cafe for you?"],
+    ["LOL02023", "You regret not having ordered a cupcake to go with it."],
+    ["LOL02025", "This latte makes you twitch!!!"],
+    ["LOL02026", "Suddenly, you feel more productive!"],
+    ["LOL02027", "The cup is so big the latte doesn't even fill it half way."],
+    ["LOL02028", "There's no milk in your latte."],
+    ["LOL02029", "Kyun!"],
+    ["LOL02030", "But you already had these memorized!"],
+    ["LOL02031", "It's officially licensed merchandise, probably."],
+    ["LOL02032", "You decide to go home to check on your villagers."],
+    ["LOL02033", "The cup is too warm to pick up!"],
+    ["LOL02034", "For some reason, it smells like karaage."],
+    ["LOL02035", "Definitely not what you ordered."],
+    ["LOL02036", "You call your best friend after drinking this."],
+    ["LOL02037", "You become lost in thought about who Julie might be."],
+    ["LOL02038", "Your latte is already cold!"],
+    ["LOL02039", "You wander off and forget to finish your drink."],
+    ["LOL02041", "He looks lonely, but he's not because you're here!"],
+    ["LOL02042", "Rrrrrrrrrankochan!"]
+];
+
 function changeiFrame(pageName) {
     if (pageName.length > 1 && pageName == "undefined") {
         pageName = "welcome";
@@ -115,8 +145,12 @@ function orderLatte() {
 }
 
 function serveLatte(customerName) {
-    changeDialog("Latte for " + customerName + "! Your order is ready<br />☕︎٩(ɷ◡ɷ)۶");
-    orderInProgress = 0;
+    var rand = Math.random();
+
+    drinkInfo = mugs[Math.floor(rand * mugs.length)];
+
+    document.getElementById("drink").getElementsByTagName("img")[0].src = "img/assets/mugs/" + drinkInfo[0] + ".gif";
+    document.getElementById("drink").getElementsByTagName("p")[0].innerHTML = drinkInfo[1];
 
     document.getElementById('overlay').style.display = 'flex';
     /*drinkimg = document.createElement("img");
@@ -128,8 +162,13 @@ function serveLatte(customerName) {
     document.getElementById("drink").appendChild(drinkimg);
     document.getElementById("drink").appendChild(drinktext);*/
 
+    changeDialog("Latte for " + customerName + "! Your order is ready<br />☕︎٩(ɷ◡ɷ)۶");
+    orderInProgress = 0;
+
     document.getElementById('overlay').onclick = function() {
         document.getElementById('overlay').style.display = 'none';
+        document.getElementById("drink").getElementsByTagName("img")[0].src = "";
+        document.getElementById("drink").getElementsByTagName("p")[0].innerHTML = "";
         setTimeout(function() {
             initializeDialog();
         }, 8000);
