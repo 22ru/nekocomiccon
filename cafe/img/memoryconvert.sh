@@ -4,15 +4,14 @@ echo "Converting folder $2 in $1!";
 
 cd $1/$2;
 
-
-#magick mogrify -resize 500x500 -format jpg *.JPG;
+#magick mogrify -resize 500x500 *.jpg;
+magick mogrify -resize 500x500 -format jpg *.JPG;
 #magick mogrify -resize 500x500 -format jpg *.png;
 #magick mogrify -resize 500x500 -format jpg *.PNG;
-#magick mogrify -resize 500x500 *.jpg;
 
 rm *.JPG;
-rm *.png;
-rm *.PNG;
+#rm *.png;
+#rm *.PNG;
 echo "Memories shrank!";
 
 touch memories;
