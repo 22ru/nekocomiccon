@@ -6,15 +6,56 @@
     <link id="theme" rel="stylesheet" href="css/webring.css">
 	<link rel="icon" type="image/gif" href="img/assets/favicon.gif">
     <script src="https://22ru.github.io/webring/webring.js"></script> 
+    <style>
+        #workplaceAccident {
+            margin-left: auto;
+            margin-right: auto;
+            border-style: solid;
+            border-color: #836435;
+            border-width: 2px;
+            border-radius: 5px;
+            width: max-content;
+            text-align: center;
+            padding: 1em;
+            background-color: rgb(44, 44, 44);
+        }
+        #workplaceAccident h2 {
+            color: white;
+        }
+        #workplaceAccident p {
+            color: #fbecbe;
+        }
+        #workplaceAccident #shameCounter {
+            color: #f0c5ad; 
+            border-style: dashed;
+            border-color: WHITE;
+            border-width: 1px;
+            padding: 2px;
+            font-size: 120%;
+        }
+    </style>
+    <script>
+        //this really doesnt need to be refreshed
+		function timeRefresh() {
+			document.getElementById("shameCounter").innerText = Math.floor((((new Date).getTime() / 1000) - 1676690460) /60 /60 /24);
+		}
+    </script>
 </head>
 
-<body id="contentBody" onload="createLinks('hat\'s nekocomiccon');">
+<body id="contentBody" onload="createLinks('hat\'s nekocomiccon'); timeRefresh();">
     <h1>いらっしゃいませ~!</h1>
-	<p>It has always been my dream to open a wildly unprofitable doll cafe. Please enjoy a drink during your stay. My barista, Cherry, will be happy to assist you! Please be patient with her, she is new and doing her best!</p>
-
-    <p></p>
 
     <img src="img/gallery/cheby/LOL01737.jpg" />
+
+	<p>It has always been my dream to open a wildly unprofitable doll cafe. Please enjoy a drink during your stay. My barista, Cherry, will be happy to assist you! Please be patient with her, she is new and doing her best!</p>
+
+    <div id="workplaceAccident">
+        <!--wow another thing I stole from hors-->
+        <h2>Safety First!</h2>
+        <p>top hat cafe has worked</p>
+        <p><span id="shameCounter">0</span> DAYS</p>
+        <p>without a doll purchase accident!</p>
+    </div>
 
     <p>House rules: No dogs, no Choo, no recasts! Service dogs and miniature horses are welcome. ESA animals are not. All dolls are free to view, but please do not touch!</p>
 
@@ -31,8 +72,6 @@
         </div>
         </div>
     
-    <p>Disclaimer: Due to strict rules on recast images and discussion, I do not recommend linking this site on DoA. This is for your safety, not mine.</p>
-
-
+    <p>Disclaimer: Due to strict rules on recast images and discussion, I do not recommend linking this site on DoA. This is not for my safety.</p>
 
 </body>
