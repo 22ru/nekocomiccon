@@ -235,8 +235,10 @@ function covfefe() {
 function spicycovfefe() {
     document.getElementsByTagName("h1")[0].innerText = "hat's spicy covfefe ";
     document.getElementById("footer").innerHTML = "<p>HECK you!!! 🌶️☕</p>";
-    document.body.style.backgroundImage = "url('img/HAT06199.jpg')";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundImage = "url('img/decor/oppogagamstyle.svg')";
+    //document.getElementById("main").style.backgroundBlendMode = "soft-light";
+    document.body.style.backgroundSize = "100px";
+    //document.body.style.backgroundSize = "cover";
 }
 
 function showNFTinfo() {
