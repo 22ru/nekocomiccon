@@ -7,9 +7,11 @@
 */
 
 body {
-    background-image: url("../img/assets/yagasuri.gif");
+    background-color: #fbecbe;
+    background-image: url("../img/assets/cafebg.svg");
+    background-size: 180px;
     margin: 0;
-    display:flex;
+    display: flex;
     width: 100vw;
 }
 
@@ -30,18 +32,20 @@ body {
     margin-bottom: 5vh;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1em;
+    padding: 10mm;
     filter: drop-shadow(0px 0px 5px rgb(0,0,0,.4));
 }
 
-#board img {
+.photo {
     object-fit: cover;
-    filter: contrast(.8) blur(.5px) saturate(.5);
+    filter: contrast(1.5) blur(.5px) saturate(.5) brightness(.8);
     border-radius: 2px;
 }
 
 #board p, .overlayNote {
     background-color: rgb(171, 105, 105, .7);
+    background-image: url("../img/assets/yagasuri.gif");
+    background-blend-mode: soft-light;
     max-width: 90%;
     height: 15mm;
     margin: 0;
@@ -51,6 +55,7 @@ body {
     overflow: hidden;
     rotate: -1.5deg;
     text-align: center;
+    color: rgb(39, 39, 39, .9);
 }
 
 .overlayTape {
@@ -63,51 +68,53 @@ body {
     height: 50mm;
     max-width: 50mm;
     padding: 1em;
-    rotate: 2deg;
+    rotate: -3deg;
     filter: drop-shadow(5px 5px 5px rgb(0,0,0,.4));
 }
 
 .instaxmini, .instaxsquare, .instaxwide {
-    background-color: rgb(233, 224, 211);
+    background-color: rgb(189, 184, 178);
     filter: drop-shadow(5px 5px 5px rgb(0,0,0,.4));
-    margin: .5em;
+    margin: 0em;
     border-radius: 2px;
+}
+
+.pin {
+    top: 2mm;
+    position: absolute;
+    left: 50%;
+    height: 25px;
 }
 
 .instaxmini {
     height: 86mm;
     width: 54mm;
-    rotate: -1deg;
 }
-
-.instaxmini img {
+.instaxmini .photo {
     height: 62mm;
-    width: 42mm;
-    margin-top: 6mm;
-    margin-left: 6mm;
+    width: 46mm;
+    margin-top: 7mm;
+    margin-left: 4mm;
 }
 
 .instaxsquare {
     height: 86mm;
     width: 72mm;
-    rotate: 2deg;
 }
-
-.instaxsquare img {
+.instaxsquare .photo {
     height: 62mm;
     width: 62mm;
-    margin-top: 5mm;
+    margin-top: 7mm;
     margin-left: 5mm;
 }
 
 .instaxwide {
     height: 86mm;
     width: 108mm;
-    rotate: -2deg;
 }
-.instaxwide img {
+.instaxwide .photo {
     height: 62mm;
     width: 99mm;
-    margin-top: 5mm;
+    margin-top: 7mm;
     margin-left: 5mm;
 }
