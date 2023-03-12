@@ -27,7 +27,7 @@ body {
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-    width: 90vw;
+    width: 85vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
     justify-content: space-around;
@@ -56,6 +56,15 @@ body {
     rotate: -1.5deg;
     text-align: center;
     color: rgb(39, 39, 39, .9);
+}
+
+a:link, a:visited {
+    color: rgb(39, 39, 39, .9);
+    text-decoration: none;
+}
+
+a:hover {
+    filter: drop-shadow(0px 0px 3px #ab6969);
 }
 
 .overlayTape {
