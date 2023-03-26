@@ -2,16 +2,24 @@
 <rss version="2.0">
 
 <channel>
-  <title>hat's microblog</title>
-  <link>https://hat.neocities.org/microblog</link>
-  <description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP</description>
-  <webMaster>Rawhide hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
-  <generator>@hatsune_deals</generator>
-  <image>
-    <url>https://hat.neocities.org/img/decor/hinaNFT.jpg</url>
-    <title>Blessed Angel Hina NFT</title>
-    <link>https://hat.neocities.org</link>
-  </image>
+	<title>hat's microblog</title>
+	<link>https://hat.neocities.org/microblog</link>
+	<description>14 | your/ours | INSY | Triggers: dolls / Bridge on the River Kwai | SachikoP</description>
+	<webMaster>Rawhide hat <img src="../img/decor/oppogagamstyle.svg" style="width:1.0em; height:1.0em;" /></webMaster>
+	<generator>@hatsune_deals</generator>
+	<image>
+		<url>https://hat.neocities.org/img/decor/hinaNFT.jpg</url>
+		<title>Blessed Angel Hina NFT</title>
+		<link>https://hat.neocities.org</link>
+	</image>
+
+	<item>
+		<guid>114</guid>
+		<title>Nendoroids are just cute funko pops at this point.</title>
+		<pubDate>Sun, 26 Mar 2023 18:17:07 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#114</link>
+		<description></description>
+	</item>
 
 	<item>
 		<guid>113</guid>
@@ -56,7 +64,7 @@
 	<item>
 		<guid>108</guid>
 		<title>Ryan took out a restraining order against me because I made another joke about GameStop.</title>
-		<pubDate>Thu Mar 02 2023 17:14:38 GMT-0800</pubDate>
+		<pubDate>Fri, 03 Mar 2023 01:14:38 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#108</link>
 		<description></description>
 	</item>
@@ -64,7 +72,7 @@
 	<item>
 		<guid>107</guid>
 		<title>I'll only believe in AI when it creates the perfect version of Durch den Monsun in German with Bill's slightly deeper voice and drop in Monsoon. Until then, nonexistent.</title>
-		<pubDate>2/24/2023</pubDate>
+		<pubDate>Fri, 24 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#107</link>
 		<description></description>
 	</item>
@@ -72,7 +80,7 @@
 	<item>
 		<guid>106</guid>
 		<title>I've only purchased Japanese BJD in the past 10 years #weeaboo</title>
-		<pubDate>2/20/2023</pubDate>
+		<pubDate>Mon, 20 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#106</link>
 		<description></description>
 	</item>
@@ -80,7 +88,7 @@
 	<item>
 		<guid>105</guid>
 		<title>It's really rude to donate Cherished Teddies because I don't have room for all of them.</title>
-		<pubDate>2/20/2023</pubDate>
+		<pubDate>Mon, 20 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#105</link>
 		<description></description>
 	</item>
@@ -88,7 +96,7 @@
     <item>
 		<guid>104</guid>
 		<title>Congrats to Vega for the marriage of <a href="https://doll.greatskyriver.net/simurgh-and-falcon-a-wedding" target="_blank" rel="noopener noreferrer">this happy couple</a>!</title>
-		<pubDate>2/14/2023</pubDate>
+		<pubDate>Tue, 14 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#104</link>
 		<description></description>
 	</item>
@@ -96,7 +104,7 @@
     <item>
 		<guid>103</guid>
 		<title>How did all these 30 year old women get into high school? Every time I sneak in, I'm escorted out by the police. <a href="https://www.youtube.com/watch?v=aCyGvGEtOwc" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=aCyGvGEtOwc</a></title>
-		<pubDate>2/14/2023</pubDate>
+		<pubDate>Tue, 14 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#103</link>
 		<description></description>
 	</item>
@@ -104,7 +112,7 @@
     <item>
 		<guid>102</guid>
 		<title>I have never lived in an era where Ozzy Osbourne wasn't fried.</title>
-		<pubDate>2/13/2023</pubDate>
+		<pubDate>Mon, 13 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#102</link>
 		<description></description>
 	</item>
@@ -112,7 +120,7 @@
     <item>
 		<guid>101</guid>
 		<title>Why isn't there a switch holder to attach my switch to my face?</title>
-		<pubDate>2/12/2023</pubDate>
+		<pubDate>Sun, 12 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#101</link>
 		<description></description>
 	</item>
@@ -120,7 +128,7 @@
     <item>
 		<guid>100</guid>
 		<title>You'd have to be braindead to expect someone who calls himself "Jimmy Urine" to be an upstanding citizen.</title>
-		<pubDate>2/6/2023</pubDate>
+		<pubDate>Mon, 06 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#100</link>
 		<description></description>
 	</item>
@@ -128,7 +136,7 @@
     <item>
 		<guid>99</guid>
 		<title>Happy Ronnie day and happy birthday to <a href="https://www.youtube.com/watch?v=I4JrXQrvidw" target="_blank" rel="noopener noreferrer">Tommy february6</a>!</title>
-		<pubDate>2/6/2023</pubDate>
+		<pubDate>Mon, 06 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#99</link>
 		<description><img src="../cafe/img/gallery/hina/LOL01914.jpg" /></description>
 	</item>
@@ -136,7 +144,7 @@
     <item>
 		<guid>98</guid>
 		<title></title>
-		<pubDate>2/5/2023</pubDate>
+		<pubDate>Sun, 05 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#98</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL01893.jpg" /></description>
 	</item>
@@ -144,7 +152,7 @@
     <item>
 		<guid>97</guid>
 		<title>If I kin with Ritsu from K-on, and you kin with Ritsu from Enstars, but you don't allow followers that kin with Ritsu, am I still allowed to follow?</title>
-		<pubDate>2/5/2023</pubDate>
+		<pubDate>Sun, 05 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#97</link>
 		<description></description>
 	</item>
@@ -152,7 +160,7 @@
     <item>
 		<guid>96</guid>
 		<title>I will never know if I actually got better at photography or if I just got a nice camera.</title>
-		<pubDate>2/1/2023</pubDate>
+		<pubDate>Wed, 01 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#96</link>
 		<description></description>
 	</item>
@@ -160,7 +168,7 @@
     <item>
 		<guid>95</guid>
 		<title>selling this wig is my biggest regret in life</title>
-		<pubDate>2/1/2023</pubDate>
+		<pubDate>Wed, 01 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#95</link>
 		<description><img src="../cafe/img/gallery/liam/archive/IMG_1123.jpg" /></description>
 	</item>
@@ -168,7 +176,7 @@
     <item>
 		<guid>94</guid>
 		<title>"teddy bear parade" or "death row inmates" ;a;</title>
-		<pubDate>2/1/2023</pubDate>
+		<pubDate>Wed, 01 Feb 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#94</link>
 		<description><img src="../img/LOL01761.jpg" /></description>
 	</item>
@@ -176,7 +184,7 @@
     <item>
 		<guid>93</guid>
 		<title>#BringHimBack</title>
-		<pubDate>1/22/2023</pubDate>
+		<pubDate>Sun, 22 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#93</link>
 		<description><img src="../cafe/img/gallery/liam/LOL01758.jpg" /></description>
 	</item>
@@ -184,7 +192,7 @@
     <item>
 		<guid>92</guid>
 		<title>Every time Cheby scowls at me I fall deeper and deeper in love with him</title>
-		<pubDate>1/18/2023</pubDate>
+		<pubDate>Wed, 18 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#92</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL01747.jpg" /></description>
 	</item>
@@ -192,7 +200,7 @@
     <item>
 		<guid>91</guid>
 		<title>Science has yet to come up with an easily foldable fitted sheet. Can Science truly be trusted?</title>
-		<pubDate>1/17/2023</pubDate>
+		<pubDate>Tue, 17 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#91</link>
 		<description></description>
 	</item>
@@ -200,7 +208,7 @@
     <item>
 		<guid>90</guid>
 		<title>I'm going to cast Leonardo DiCaprio to depict me in my upcoming biopic.</title>
-		<pubDate>1/16/2023</pubDate>
+		<pubDate>Mon, 16 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#90</link>
 		<description></description>
 	</item>
@@ -208,7 +216,7 @@
     <item>
 		<guid>89</guid>
 		<title>Name one Japanese song that doesn't involve looking at the sky. That's right. You can't.</title>
-		<pubDate>1/13/2023</pubDate>
+		<pubDate>Fri, 13 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#89</link>
 		<description></description>
 	</item>
@@ -216,7 +224,7 @@
     <item>
 		<guid>88</guid>
 		<title>Can you trust the opinion of anyone who doesn't like sauerkraut? Their opinion is void.</title>
-		<pubDate>1/13/2023</pubDate>
+		<pubDate>Fri, 13 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#88</link>
 		<description></description>
 	</item>
@@ -224,7 +232,7 @@
     <item>
 		<guid>87</guid>
 		<title>YEEHAW</title>
-		<pubDate>1/11/2023</pubDate>
+		<pubDate>Wed, 11 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#87</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL01700.jpg" /></description>
 	</item>
@@ -232,7 +240,7 @@
     <item>
 		<guid>86</guid>
 		<title>Ryan found my lens cap but now I lost my shitajiki!!!</title>
-		<pubDate>1/11/2023</pubDate>
+		<pubDate>Wed, 11 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#86</link>
 		<description></description>
 	</item>
@@ -240,7 +248,7 @@
     <item>
 		<guid>85</guid>
 		<title>The fan on my PS2 is SUPER LOUD how did we live like this??? #Just2000sThings</title>
-		<pubDate>1/11/2023</pubDate>
+		<pubDate>Wed, 11 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#85</link>
 		<description></description>
 	</item>
@@ -248,7 +256,7 @@
     <item>
 		<guid>84</guid>
 		<title>My tattoo apprenticeship is going very badly ever since I refused to get a tattoo.</title>
-		<pubDate>1/9/2023</pubDate>
+		<pubDate>Mon, 09 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#84</link>
 		<description></description>
 	</item>
@@ -256,7 +264,7 @@
     <item>
 		<guid>83</guid>
 		<title>I can't find my lens cap.</title>
-		<pubDate>1/9/2023</pubDate>
+		<pubDate>Mon, 09 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#83</link>
 		<description></description>
 	</item>
@@ -264,7 +272,7 @@
     <item>
 		<guid>82</guid>
 		<title>Hina learns CSS</title>
-		<pubDate>1/7/2023</pubDate>
+		<pubDate>Sat, 07 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#82</link>
 		<description><img src="../cafe/img/gallery/hina/LOL01673.jpg" /></description>
 	</item>
@@ -272,7 +280,7 @@
     <item>
 		<guid>81</guid>
 		<title>Merry second Christmas to everynyan!!!</title>
-		<pubDate>1/7/2023</pubDate>
+		<pubDate>Sat, 07 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#81</link>
 		<description></description>
 	</item>
@@ -280,7 +288,7 @@
     <item>
 		<guid>80</guid>
 		<title>Very late thank you to @maullarmaullar for the Christmas card!!</title>
-		<pubDate>1/6/2023</pubDate>
+		<pubDate>Fri, 06 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#80</link>
 		<description><img src="../cafe/img/gallery/hina/LOL01662.jpg" /></description>
 	</item>
@@ -288,7 +296,7 @@
     <item>
 		<guid>79</guid>
 		<title>ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ</title>
-		<pubDate>1/3/2023</pubDate>
+		<pubDate>Tue, 03 Jan 2023 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#79</link>
 		<description></description>
 	</item>
@@ -296,7 +304,7 @@
     <item>
 		<guid>78</guid>
 		<title>I'm not obsessed enough with FF7 to turn 70!!!!! Not yet!!!!</title>
-		<pubDate>12/31/2022</pubDate>
+		<pubDate>Sat, 31 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#78</link>
 		<description></description>
 	</item>
@@ -304,7 +312,7 @@
   	<item>
 		<guid>77</guid>
 		<title>andrew tate this andrew tate that WHO tf is andrew tate and why is no one talking about FRAN HAT</title>
-		<pubDate>12/31/2022</pubDate>
+		<pubDate>Sat, 31 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#77</link>
 		<description></description>
 	</item>
@@ -312,7 +320,7 @@
   	<item>
 		<guid>76</guid>
 		<title>Next year's wish: I want to have lots of fun with Liam, Verona, Cheby, and Hina! I love them all so much! 🥹 #2022_인덕인놀_연말정산</title>
-		<pubDate>12/31/2022</pubDate>
+		<pubDate>Sat, 31 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#76</link>
 		<description><img src="../cafe/img/gallery/group/LOL00769.jpg" /></description>
 	</item>
@@ -320,7 +328,7 @@
   	<item>
 		<guid>75</guid>
 		<title>Regrets play: My biggest regret was not buying Cheby a body sooner! And also spending $16 more because I hesitated on a better deal earlier in the year. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/30/2022</pubDate>
+		<pubDate>Fri, 30 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#75</link>
 		<description><img src="../cafe/img/gallery/group/LOL00867.jpg" /></description>
 	</item>
@@ -328,7 +336,7 @@
 	<item>
 		<guid>74</guid>
 		<title>Make Dolls Cute Again</title>
-		<pubDate>12/29/2022</pubDate>
+		<pubDate>Thu, 29 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#74</link>
 		<description></description>
 	</item>
@@ -336,7 +344,7 @@
 	<item>
 		<guid>73</guid>
 		<title>Special of the Year: Jeez, Liam, you aren't supposed to look THAT good as a girl. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/29/2022</pubDate>
+		<pubDate>Thu, 29 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#73</link>
 		<description><img src="../cafe/img/gallery/liam/HAT06852.jpg" /></description>
 	</item>
@@ -344,7 +352,7 @@
   	<item>
 		<guid>72</guid>
 		<title>Portrait: The space portrait challenge was really fun and I can't believe I pulled it off #2022_인덕인놀_연말정산</title>
-		<pubDate>12/28/2022</pubDate>
+		<pubDate>Wed, 28 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#72</link>
 		<description><img src="../cafe/img/gallery/liam/LOL00758.jpg" /></description>
 	</item>
@@ -352,7 +360,7 @@
 	<item>
 		<guid>71</guid>
 		<title>Full body shot: I actually didn't take many full body shots of singular dolls this year #2022_인덕인놀_연말정산</title>
-		<pubDate>12/27/2022</pubDate>
+		<pubDate>Tue, 27 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#71</link>
 		<description><img src="../cafe/img/gallery/praline/LOL00462.jpg" /></description>
 	</item>
@@ -360,7 +368,7 @@
   	<item>
 		<guid>70</guid>
 		<title>I finished my japanese baby making propaganda game last night and I have so many questions still #help</title>
-		<pubDate>12/26/2022</pubDate>
+		<pubDate>Mon, 26 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#70</link>
 		<description></description>
 	</item>
@@ -368,7 +376,7 @@
   	<item>
 		<guid>69</guid>
 		<title>Kimono play: There's no way I misread this prompt #2022_인덕인놀_연말정산</title>
-		<pubDate>12/26/2022</pubDate>
+		<pubDate>Mon, 26 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#69</link>
 		<description><img src="../cafe/img/gallery/group/LOL01429.jpg" /></description>
 	</item>
@@ -376,7 +384,7 @@
 	<item>
 		<guid>68</guid>
 		<title>Newcomer: I recieved 2 new dolls this year: Hina and Praline! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/25/2022</pubDate>
+		<pubDate>Sun, 25 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#68</link>
 		<description><img src="../cafe/img/gallery/group/LOL01459.jpg" /></description>
 	</item>
@@ -384,23 +392,23 @@
 	<item>
 		<guid>67</guid>
 		<title>Ruined photo: Dude, seriously?! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/24/2022</pubDate>
+		<pubDate>Sat, 24 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#67</link>
 		<description><img src="../cafe/img/gallery/cheby/IMG_9305.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>66</guid>
 		<title>I will not be gaslit into believing "Elf on the Shelf" is a classic christmas tradition!</title>
-		<pubDate>12/23/2022</pubDate>
+		<pubDate>Fri, 23 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#66</link>
 		<description></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>65</guid>
 		<title>Outdoor photoshoot: I took Hina out twice to the cherry blossoms #2022_인덕인놀_연말정산</title>
-		<pubDate>12/23/2022</pubDate>
+		<pubDate>Fri, 23 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#65</link>
 		<description><img src="../cafe/img/gallery/hina/HAT08108.jpg" /></description>
 	</item>
@@ -408,7 +416,7 @@
 	<item>
 		<guid>64</guid>
 		<title>Favorite from 2022: It's probably not my BEST photo... #2022_인덕인놀_연말정산</title>
-		<pubDate>12/22/2022</pubDate>
+		<pubDate>Thu, 22 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#64</link>
 		<description><img src="../cafe/img/gallery/liam/HAT07914.jpg" /></description>
 	</item>
@@ -416,7 +424,7 @@
 	<item>
 		<guid>63</guid>
 		<title>Winter 2022: Winter starts today! It's too early for this prompt! Unless you meant last Winter?? #2022_인덕인놀_연말정산</title>
-		<pubDate>12/21/2022</pubDate>
+		<pubDate>Wed, 21 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#63</link>
 		<description><img src="../cafe/img/gallery/hina/LOL01403.jpg" /></description>
 	</item>
@@ -424,7 +432,7 @@
     <item>
 		<guid>62</guid>
 		<title>101 hours into Xenoblade 3, I have discovered you can press the L and R buttons to take a menuless screenshot</title>
-		<pubDate>12/20/2022</pubDate>
+		<pubDate>Tue, 20 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#62</link>
 		<description></description>
 	</item>
@@ -432,23 +440,23 @@
 	<item>
 		<guid>61</guid>
 		<title>Autumn 2022: Cheby's falling leaves yukata fits the season perfectly! Except he's probably cold. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/20/2022</pubDate>
+		<pubDate>Tue, 20 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#61</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL00637.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>60</guid>
 		<title>Summer 2022: Sundress n petunias #2022_인덕인놀_연말정산</title>
-		<pubDate>12/19/2022</pubDate>
+		<pubDate>Mon, 19 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#60</link>
 		<description><img src="../cafe/img/gallery/hina/HAT00206.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>59</guid>
 		<title>!voteban "christmas music"</title>
-		<pubDate>12/19/2022</pubDate>
+		<pubDate>Mon, 19 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#59</link>
 		<description></description>
 	</item>
@@ -456,7 +464,7 @@
 	<item>
 		<guid>58</guid>
 		<title>ryan told me to stop playing with his coffee grinder</title>
-		<pubDate>12/18/2022</pubDate>
+		<pubDate>Sun, 18 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#58</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL01507.jpg" /></description>
 	</item>
@@ -464,7 +472,7 @@
 	<item>
 		<guid>57</guid>
 		<title>my doll was cheaper than this coffee grinder</title>
-		<pubDate>12/18/2022</pubDate>
+		<pubDate>Sun, 18 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#57</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL01501.jpg" /></description>
 	</item>
@@ -472,7 +480,7 @@
 	<item>
 		<guid>56</guid>
 		<title>wish i was at dolpa right now...</title>
-		<pubDate>12/18/2022</pubDate>
+		<pubDate>Sun, 18 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#56</link>
 		<description></description>
 	</item>
@@ -480,23 +488,23 @@
 	<item>
 		<guid>55</guid>
 		<title>Spring 2022: Hanami hanami!! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/18/2022</pubDate>
+		<pubDate>Sun, 18 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#55</link>
 		<description><img src="../cafe/img/gallery/hina/HAT08137.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>54</guid>
 		<title>Doll with prop: I built it myself! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/17/2022</pubDate>
+		<pubDate>Sat, 17 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#54</link>
 		<description><img src="../cafe/img/gallery/hina/HAT08329.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>53</guid>
 		<title>My doll's doll: I will never stop being tempted to buy a mature 1/6 doll for Hina!!! Until then... #2022_인덕인놀_연말정산</title>
-		<pubDate>12/16/2022</pubDate>
+		<pubDate>Fri, 16 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#53</link>
 		<description><img src="../cafe/img/gallery/group/LOL01452.jpg" /></description>
 	</item>
@@ -504,7 +512,7 @@
 	<item>
 		<guid>52</guid>
 		<title>Twins: I was about to say I didn't take any photos of my bambicrony twins this year, but I almost forgot I have Kiki twins! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/15/2022</pubDate>
+		<pubDate>Thu, 15 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#52</link>
 		<description><img src="../cafe/img/gallery/group/LOL01454.jpg" /></description>
 	</item>
@@ -512,7 +520,7 @@
 	<item>
 		<guid>51</guid>
 		<title>Alone in Heaven: Is this about my doll being Forever Alone or the fact I have no irl doll friends but many friends who are dolls? #2022_인덕인놀_연말정산</title>
-		<pubDate>12/14/2022</pubDate>
+		<pubDate>Wed, 14 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#51</link>
 		<description><img src="../cafe/img/gallery/cheby/LOL01008.jpg" /></description>
 	</item>
@@ -520,7 +528,7 @@
 	<item>
 		<guid>50</guid>
 		<title>Fran Hat, inspired by Angus MacGyver</title>
-		<pubDate>12/13/2022</pubDate>
+		<pubDate>Tue, 13 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#50</link>
 		<description></description>
 	</item>
@@ -528,47 +536,47 @@
 	<item>
 		<guid>49</guid>
 		<title>"Hooray!" Couple: I will only admit to owning one couple #2022_인덕인놀_연말정산</title>
-		<pubDate>12/13/2022</pubDate>
+		<pubDate>Tue, 13 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#49</link>
 		<description><img src="../cafe/img/gallery/lifehack/LOL00837.jpg" /></description>
 	</item>
 
-  <item>
-     <guid>48</guid>
-     <title>December 인놀 activities: Eh?! It's only halfway through the month! I made a latte that looks like a doggie. #2022_인덕인놀_연말정산</title>
-     <pubDate>12/12/2022</pubDate>
-     <link>https://hat.neocities.org/microblog#48</link>
-     <description><img src="../cafe/img/gallery/cheby/LOL01385.jpg" /></description>
+ 	<item>
+    	<guid>48</guid>
+     	<title>December 인놀 activities: Eh?! It's only halfway through the month! I made a latte that looks like a doggie. #2022_인덕인놀_연말정산</title>
+     	<pubDate>Mon, 12 Dec 2022 08:00:00 GMT</pubDate>
+     	<link>https://hat.neocities.org/microblog#48</link>
+     	<description><img src="../cafe/img/gallery/cheby/LOL01385.jpg" /></description>
 	</item>
 
-  <item>
-    <guid>47</guid>
-    <title>Cheby is ready for his fountain pen club debut</title>
-    <pubDate>12/11/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#47</link>
-    <description><img src="../cafe/img/gallery/cheby/LOL01416.jpg" /></description>
-  </item>
+  	<item>
+    	<guid>47</guid>
+		<title>Cheby is ready for his fountain pen club debut</title>
+    	<pubDate>Sun, 11 Dec 2022 08:00:00 GMT</pubDate>
+    	<link>https://hat.neocities.org/microblog#47</link>
+    	<description><img src="../cafe/img/gallery/cheby/LOL01416.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>46</guid>
-    <title>November 인놀 activities: I did another family portrait and it took hours despite only having half of my dolls in it! #2022_인덕인놀_연말정산</title>
-    <pubDate>12/11/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#46</link>
-    <description><img src="../cafe/img/familyportrait/LOL01142.jpg" /></description>
-  </item>
+  	<item>
+    	<guid>46</guid>
+		<title>November 인놀 activities: I did another family portrait and it took hours despite only having half of my dolls in it! #2022_인덕인놀_연말정산</title>
+    	<pubDate>Sun, 11 Dec 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#46</link>
+		<description><img src="../cafe/img/familyportrait/LOL01142.jpg" /></description>
+  	</item>
 
-  <item>
+  	<item>
 		<guid>45</guid>
 		<title>October 인놀 activities: I did research into Liam and got more confused than I originally was. Cheby got his yukata. Liam and Verona got a new shirt each, and Praline got her tiny overalls! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/10/2022</pubDate>
+		<pubDate>Sat, 10 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#45</link>
 		<description><img src="../cafe/img/gallery/group/LOL00867.jpg" /><img src="../cafe/img/gallery/praline/LOL00893.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>44</guid>
 		<title>"Every day is yesterday's big day tomorrow today" -Ryan</title>
-		<pubDate>12/9/2022</pubDate>
+		<pubDate>Fri, 09 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#44</link>
 		<description></description>
 	</item>
@@ -576,7 +584,7 @@
   	<item>
 		<guid>43</guid>
 		<title>September 인놀 activities: Liam had his birthday! Cheby's been here all along. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/9/2022</pubDate>
+		<pubDate>Fri, 09 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#43</link>
 		<description><img src="../cafe/img/gallery/group/LOL00518.jpg" /></description>
 	</item>
@@ -584,7 +592,7 @@
 	<item>
 		<guid>42</guid>
 		<title>Japanese baby making propaganda game</title>
-		<pubDate>12/8/2022</pubDate>
+		<pubDate>Thu, 08 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#42</link>
 		<description></description>
 	</item>
@@ -592,7 +600,7 @@
 	<item>
 		<guid>41</guid>
 		<title>If I ever find and go to a fountain pen meetup, I'm bringing Cheby with me.</title>
-		<pubDate>12/8/2022</pubDate>
+		<pubDate>Thu, 08 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#41</link>
 		<description></description>
 	</item>
@@ -600,7 +608,7 @@
 	<item>
 		<guid>40</guid>
 		<title>gosh i hope someone translates the rest of these prompts past the monthly recap ones because i cannot read korean</title>
-		<pubDate>12/8/2022</pubDate>
+		<pubDate>Thu, 08 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#40</link>
 		<description></description>
 	</item>
@@ -608,7 +616,7 @@
 	<item>
 		<guid>39</guid>
 		<title>August 인놀 activities: Praline's arrival! I also made Hina a new sundress. After almost 2 years, I have hit 10k photos on my camera! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/8/2022</pubDate>
+		<pubDate>Thu, 08 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#39</link>
 		<description><img src="../cafe/img/gallery/praline/HAT09762.jpg" /><img src="../cafe/img/gallery/hina/HAT00190.jpg" /></description>
 	</item>
@@ -616,7 +624,7 @@
 	<item>
 		<guid>38</guid>
 		<title>What is this cute early birthday present from Ryan!! SO CUTE</title>
-		<pubDate>12/7/2022</pubDate>
+		<pubDate>Wed, 07 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#38</link>
 		<description><img src="../img/LOL01380.jpg" /></description>
 	</item>
@@ -624,7 +632,7 @@
 	<item>
 		<guid>37</guid>
 		<title>July 인놀 activities: More Liam x Hina photos. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/7/2022</pubDate>
+		<pubDate>Wed, 07 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#37</link>
 		<description><img src="../cafe/img/gallery/lifehack/HAT09607.jpg" /></description>
 	</item>
@@ -632,7 +640,7 @@
 	<item>
 		<guid>36</guid>
 		<title>June 인놀 activities: I took photos of Liam x Hina on the computer Ryan bought at the thrift store. I successfully transfered my luck to hors for her win of Marmeladov! #2022_인덕인놀_연말정산</title>
-		<pubDate>12/6/2022</pubDate>
+		<pubDate>Tue, 06 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#36</link>
 		<description><img src="../cafe/img/gallery/lifehack/HAT08748.jpg" /></description>
 	</item>
@@ -640,23 +648,23 @@
 	<item>
 		<guid>35</guid>
 		<title>May 인놀 activities: Sochi's birthday and another trip back out to the cherry blossoms. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/5/2022</pubDate>
+		<pubDate>Mon, 05 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#35</link>
 		<description><img src="../cafe/img/gallery/sochi/HAT08218.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>34</guid>
 		<title>Every time I make anything even slightly resembling Mexican food: "Uh oh!! I hope this doesn't taste like Chipotle!!!"</title>
-		<pubDate>12/4/2022</pubDate>
+		<pubDate>Sun, 04 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#34</link>
 		<description></description>
-  </item>
+  	</item>
 
 	<item>
 		<guid>33</guid>
 		<title>April 인놀 activities: I made a juban for Hina and took hanami photos! Hina's very expensive hands and feet arrived. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/4/2022</pubDate>
+		<pubDate>Sun, 04 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#33</link>
 		<description><img src="../cafe/img/gallery/hina/HAT07790.jpg" /><img src="../cafe/img/gallery/hina/HAT07835.jpg" /></description>
 	</item>
@@ -664,266 +672,266 @@
 	<item>
 		<guid>32</guid>
 		<title>March 인놀 activities: Hina became heterochormatic this month. I had a lot of fun taking photos of Liam x Hina. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/3/2022</pubDate>
+		<pubDate>Sat, 03 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#32</link>
 		<description><img src="../cafe/img/gallery/lifehack/HAT07437.jpg" /></description>
 	</item>
 
-  <item>
+  	<item>
 		<guid>31</guid>
 		<title>Volks news! This issue came with an extra mini poster #ボークスニュース</title>
-		<pubDate>12/3/2022</pubDate>
+		<pubDate>Sat, 03 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#31</link>
 		<description><img src="../cafe/img/gallery/hina/LOL01254.jpg" /></description>
-  </item>
+  	</item>
 
-  <item>
+  	<item>
 		<guid>30</guid>
 		<title>Neocities still has yet to discover HTML/CSS isn't coding.</title>
-		<pubDate>12/2/2022</pubDate>
+		<pubDate>Fri, 02 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#30</link>
 		<description></description>
-  </item>
+  	</item>
 
-  <item>
+  	<item>
 		<guid>29</guid>
 		<title>February 인놀 activities: Lots of sewing this month! I made Hina a pink blouse, a gingham furisode, and a dress form. #2022_인덕인놀_연말정산</title>
-		<pubDate>12/2/2022</pubDate>
+		<pubDate>Fri, 02 Dec 2022 08:00:00 GMT</pubDate>
 		<link>https://hat.neocities.org/microblog#29</link>
 		<description><img src="../cafe/img/gallery/hina/HAT07029.jpg" /><img src="../cafe/img/gallery/hina/HAT07048.jpg" /></description>
-  </item>
+  	</item>
 
-  <item>
-    <guid>28</guid>
-    <title>January 인놀 activities: My most beloved little Hinachama arrived! I am so blessed to have her. 😘 #2022_인덕인놀_연말정산</title>
-    <pubDate>12/1/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#28</link>
-    <description><img src="../cafe/img/boxopening/hina/HAT06777.jpg" /></description>
-  </item>
+  	<item>
+		<guid>28</guid>
+		<title>January 인놀 activities: My most beloved little Hinachama arrived! I am so blessed to have her. 😘 #2022_인덕인놀_연말정산</title>
+		<pubDate>Thu, 01 Dec 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#28</link>
+		<description><img src="../cafe/img/boxopening/hina/HAT06777.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>27</guid>
-    <title>Pumpkin munching culprit: caught.</title>
-    <pubDate>11/30/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#27</link>
-    <description><img src="../img/LOL01233.jpg" /></description>
-  </item>
+  	<item>
+		<guid>27</guid>
+		<title>Pumpkin munching culprit: caught.</title>
+		<pubDate>Wed, 30 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#27</link>
+		<description><img src="../img/LOL01233.jpg" /></description>
+  	</item>
   
-  <item>
-    <guid>26</guid>
-    <title>Just ordered Volks News! #ボークスニュース</title>
-    <pubDate>11/29/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#26</link>
-    <description></description>
-  </item>
+  	<item>
+    	<guid>26</guid>
+		<title>Just ordered Volks News! #ボークスニュース</title>
+		<pubDate>Tue, 29 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#26</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>25</guid>
-    <title></title>
-    <pubDate>11/26/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#25</link>
-    <description><img src="../img/buttons/RGWilliamsNOW.gif" /></description>
-  </item>
+  	<item>
+		<guid>25</guid>
+		<title></title>
+		<pubDate>Sat, 26 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#25</link>
+		<description><img src="../img/buttons/RGWilliamsNOW.gif" /></description>
+  	</item>
 
-  <item>
-    <guid>24</guid>
-    <title>the cake is alive</title>
-    <pubDate>11/26/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#24</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>24</guid>
+		<title>the cake is alive</title>
+		<pubDate>Sat, 26 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#24</link>
+		<description></description>
+	</item>
 
-  <item>
-    <guid>23</guid>
-    <title>What doll should I buy this week?</title>
-    <pubDate>11/26/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#23</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>23</guid>
+		<title>What doll should I buy this week?</title>
+		<pubDate>Sat, 26 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#23</link>
+		<description></description>
+  	</item>
   
-  <item>
-    <guid>22</guid>
-    <title>my Unwatched Movie situation is Out Of Control</title>
-    <pubDate>11/25/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#22</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>22</guid>
+		<title>my Unwatched Movie situation is Out Of Control</title>
+		<pubDate>Fri, 25 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#22</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>21</guid>
-    <title>Does anyone want to karaoke Durch den Monsun with me at Sakuracon?</title>
-    <pubDate>11/24/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#21</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>21</guid>
+		<title>Does anyone want to karaoke Durch den Monsun with me at Sakuracon?</title>
+		<pubDate>Thu, 24 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#21</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>20</guid>
-    <title>Unregistered HyperCam 2</title>
-    <pubDate>11/24/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#20</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>20</guid>
+		<title>Unregistered HyperCam 2</title>
+		<pubDate>Thu, 24 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#20</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>19</guid>
-    <title>his n hers</title>
-    <pubDate>11/24/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#19</link>
-    <description><img src="../img/LOL01122.jpg" /></description>
-  </item>
+  	<item>
+		<guid>19</guid>
+		<title>his n hers</title>
+		<pubDate>Thu, 24 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#19</link>
+		<description><img src="../img/LOL01122.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>18</guid>
-    <title>Happy Thanksgiving! May all your turkeys be blessed!</title>
-    <pubDate>11/24/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#18</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>18</guid>
+		<title>Happy Thanksgiving! May all your turkeys be blessed!</title>
+		<pubDate>Thu, 24 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#18</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>17</guid>
-    <title>behind the scenes</title>
-    <pubDate>11/20/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#17</link>
-    <description><img src="../cafe/img/gallery/group/LOL01115.jpg" /></description>
-  </item>
+  	<item>
+		<guid>17</guid>
+		<title>behind the scenes</title>
+		<pubDate>Sun, 20 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#17</link>
+		<description><img src="../cafe/img/gallery/group/LOL01115.jpg" /></description>
+  	</item>
 
     <item>
-    <guid>16</guid>
-    <title>i cannot get this pair of shoes to stay together. no amount of glue can save them ;______;</title>
-    <pubDate>11/20/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#16</link>
-    <description><img src="../img/LOL01067.jpg" /></description>
-  </item>
+		<guid>16</guid>
+		<title>i cannot get this pair of shoes to stay together. no amount of glue can save them ;______;</title>
+		<pubDate>Sun, 20 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#16</link>
+		<description><img src="../img/LOL01067.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>15</guid>
-    <title>does anyone want to discuss tokio hotel's "durch den monsun" with me?</title>
-    <pubDate>11/19/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#15</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>15</guid>
+		<title>does anyone want to discuss tokio hotel's "durch den monsun" with me?</title>
+		<pubDate>Sat, 19 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#15</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>14</guid>
-    <title>ryan ice slid right out of the room</title>
-    <pubDate>11/19/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#14</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>14</guid>
+		<title>ryan ice slid right out of the room</title>
+		<pubDate>Sat, 19 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#14</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>13</guid>
-    <title>get u a girl who draws cute doll while listening to nu-metal</title>
-    <pubDate>11/19/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#13</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>13</guid>
+		<title>get u a girl who draws cute doll while listening to nu-metal</title>
+		<pubDate>Sat, 19 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#13</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>12</guid>
-    <title>RT @poi666 a commemorative stamp #justiceforsans #justiceforpraline</title>
-    <pubDate>11/18/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#12</link>
-    <description><img src="../img/stamps/got-snubbed.gif" /></description>
-  </item>
+  	<item>
+		<guid>12</guid>
+		<title>RT @poi666 a commemorative stamp #justiceforsans #justiceforpraline</title>
+		<pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#12</link>
+		<description><img src="../img/stamps/got-snubbed.gif" /></description>
+  	</item>
 
-  <item>
-    <guid>11</guid>
-    <title>1 RT = 1 Earth saved</title>
-    <pubDate>11/18/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#11</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>11</guid>
+		<title>1 RT = 1 Earth saved</title>
+		<pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#11</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>10</guid>
-    <title>dinner: adorable</title>
-    <pubDate>11/17/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#10</link>
-    <description><img src="../img/LOL01064.jpg" /></description>
-  </item>
+  	<item>
+		<guid>10</guid>
+		<title>dinner: adorable</title>
+		<pubDate>Thu, 17 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#10</link>
+		<description><img src="../img/LOL01064.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>9</guid>
-    <title>great big beet bake bash</title>
-    <pubDate>11/16/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#9</link>
-    <description><img src="../img/LOL01040.jpg" /></description>
-  </item>
+  	<item>
+		<guid>9</guid>
+		<title>great big beet bake bash</title>
+		<pubDate>Wed, 16 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#9</link>
+		<description><img src="../img/LOL01040.jpg" /></description>
+  	</item>
   
-  <item>
-    <guid>8</guid>
-    <title>on the internet no one knows you're a recovering twitter addict 😎</title>
-    <pubDate>11/16/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#8</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>8</guid>
+		<title>on the internet no one knows you're a recovering twitter addict 😎</title>
+		<pubDate>Wed, 16 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#8</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>7</guid>
-    <title>if howl is a british man voiced by a british man, why does he have an american accent? #makesuthink</title>
-    <pubDate>11/15/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#7</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>7</guid>
+		<title>if howl is a british man voiced by a british man, why does he have an american accent? #makesuthink</title>
+		<pubDate>Tue, 15 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#7</link>
+		<description></description>
+  	</item>
   
-  <item>
-    <guid>6</guid>
-    <title>i got a new washing machine!!</title>
-    <pubDate>11/15/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#6</link>
-    <description><img src="../cafe/img/gallery/cheby/LOL01034.jpg" /></description>
-  </item>
+  	<item>
+		<guid>6</guid>
+		<title>i got a new washing machine!!</title>
+		<pubDate>Tue, 15 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#6</link>
+		<description><img src="../cafe/img/gallery/cheby/LOL01034.jpg" /></description>
+  	</item>
   
-  <item>
-    <guid>5</guid>
-    <title>I'm going to run out of thai basil one of these days and it's going to be Rough</title>
-    <pubDate>11/14/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#5</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>5</guid>
+		<title>I'm going to run out of thai basil one of these days and it's going to be Rough</title>
+		<pubDate>Mon, 14 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#5</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>4</guid>
-    <title>#notallhoodieshavezippers</title>
-    <pubDate>11/12/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#4</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>4</guid>
+		<title>#notallhoodieshavezippers</title>
+		<pubDate>Sat, 12 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#4</link>
+		<description></description>
+  	</item>
   
-  <item>
-    <guid>3</guid>
-    <title>BIG MEAT</title>
-    <pubDate>11/12/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#3</link>
-    <description><img src="../img/LOL00995.jpg" /></description>
-  </item>
+  	<item>
+		<guid>3</guid>
+		<title>BIG MEAT</title>
+		<pubDate>Sat, 12 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#3</link>
+		<description><img src="../img/LOL00995.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>2</guid>
-    <title>Thank you to hors and Flonne for helping with my CSS troubles!!</title>
-    <pubDate>11/12/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#2</link>
-    <description></description>
-  </item>
+  	<item>
+		<guid>2</guid>
+		<title>Thank you to hors and Flonne for helping with my CSS troubles!!</title>
+		<pubDate>Sat, 12 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#2</link>
+		<description></description>
+  	</item>
 
-  <item>
-    <guid>1</guid>
-    <title>Tyler brought back a massive yukiho!!! SHES HUGE</title>
-    <pubDate>11/11/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#1</link>
-    <description><img src="../cafe/img/gallery/praline/LOL00991.jpg" /></description>
-  </item>
+  	<item>
+		<guid>1</guid>
+		<title>Tyler brought back a massive yukiho!!! SHES HUGE</title>
+		<pubDate>Fri, 11 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#1</link>
+		<description><img src="../cafe/img/gallery/praline/LOL00991.jpg" /></description>
+  	</item>
 
-  <item>
-    <guid>0</guid>
-    <title>My NFT has been STOLEN!!!</title>
-    <pubDate>11/11/2022</pubDate>
-    <link>https://hat.neocities.org/microblog#0</link>
-    <description><img src="../img/stolenNFT.jpg" /></description>
-  </item>
+  	<item>
+    	<guid>0</guid>
+		<title>My NFT has been STOLEN!!!</title>
+		<pubDate>Fri, 11 Nov 2022 08:00:00 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#0</link>
+		<description><img src="../img/stolenNFT.jpg" /></description>
+  	</item>
 
 </channel>
 </rss> 

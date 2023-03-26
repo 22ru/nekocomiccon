@@ -17,11 +17,13 @@ var longString = "What the fuck did you just fucking say about me, you little bi
 
 // (imgLink, format, physical, rotate, text)
 var photoArray = [
+    new photograph("img/bulletin/inp73Sfa.jpg", "instaxmini", 0, 0, "3/13/2022"),
+    new photograph("img/bulletin/LOL02610.jpg", "instaxmini", 1, 1, ""),
     new photograph("img/bulletin/IMG_6358.jpg", "instaxmini", 0, 0, "<a href='https://zucchini.cc/' target='_blank' rel='noopener noreferrer'>₍ᐢ. .ᐢ₎</a><br />3/12/2023"),
     new photograph("img/bulletin/IMG_6346.jpg", "instaxmini", 0, 0, "<a href='https://zucchini.cc/' target='_blank' rel='noopener noreferrer'>haupia ♡</a><br />3/12/2023"),
     new photograph("img/bulletin/01-15-2023.jpg", "instaxmini", 1, 0, ""),
     new photograph("img/bulletin/11-24-2022.jpg", "instaxmini", 1, 1, ""),
-    new photograph("img/bulletin/11-20-2022.jpg", "instaxmini", 1, 0, ""),
+    new photograph("img/bulletin/11-20-2022.jpg", "instaxmini", 1, 0, "11/20/2022</br>manspreading"),
     new photograph("img/bulletin/IMG_9561.jpg", "instaxmini", 0, 0, "Cursed Hybrid<br />11/17/2022"),
     new photograph("img/bulletin/10-13-2022.jpg", "instaxmini", 1, 1, ""),
     new photograph("img/bulletin/09-17-2022.jpg", "instaxmini", 1, 1, ""),
