@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/">
 
 <channel>
 	<title>hat's microblog</title>
@@ -12,6 +13,22 @@
 		<title>Blessed Angel Hina NFT</title>
 		<link>https://hat.neocities.org</link>
 	</image>
+
+	<item>
+		<guid>116</guid>
+		<title>Please don't play april fool's jokes on me tomorrow!</title>
+		<pubDate>Sat, 01 Apr 2023 05:50:39 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#116</link>
+		<description></description>
+	</item>
+
+	<item>
+		<guid>115</guid>
+		<title>You know that part where Momiji's mother rejects him because he turns into a bunny when he's hugged? I can't comprehend it. I would feel so blessed if that happened to me.</title>
+		<pubDate>Tue, 28 Mar 2023 04:12:32 GMT</pubDate>
+		<link>https://hat.neocities.org/microblog#115</link>
+		<description></description>
+	</item>
 
 	<item>
 		<guid>114</guid>
