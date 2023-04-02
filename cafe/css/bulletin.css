@@ -82,7 +82,7 @@ a:hover {
 }
 
 .instaxmini, .instaxsquare, .instaxwide {
-    background-color: rgb(189, 184, 178);
+    background-color: rgb(224, 221, 217);
     filter: drop-shadow(5px 5px 5px rgb(0,0,0,.4));
     margin: 0em;
     border-radius: 2px;
