@@ -147,6 +147,7 @@ body {
 .postText, .postContent p {
   display: block;
   margin-top: 5px;
+  margin-bottom: 0;
   color: rgb(138, 138, 138);
 }
 
