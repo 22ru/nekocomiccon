@@ -188,6 +188,9 @@ h1 {
     background-color: #f0c5ad;
     border-color: #ab6969;
     border-radius: 3px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #dialogbox input[type=button]:hover {
