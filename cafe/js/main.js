@@ -5,6 +5,7 @@ var orderInProgress = 0;
 var initial = 1;
 var anger = 0;
 var timeoutID;
+var drinkTimeoutID;
 
 var mugs = [
     ["engel", "The sunlight comes in the windows brightly as you drink this."],
@@ -225,7 +226,7 @@ function orderLatte_Cherry() {
 
         changeDialog("It'll be just a moment! I'll make you a good one!");
 
-        setTimeout(function() {
+        drinkTimeoutID = setTimeout(function() {
             serveLatte_Cherry(customerName);
         }, prepTimeSeconds*1000);
     }
@@ -236,7 +237,7 @@ function orderFrenchPress_Cheby() {
 
     changeDialog("Coming up.");
 
-    setTimeout(function() {
+    drinkTimeoutID = setTimeout(function() {
         serveFrenchPress_Cheby();
     }, 4*60*1000); //4 minutes
 }
@@ -266,6 +267,10 @@ function pokeBarista_Cheby() {
     if (anger >= 20) {
         changeDialog("Get out of my cafe.");
         setTimeout(function() {
+            if (orderInProgress) clearTimeout(drinkTimeoutID);
+            setTimeout(function() {
+                throwFrenchPress_Cheby();
+            }, 4*60*1000); //4 minutes
             document.getElementById("navigation").style.display = 'none';
         changeiFrame("closed");
             document.getElementById("barista").style.display = 'none';
@@ -325,5 +330,20 @@ function serveFrenchPress_Cheby() {
         setTimeout(function() {
             initializeDialog_Cheby();
         }, 8000);
+    }
+}
+
+function throwFrenchPress_Cheby() {
+    document.getElementById("drink").getElementsByTagName("img")[0].src = "img/assets/mugs/LOL02017.gif";
+    document.getElementById("drink").getElementsByTagName("img")[0].style["rotate"] = "160deg";
+    document.getElementById("drink").getElementsByTagName("p")[0].innerHTML = "AND STAY OUT";
+
+    document.getElementById('overlay').style.display = 'flex';
+    orderInProgress = 0;
+
+    document.getElementById('overlay').onclick = function() {
+        document.getElementById('overlay').style.display = 'none';
+        document.getElementById("drink").getElementsByTagName("img")[0].src = "";
+        document.getElementById("drink").getElementsByTagName("p")[0].innerHTML = "";
     }
 }
