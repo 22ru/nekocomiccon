@@ -3,6 +3,8 @@
 
 var orderInProgress = 0;
 var initial = 1;
+var anger = 0;
+var timeoutID;
 
 var mugs = [
     ["engel", "The sunlight comes in the windows brightly as you drink this."],
@@ -121,6 +123,12 @@ function checkHours() {
 }
 
 function openup() {
+    var d = new Date();
+    if (d.getDay() == 0) {
+        initializeDialog_Cheby();
+    } else {
+        initializeDialog_Cherry();
+    }
     document.getElementById("navigation").style.display = 'flex';
     document.getElementById("barista").style.display = 'flex';
     document.getElementById("dialogbox").style.display = 'flex';
@@ -139,10 +147,15 @@ function changeDialog(dialog) {
 function initializeDialog_Cherry() {
     var dbox, orderForm, orderName, orderButton;
 
-    if (initial) {
+    /*if (initial) {
         document.getElementById("barista").addEventListener("click", pokeBarista_Cherry);
         initial = 0;
-    }
+    }*/
+
+    document.getElementById("barista").removeEventListener("click", pokeBarista_Cheby);
+    document.getElementById("barista").addEventListener("click", pokeBarista_Cherry);
+
+    document.getElementById("barista").src = "img/assets/cherrylimeade.gif";
 
     changeDialog("Would you like a latte?<br />Can I get your name for the order?");
     dbox = document.getElementById("dialogbox");
@@ -170,14 +183,16 @@ function initializeDialog_Cherry() {
 
 
 function initializeDialog_Cheby() {
-    var dbox, orderForm, orderButton;
+    var dbox, orderButton;
 
     document.getElementById("barista").src = "img/assets/pafnutychebyshev.gif";
 
-    if (initial) {
+    /*if (initial) {
         document.getElementById("barista").addEventListener("click", pokeBarista_Cheby);
         initial = 0;
-    }
+    }*/
+    document.getElementById("barista").removeEventListener("click", pokeBarista_Cherry);
+    document.getElementById("barista").addEventListener("click", pokeBarista_Cheby);
 
     changeDialog("Today's special is the French press.");
     dbox = document.getElementById("dialogbox");
@@ -190,7 +205,7 @@ function initializeDialog_Cheby() {
 }
 
 function orderLatte_Cherry() {
-    var customerName, offset, dbox, p, wrongChar;
+    var customerName, offset, wrongChar;
     var prepTimeSeconds = 20*60;
     var rand = Math.random();
 
@@ -206,7 +221,7 @@ function orderLatte_Cherry() {
             wrongChar--;
         }
 
-        customerName = customerName.substr(0, offset).concat(String.fromCharCode(wrongChar) + customerName.substr(offset+1, customerName.length));
+        customerName = customerName.substr(0, offset).concat(String.fromCharCode(wrongChar) + customerName.substr(offset + 1, customerName.length));
 
         changeDialog("It'll be just a moment! I'll make you a good one!");
 
@@ -227,10 +242,13 @@ function orderFrenchPress_Cheby() {
 }
 
 function pokeBarista_Cherry() {
+    if (timeoutID != 0) {
+        clearTimeout(timeoutID);
+    }
     if (orderInProgress) {
-        changeDialog("Just a little longer...");
+        timeoutID = changeDialog("Just a little longer...");
     } else {
-        changeDialog("Did you need help?");
+        timeoutID = changeDialog("Did you need help?");
         setTimeout(function() {
             initializeDialog_Cherry();
         }, 3000);
@@ -238,17 +256,34 @@ function pokeBarista_Cherry() {
 }
 
 function pokeBarista_Cheby() {
-    if (orderInProgress) {
-        changeDialog(". . . .");
+    anger += 1;
+    if (timeoutID != 0) {
+        clearTimeout(timeoutID);
+    }
+    if (anger == 14) {
+        document.getElementById("barista").src = "img/assets/pafnutychebysheveyecontact.gif";
+    }
+    if (anger >= 20) {
+        changeDialog("Get out of my cafe.");
         setTimeout(function() {
+            document.getElementById("navigation").style.display = 'none';
+        changeiFrame("closed");
+            document.getElementById("barista").style.display = 'none';
+            document.getElementById("dialogbox").style.display = 'none';
+            changeiFrame("closed");
+        }, 3000);
+    } else if (orderInProgress) {
+        changeDialog(". . . .");
+        timeoutID = setTimeout(function() {
             changeDialog("Go take a seat.");
         }, 3000);
     } else {
         changeDialog("Stop touching me.");
-        setTimeout(function() {
+        timeoutID = setTimeout(function() {
             initializeDialog_Cheby();
         }, 3000);
     }
+    document.getElementById("barista").style.filter = "drop-shadow(0px 0px " + anger + "px #910000)";
 }
 
 function serveLatte_Cherry(customerName) {
