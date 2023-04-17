@@ -261,7 +261,7 @@ function pokeBarista_Cheby() {
     if (timeoutID != 0) {
         clearTimeout(timeoutID);
     }
-    if (anger == 14) {
+    if (anger >= 14) {
         document.getElementById("barista").src = "img/assets/pafnutychebysheveyecontact.gif";
     }
     if (anger >= 20) {
