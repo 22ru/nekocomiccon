@@ -7,6 +7,10 @@
 	<link rel="icon" type="image/gif" href="img/assets/favicon.gif">
     <script src="https://22ru.github.io/webring/hatring.js"></script>
     <script src="https://22ru.github.io/webring/SDHandHold-config.js"></script>
+    <script src="https://22ru.github.io/webring/KJWebring-config.js"></script>
+    <script>
+        KJWebring.loadNavCustomizations("Ⱄ", "Ⱄ", "𓋼", " 𓍊 ");
+    </script>
     <style>
         #workplaceAccident {
             margin-left: auto;
@@ -43,7 +47,7 @@
     </script>
 </head>
 
-<body id="contentBody" onload="SDHandHold.createLinks(); timeRefresh();">
+<body id="contentBody" onload="timeRefresh(); SDHandHold.createLinks(); KJWebring.buildWidget();">
     <h1>いらっしゃいませ~!</h1>
 
     <img src="img/gallery/cheby/LOL01737.jpg" />
@@ -55,14 +59,14 @@
         <h2>Safety First!</h2>
         <p>top hat cafe has worked</p>
         <p><span id="shameCounter">0</span> DAYS</p>
-        <p>without a doll purchase accident!</p>
+        <p>without a doll purchase incident!</p>
     </div>
 
     <p>House rules: No dogs, no Choo, no recasts! Service dogs and miniature horses are welcome. ESA animals are not. All dolls are free to view, but please do not touch!</p>
 
-    <div id="webring">
+    <div class="webring">
         <img src="https://22ru.github.io/webring/img/hh_100x100.jpg">
-        <div id="webringText">
+        <div class="webringText">
         <a id="SDHandHoldIndex" target="_blank" rel="noopener noreferrer">Super Dollfie WebHandHold</a>
             <div id="webringLinks">
                 <a id="SDHandHoldPrev" target="_blank" rel="noopener noreferrer">⏮︎</a>
@@ -71,6 +75,8 @@
             </div>
         </div>
     </div>
+
+    <div class="webring" id="KJWebring"></div>
     
     <p>Disclaimer: Due to strict rules on recast images and discussion, I do not recommend linking this site on DoA. This is not for my safety.</p>
 

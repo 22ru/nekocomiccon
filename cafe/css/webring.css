@@ -1,4 +1,4 @@
-#webring {
+.webring {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -11,12 +11,12 @@
     justify-content: space-between;
     padding: .5em;
 }
-#webring img {
+.webring img {
     display: flex;
     margin-right: 5px;
     height: 50px;
 }
-#webringText {
+.webringText {
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -32,4 +32,24 @@
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0;
+}
+#KJWebring {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#KJWebring img {
+    display: flex;
+    margin-right: auto;
+    margin-bottom: 3px;
+}
+
+.KJWebringName {
+    display: none;
+    
 }
