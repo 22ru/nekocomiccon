@@ -58,6 +58,16 @@ function checkMobile() {
         (usrAgent.match(/iPod/i)) ) {
 
         document.body.innerHTML = "";
+
+        easy = document.createElement("img");
+        easy.src = "img/decor/easymode.jpg";
+        easy.style.width ="100vw";
+        easy.style.position = "fixed";
+        easy.style.zIndex = -1;
+
+        document.body.appendChild(easy);
+
+
         document.body.style.backgroundImage = "none";
         message = document.createElement("h1");
         message.className = "iijimodo";
