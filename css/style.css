@@ -124,6 +124,7 @@ p {
 	margin-top: 1em;
 	margin-right: 1em;
 	text-align: right;
+	padding: 5px;
 }
 
 .doll {
@@ -454,4 +455,13 @@ img {
 	width: 75%;
 	text-align: center;
 	display: none;
+}
+
+.iijimodo {
+	max-width: 100vw;
+	writing-mode: vertical-rl;
+	font-size: 75vw;
+	color:black;
+	word-break: keep-all;
+	overflow-x: hidden;
 }

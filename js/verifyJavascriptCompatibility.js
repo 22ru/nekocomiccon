@@ -5,6 +5,8 @@ function verifyJavascriptCompatibility() {
 
     hostName = window.location.hostname;
 
+    checkMobile();
+
     if (!hostName) return;
 
     for (i = 0; i < whitelist.length; i++) {
@@ -12,7 +14,6 @@ function verifyJavascriptCompatibility() {
             return;
         }
     }
-
     destroy();
 }
 
@@ -46,4 +47,22 @@ function destroy() {
     for (; iframe.length > 0;) {
         document.body.getElementsByTagName("iframe")[0].remove();
     }
+}
+
+function checkMobile() {
+    usrAgent = navigator.userAgent;
+    if ((window.innerWidth < 900) ||
+        (usrAgent.match(/iPhone/i)) ||
+        (usrAgent.match(/Android/i)) ||
+        (usrAgent.match(/iPad/i)) ||
+        (usrAgent.match(/iPod/i)) ) {
+
+        document.body.innerHTML = "";
+        document.body.style.backgroundImage = "none";
+        message = document.createElement("h1");
+        message.className = "iijimodo";
+        message.innerHTML = "えーマジイージーモード キモーイ";
+        document.body.appendChild(message);
+    }
+    return;
 }
