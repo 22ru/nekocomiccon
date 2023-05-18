@@ -61,9 +61,7 @@ function checkMobile() {
 
         easy = document.createElement("img");
         easy.src = "img/decor/easymode.jpg";
-        easy.style.width ="100vw";
-        easy.style.position = "fixed";
-        easy.style.zIndex = -1;
+        easy.id = "easy";
 
         document.body.appendChild(easy);
 
@@ -71,7 +69,11 @@ function checkMobile() {
         document.body.style.backgroundImage = "none";
         message = document.createElement("h1");
         message.className = "iijimodo";
-        message.innerHTML = "えーマジイージーモード キモーイ";
+
+        //message.innerHTML = "えーマジイージーモード キモーイ";
+
+        message.innerHTML = "え<br/><span style='writing-mode:vertical-rl'>ー</span><br/>マ<br/>ジ<br/>イ<br/><span style='writing-mode:vertical-rl'>ー</span><br/>ジ<br/><span style='writing-mode:vertical-rl'>ー</span><br/>モ<br/><span style='writing-mode:vertical-rl'>ー</span><br/>ド<br/> キ<br/>モ<br/><span style='writing-mode:vertical-rl'>ー</span><br/>イ<br/>";
+
         document.body.appendChild(message);
     }
     return;

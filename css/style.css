@@ -458,10 +458,17 @@ img {
 }
 
 .iijimodo {
-	max-width: 100vw;
-	writing-mode: vertical-rl;
-	font-size: 75vw;
+	width: 99vw;
+	font-size: 98vw;
+	margin-top: 0;
 	color:black;
 	word-break: keep-all;
 	overflow-x: hidden;
+}
+
+#easy {
+	position: fixed;
+	width: 100vw;
+	z-index: -1;
+	margin-top: calc(50vh - 50vw);
 }
