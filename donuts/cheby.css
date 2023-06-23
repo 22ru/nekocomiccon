@@ -37,7 +37,7 @@ body {
     width: 40vw;
     max-height: 90vh;
     position: fixed;
-    bottom:-10px;
+    bottom: 0;
     right: 70vw;
     object-fit: contain;
     object-position: right;
@@ -49,7 +49,7 @@ body {
     position: fixed;
     height: 80vh;
     border-style: none;
-    left: 28vw;
+    left: 29vw;
     width: 50vw;
     padding: 1em;
     overflow-y: scroll;
