@@ -218,6 +218,11 @@ p, li {
     color: #836435;
 }
 
+ul p, ol p {
+    margin: 0;
+    color: #ab6969;
+}
+
 .imgdesc {
     display: block;
     text-align: center;
