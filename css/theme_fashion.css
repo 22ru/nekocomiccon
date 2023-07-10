@@ -37,12 +37,6 @@ body {
 	background-color: black;
 }
 
-.stats {
-	color: rgb(228, 135, 181);
-	border-color:  rgb(209, 0, 105);
-	background-color: rgb(39, 39, 39);
-}
-
 a, a:link, a:visited {
 	color: rgb(228, 135, 181);
 	text-decoration: none;
@@ -52,10 +46,21 @@ a, a:link, a:visited {
 a:hover {
 	color:  rgb(209, 0, 105);
 	cursor: wait;
+	text-decoration: underline;
 }
 
 .disabledLink, .disabledLink:hover {
 	color: rgb(39, 39, 39);
+}
+
+.stats {
+	color: rgb(228, 135, 181);
+	border-color:  rgb(209, 0, 105);
+	background-color: rgb(39, 39, 39);
+}
+
+.stats a, .stats a:link, .stats a:visited {
+	color: rgb(235, 195, 215);
 }
 
 .date {

@@ -155,6 +155,10 @@ body {
   color: rgb(228, 135, 181, .5);
 }
 
+.postContent ul, .postContent ol {
+  color: rgb(138, 138, 138);
+}
+
 .postImage {
   display: block;
   max-width: 100%;
