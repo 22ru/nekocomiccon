@@ -1,0 +1,87 @@
+#container {
+    width: 960px;
+    max-width: 95vw;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+#header {
+    padding-bottom: 44px;
+    border-bottom: 1px darkgray solid;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#mainAvatar {
+    width: 300px;
+}
+
+#mainAvatar img {
+    border-radius: 75px;
+    width: 50%;
+    margin-left: 75px;
+    border-color: darkgray;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#userInfo {
+    margin-right: 30px;
+}
+
+#userHandle {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+#userHandle button {
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#userStats {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: small;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#userStats div {
+    margin-right: 20px;
+}
+
+#userName {
+    font-weight: bold;
+    font-size: small;
+}
+#userBio {
+    font-size: small;
+}
+
+#content {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1px 1px;
+}
+
+.post {
+    flex-basis: 33%;
+}
+
+.post img {
+    width: 100%;
+}

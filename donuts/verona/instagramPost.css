@@ -1,0 +1,84 @@
+#container {
+    width: 933px;
+    max-width: 95vw;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    border: 1px darkgray solid;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#postImage {
+    background-color: darkgrey;
+    max-height: 598px;
+    max-width: 598px;
+    align-content: center;
+    display: flex;
+}
+
+#postImage img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#postText {
+    flex-basis: 334px;
+    min-width: 334px;
+    max-height: 598px;
+    border-left: 1px darkgray solid;
+}
+
+#postHeader {
+    border-bottom: 1px darkgray solid;
+    display: flex;
+    flex-direction: row;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left:16px;
+}
+
+.smAvatar {
+    width: 32px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+#postComments {
+    height: calc(100% - 227px);
+    overflow-y: scroll;
+}
+
+#interactions {
+    margin-top:4px;
+    padding-top:6px;
+    padding-left: 8px;
+    border-top: 1px darkgray solid;
+}
+
+#interactions svg {
+    margin:8px;
+}
+
+#postLikes {
+    margin-left:16px;
+    font-weight: bold;
+}
+#postDate {
+    margin-left: 16px;
+    font-size: x-small;
+    color: darkgrey;
+    margin-bottom: 16px;
+}
+
+#commentBar {
+    margin-top:4px;
+    border-top: 1px darkgray solid;
+    font-size: small;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: darkgrey;
+}
