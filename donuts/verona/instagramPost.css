@@ -5,15 +5,20 @@
     margin-left: auto;
     margin-right: auto;
     font-family: sans-serif;
-    border: 1px darkgray solid;
+    border: 1px #CCCCCC solid;
     border-radius: 3px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 #postImage {
-    background-color: darkgrey;
+    background-color: #CCCCCC;
     max-height: 598px;
     max-width: 598px;
     align-content: center;
@@ -29,37 +34,84 @@
     flex-basis: 334px;
     min-width: 334px;
     max-height: 598px;
-    border-left: 1px darkgray solid;
+    border-left: 1px #CCCCCC solid;
 }
 
 #postHeader {
-    border-bottom: 1px darkgray solid;
+    border-bottom: 1px #CCCCCC solid;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     padding-top: 14px;
     padding-bottom: 14px;
-    padding-left:16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
 }
 
 .smAvatar {
     width: 32px;
+    height: 32px;
     border-radius: 16px;
     margin-right: 16px;
 }
-#postComments {
-    height: calc(100% - 227px);
-    overflow-y: scroll;
+.username {
+    font-weight: 520;
+    font-size: small;
+    margin-right: 5px;
 }
+
+.username:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.follow {
+    color: #0095f6;
+    font-size: small;
+    font-weight: 520;
+    margin-left: 5px;
+}
+
+.follow:hover {
+    color:#00376b;
+    cursor: pointer;
+}
+
+
+#postComments {
+    height: calc(100% - 240px);
+    overflow-y: scroll;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+}
+
+.comment {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 16px;
+}
+
+.commentText {
+    font-size: small;
+}
+
 
 #interactions {
     margin-top:4px;
     padding-top:6px;
     padding-left: 8px;
-    border-top: 1px darkgray solid;
+    padding-right: 8px;
+    border-top: 1px #CCCCCC solid;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 #interactions svg {
-    margin:8px;
+    margin: 8px;
 }
 
 #postLikes {
@@ -69,16 +121,27 @@
 #postDate {
     margin-left: 16px;
     font-size: x-small;
-    color: darkgrey;
+    color: #828282;
     margin-bottom: 16px;
 }
 
 #commentBar {
     margin-top:4px;
-    border-top: 1px darkgray solid;
+    border-top: 1px #CCCCCC solid;
     font-size: small;
     text-align: center;
     padding-top: 22px;
     padding-bottom: 22px;
-    color: darkgrey;
+    color: #CCCCCC;
+}
+
+svg:hover, svg:focus {
+    fill:rgb(115, 115, 115);
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+}
+
+.hashtag {
+    color: #00376b;
+    cursor: pointer;
 }

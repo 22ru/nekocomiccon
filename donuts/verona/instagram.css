@@ -9,7 +9,7 @@
 
 #header {
     padding-bottom: 44px;
-    border-bottom: 1px darkgray solid;
+    border-bottom: 1px #CCCCCC solid;
     display: flex;
     justify-content: flex-start;
 }
@@ -22,7 +22,7 @@
     border-radius: 75px;
     width: 50%;
     margin-left: 75px;
-    border-color: darkgray;
+    border-color: #CCCCCC;
     border-width: 1px;
     border-style: solid;
 }
@@ -34,23 +34,26 @@
 #userHandle {
     margin-bottom: 30px;
     font-size: large;
+    align-items: center;
+    display: flex;
 }
 
 #userHandle button {
     margin-left: 20px;
+    margin-right: 20px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
     padding-top: 5px;
     border-width: 0;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: medium;
     font-weight: bold;
 }
 
 #userStats {
     display: flex;
-    font-weight: bold;
+    font-weight: 550;
     margin-bottom: 30px;
     font-size: small;
     flex-direction: row;
@@ -65,6 +68,7 @@
     font-weight: bold;
     font-size: small;
 }
+
 #userBio {
     font-size: small;
 }
@@ -85,3 +89,6 @@
 .post img {
     width: 100%;
 }
+
+
+
