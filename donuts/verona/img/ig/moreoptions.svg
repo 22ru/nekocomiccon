@@ -1,0 +1,16 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    version="1.1"
+    aria-label="More options"
+    color="rgb(0, 0, 0)" 
+    fill="rgb(0, 0, 0)" 
+    height="24" 
+    viewBox="0 0 24 24" 
+    width="24" >
+    <title>More options</title>
+    
+    <circle cx="12" cy="12" r="1.5"></circle>
+    <circle cx="6" cy="12" r="1.5"></circle>
+    <circle cx="18" cy="12" r="1.5"></circle>
+</svg>
