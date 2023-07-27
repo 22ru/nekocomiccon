@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="instagram.css">
     <script>
         function countPosts() {
-            document.getElementById("postCount").innerHTML = document.getElementsByClassName("post").length + " posts";
+            document.getElementById("postCount").innerHTML = document.getElementsByClassName("postThumb").length + " posts";
         }
     </script>
 </head>
@@ -17,7 +17,7 @@
             <img src="../../img/art/tit.jpg"/>
         </div>
         <div id="userInfo">
-            <div id="userHandle">FR135
+            <div id="userHandle"><a href="">FR135</a>
                 <button >Follow</button>
                 <img src="img/ig/moreoptions.svg" aria-label="More options" />
             </div>
@@ -27,21 +27,21 @@
                 <div id="following">31,604 following</div>
             </div>
             <div id="userName">Fries</div>
-            <div id="userBio">cool<br />beans😭</div>
+            <div id="userBio">FR/EN OK!<br />beans😭</div>
         </div>
     </div>
 
-    <div id="content">
-        <div class="post">
+    <div id="postPreviews">
+        <div class="postThumb">
             <a href="postTemplate.html"><img src="img/sicp.jpg"/></a>
         </div>
-        <div class="post">
+        <div class="postThumb">
             <a href="postTemplate.html"><img src="img/sicp.jpg"/></a>
         </div>
-        <div class="post">
+        <div class="postThumb">
             <a href="postTemplate.html"><img src="img/sicp.jpg"/></a>
         </div>
-        <div class="post">
+        <div class="postThumb">
             <a href="postTemplate.html"><img src="img/sicp.jpg"/></a>
         </div>
     </div>

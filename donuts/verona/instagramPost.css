@@ -1,16 +1,4 @@
-#container {
-    width: 933px;
-    max-width: 95vw;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: sans-serif;
-    border: 1px #CCCCCC solid;
-    border-radius: 3px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 a, a:visited, a:hover {
     text-decoration: none;
@@ -49,12 +37,6 @@ a, a:visited, a:hover {
     align-items: center;
 }
 
-.smAvatar {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-    margin-right: 16px;
-}
 #postHeader img:hover {
     cursor: pointer;
 }
