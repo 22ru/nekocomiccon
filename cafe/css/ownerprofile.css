@@ -8,7 +8,20 @@
 }
 
 #infoHeader {
-    display: block;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.bullets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#dollList {
+    width: 500px;
 }
 
 #infoHeader img {

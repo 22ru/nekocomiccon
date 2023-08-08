@@ -1,5 +1,6 @@
 // Semi functional.
 // Issue: back button twice will return you to the same page
+// I don't know if this is fixable due to not being able to detect back button presses
 
 var orderInProgress = 0;
 var initial = 1;
@@ -36,31 +37,19 @@ var mugs = [
     ["LOL02042", "Rrrrrrrrrankochan!"]
 ];
 
-function changeiFrame(pageName) {
-    if (pageName.length > 1 && pageName == "undefined") {
-        pageName = "welcome";
-    }
-	document.getElementById("content").src = pageName + ".html";
-    console.log("iframe changing to " + pageName);
-}
-
-function updateHash() {
-    window.location.hash = "#" + getCurrHashFromIframeLoc();
-    console.log("hash updated to " + window.location.hash);
-}
-
 function initializeIframe() {
     var currentHash;
     var check;
 
     currentHash = document.location.hash;
     console.log("initializing: current hash is " + currentHash);
-    if (currentHash.length > 1) {
-        changeiFrame(currentHash.substr(1));
+    if (currentHash.length < 2 || currentHash.substring(1) == "undefined" || currentHash == "#index.html") {
+        console.log("loading welcome page");
+        currentHash = "welcome.html";
+    } else {
+        currentHash = currentHash.substring(1);
     }
-    else { //default page
-        changeiFrame("welcome");
-    }
+    document.getElementById("content").src = currentHash;
 
     // This is one of my top obnoxious functions of all time.
     check = checkHours();
@@ -70,40 +59,29 @@ function initializeIframe() {
         initializeDialog_Cheby();
     }
 
-    //doesnt trigger with back and forward
-    document.getElementById("content").addEventListener('load', function() {
-        console.log("iframe reloaded");
-        window.parent.postMessage("iframe src changed");
+    // doesn't trigger with back and forward
+    document.getElementById("content").addEventListener("load", function() {
+        console.log("LOAD EVENT. iframe src location = " + document.getElementById("content").src);
+        // update hash
+        var newHash = document.getElementById("content").contentWindow.location.pathname.substr(6); // 6 is "/cafe/".length 
+        console.log("changing hash to " + newHash);
+        window.location.hash = "#" + newHash;
     }, false);
-    //window.addEventListener('hashchange', updateHash, false);
-    window.addEventListener("message", updateHash);
+
+    // popstate occurs on back or forward... and all the time...
     window.addEventListener("popstate", function(event) {
-        console.log("window state changed");
-        currentHash = document.location.hash;
-        console.log("current hash is " + currentHash);
-        if (currentHash.length > 0) {
-            changeiFrame(currentHash.substr(1));
+        console.log("POPSTATE EVENT. window state changed. window location: " + document.location);
+
+        // need to reload because it is not done automatically.
+        var newSrc = document.location.hash.substring(1);
+        //if (newSrc.length > 1 && newSrc != document.getElementById("content").src.split("/cafe/")[1]) {
+        if (newSrc.length > 1) {
+            document.getElementById("content").src = newSrc;
+        } else {
+            // return to welcome if there is no string
+            document.getElementById("content").src = "welcome.html";
         }
     });
-}
-
-function notifyChange() {
-    window.parent.postMessage("iframe src changed");
-}
-
-function getCurrHashFromIframeLoc() {
-    var iframeLoc, newHash;
-
-    iframeLoc = document.getElementById("content").contentWindow.location.href;
-    console.log("iframe location: " + iframeLoc);
-    if (iframeLoc == "about:blank") {
-        // we don't ever want it to be blank!
-        changeiFrame("welcome");
-        //window.location.hash = "#" + newHash; //should be triggered from event listener
-    } else {
-        newHash = iframeLoc.split("cafe/")[1].split(".html")[0];
-    }
-    return newHash;
 }
 
 function checkHours() {
@@ -114,7 +92,7 @@ function checkHours() {
     if (t < 6 || t > 16) {
     //if (false) {
         document.getElementById("navigation").style.display = 'none';
-        changeiFrame("closed");
+        document.getElementById("content").src = "closed.html";
         document.getElementById("barista").style.display = 'none';
         document.getElementById("dialogbox").style.display = 'none';
     } else if (d.getDay() == 0) { // Sunday
