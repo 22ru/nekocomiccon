@@ -250,10 +250,9 @@ function pokeBarista_Cheby() {
                 throwFrenchPress_Cheby();
             }, 4*60*1000); //4 minutes
             document.getElementById("navigation").style.display = 'none';
-        changeiFrame("closed");
+            document.getElementById("content").src = "closed.html";
             document.getElementById("barista").style.display = 'none';
             document.getElementById("dialogbox").style.display = 'none';
-            changeiFrame("closed");
         }, 3000);
     } else if (orderInProgress) {
         changeDialog(". . . .");
