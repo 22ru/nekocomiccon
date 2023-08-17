@@ -243,7 +243,7 @@ function pokeBarista_Cheby() {
         document.getElementById("barista").src = "img/assets/pafnutychebysheveyecontact.gif";
     }
     if (anger >= 20) {
-        changeDialog("Get out of my cafe.");
+        changeDialog("Get. OUT.");
         setTimeout(function() {
             if (orderInProgress) clearTimeout(drinkTimeoutID);
             setTimeout(function() {
