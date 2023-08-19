@@ -107,9 +107,9 @@
     padding-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 1px 1px;
+    column-gap: 4px;
 }
 
 .postThumb {
