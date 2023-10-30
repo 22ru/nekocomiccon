@@ -31,15 +31,21 @@
 .dollHeader {
     display: flex;
     flex-wrap: wrap-reverse;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
 }
 
-.dollHeader img {
-    max-width: 50%;
+.profilePhoto {
+    width: 50%;
+}
+
+.profilePhoto img {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dollHeader p {
+    margin-left: 20px;
     margin-top: auto;
     margin-bottom: auto;
+    min-width: fit-content;
 }

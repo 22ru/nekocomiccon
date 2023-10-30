@@ -17,7 +17,9 @@ var longString = "What the fuck did you just fucking say about me, you little bi
 
 // (imgLink, format, physical, rotate, text)
 var photoArray = [
+    new photograph("img/bulletin/10-30-2023.jpg", "instaxmini", 1, 0, ""),
     new photograph("img/bulletin/IMG_3169.jpg", "instaxmini", 0, 0, "10/1/2023<br /><a href='https://sylum.web.fc2.com/' target='_blank' rel='noopener noreferrer'>what is Ichigo's favorite compact disc?</a>"),
+    new photograph("img/bulletin/09-26-2023.jpg", "instaxmini", 1, 0, ""),
     new photograph("img/bulletin/couple_spring-01.jpg", "instaxmini", 0, 0, "9/25/2023<br /><a href='https://doll.greatskyriver.net/' target='_blank' rel='noopener noreferrer'>Spring love~</a>"),
     new photograph("img/bulletin/cherryvega.jpg", "instaxmini", 0, 0, "4/8/2023<br />Cherry's crowning achievement"),
     new photograph("img/bulletin/marmieandsascha.jpg", "instaxmini", 0, 0, "3/25/2023<br /><a href='https://zucchini.cc/' target='_blank' rel='noopener noreferrer'>おめでとう!</a>"),
