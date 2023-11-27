@@ -346,6 +346,13 @@ img {
 	z-index: 13;
 }
 
+#sittinVerona {
+	height: 210px;
+	left: 1080px;
+	top: 106px;
+	z-index: 44;
+}
+
 #hinaNFT {
 	position: absolute;
 	left: 980px;
