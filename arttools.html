@@ -33,7 +33,7 @@
 
     <p>I have allocated half the space on my desk for my Wacom Cintiq 16. The cable is 72 inches long and this is NOT in the specs. I would have appreciated if it was a bit longer. I use the xsetwacom drivers with default settings. If you're confused about Bezier curve values and want to adjust them, check out this <a href="https://linuxwacom.github.io/bezier.html" target="_blank" rel="noopener noreferrer">site</a>.</p>
 
-    <p>I sometimes have an issue where the cursor freezes. This is annoying but easily fixed by turning the pen around to the eraser and then back. I don't know where the issue lies between Krita, drivers, or the tablet.</p>
+    <p>I sometimes have an issue where the cursor freezes. This is annoying but easily fixed by turning the pen around to the eraser and then back. The first line drawn when switching from another program to Krita will be messed up. Click on the program outside the drawing range before drawing. I don't know where the issue lies between Krita, drivers, or the tablet.</p>
 
     <p>I highly recommend a remote for your tablet. I'm using a right joycon with some slight drift, which makes it annoying to use with my switch. I connect to it using blueman and use qjoypad to map the buttons.</p>
 
@@ -41,103 +41,116 @@
     <p>bluetoothctl<br />
     connect [joycon MAC address]<br />
     quit<br /></p>
+    <p>I haven't found a reliable way to connect to it through a GUI while it is paired with a switch.</p>
 
-    <p>[qjoypad layout here someday]</p>
+    <p>f12 = 96, 7-0 free</p>
 
     <table>
         <tbody>
         <tr>
-            <td>analog left/right</td>
-            <td>&nbsp;</td>
-            <td>rotate 15 degrees/-15 degrees</td>
-        </tr>
-        <tr>
-            <td>analog up/down</td>
-            <td>&nbsp;</td>
-            <td>zoom in/out</td>
+            <td>Physical button</td>
+            <td>Keycode, scancode (hex)</td>
+            <td>QJoyPad location</td>
+            <td>mapped key</td>
+            <td>krita function</td>
         </tr>
 
         <tr>
-            <td>L3 (pressed analog stick)</td>
-            <td>&nbsp;</td>
-            <td>reset rotation</td>
-        </tr>
-
-        <tr>
-            <td>L</td>
-            <td>&nbsp;</td>
-            <td></td>
+            <td>left arrow</td>
+            <td>BTN_SOUTH, 90001</td>
+            <td>Button 1</td>
+            <td>F13 (key 98)</td>
+            <td>transform tool</td>
         </tr>
         <tr>
-            <td>ZL</td>
-            <td>&nbsp;</td>
-            <td>color picker</td>
+            <td>down arrow</td>
+            <td>BTN_EAST, 90002</td>
+            <td>Button 2</td>
+            <td>F14 (key 99)</td>
+            <td>deselect</td>
         </tr>
         <tr>
-            <td>-</td>
-            <td>&nbsp;</td>
-            <td>canvas only mode</td>
+            <td>up arrow</td>
+            <td>BTN_C, 90003</td>
+            <td>Button 3</td>
+            <td>F15 (key 100)</td>
+            <td>outline select tool</td>
         </tr>
-
+        <tr>
+            <td>right arrow</td>
+            <td>BTN_NORTH, 90004</td>
+            <td>Button 4</td>
+            <td>b (key 56)</td>
+            <td>freehand brush tool</td>
+        </tr>
         <tr>
             <td>SL</td>
-            <td>&nbsp;</td>
+            <td>BTN_WEST, 90005</td>
+            <td>Button 5</td>
+            <td>F16 (key 101)</td>
             <td>undo</td>
         </tr>
         <tr>
             <td>SR</td>
-            <td>&nbsp;</td>
-            <td>deselect all</td>
+            <td>BTN_Z, 90006</td>
+            <td>Button 6</td>
+            <td>F17 (key 102)</td>
+            <td>unused</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>BTN_TL2, 90009</td>
+            <td>Button 9</td>
+            <td>tab (key 23)</td>
+            <td>canvas only mode</td>
+        </tr>
+        <tr>
+            <td>L3 (pressed analog stick)</td>
+            <td>BTN_SELECT, 9000b</td>
+            <td>Button 11</td>
+            <td>5 (key 14)</td>
+            <td>reset rotation</td>
         </tr>
         <tr>
             <td>screenshot</td>
-            <td>&nbsp;</td>
-            <td>flip canvas horizontally</td>
+            <td>BTN_THUMBL, 9000e</td>
+            <td>Button 14</td>
+            <td>9 (key 103)</td>
+            <td>mirror view</td>
         </tr>
         <tr>
-            <td>left arrow</td>
-            <td>&nbsp;</td>
-            <td>transform layer</td>
+            <td>L</td>
+            <td>BTN_THUMBR, 9000f</td>
+            <td>Button 15</td>
+            <td>shift (key 50)</td>
+            <td>shift</td>
         </tr>
         <tr>
-            <td>right arrow</td>
-            <td>&nbsp;</td>
-            <td>freehand brush tool</td>
+            <td>ZL</td>
+            <td>?, 90010</td>
+            <td>Button 16</td>
+            <td>ctrl (key 37)</td>
+            <td>ctrl</td>
+        </tr>
+
+        <tr>
+            <td>analog up/down</td>
+            <td>ABS_HAT0X</td>
+            <td>Axis 5</td>
+            <td>Up: 7 (key 16), Down: 8 (key 17)</td>
+            <td>zoom in/out (need to be added to Krita)</td>
         </tr>
         <tr>
-            <td>up arrow (can revise, unused)</td>
-            <td>&nbsp;</td>
-            <td>increase brush size</td>
-        </tr>
-        <tr>
-            <td>down arrow (can revise, unused)</td>
-            <td>&nbsp;</td>
-            <td>decrease brush size</td>
+            <td>analog left/right</td>
+            <td>ABS_HAT0Y</td>
+            <td>Axis 6</td>
+            <td>Left: 4 (key 13), Right: 6 (key 15)</td>
+            <td>rotate 15 degrees/-15 degrees</td>
         </tr>
         </tbody>
-        </table>
+    </table>
 
-    <!--
-# QJoyPad 4.1 Layout File
-
-Joystick 1 {
-	Axis 5: +key 20, -key 21
-	Axis 6: +key 48, -key 47
-	Button 1: key 28
-	Button 2: key 34
-	Button 3: key 35
-	Button 4: key 56
-	Button 5: key 52
-	Button 6: key 38
-	Button 9: key 23
-	Button 11: key 57
-	Button 14: key 58
-	Button 16: key 37
-}
-
-
-
-    -->
+    <p>My krita config is found <a href="" target="_blank" rel="noopener noreferrer">here and my qjoypad</a> config is found <a href="" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
     <p>This set up is not nearly as simple and easy as on Windows. It can be a struggle. It's a labor of love for Linux.</p>
 
