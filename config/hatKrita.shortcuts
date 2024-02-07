@@ -1,6 +1,6 @@
 [Shortcuts]
 KisToolSelectOutline=Henkan
-KisToolTransform=Ctrl+T; Katakana
+KisToolTransform=Katakana
 edit_undo=Ctrl+Z; Hiragana Katakana
 reset_canvas_rotation=; 5
 rotate_canvas_left=4
