@@ -1,0 +1,16 @@
+table {
+	width: 100%;
+    border: 1px solid #ddadc5;
+}
+thead td {
+    color: rgb(209, 0, 105);
+    font-weight: bold;
+}
+td, thead {
+	border: 1px solid #FFFFFF;
+	padding: 3px 10px;
+    color:#FFFFFF;
+}
+.notes {
+    color: #ddadc5;
+}
