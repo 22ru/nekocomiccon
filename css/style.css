@@ -485,3 +485,11 @@ img {
 	z-index: -1;
 	margin-top: calc(50vh - 50vw);
 }
+
+.spoiler {
+	filter:blur(10px) grayscale(1);
+}
+
+.spoiler:hover{
+	filter:blur(0px) grayscale(0);
+}
