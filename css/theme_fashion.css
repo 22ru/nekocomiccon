@@ -80,3 +80,7 @@ pre {
 	border-width: 2px;
 	white-space: pre-line;
 }
+
+blockquote, cite {
+	color:white;
+}
