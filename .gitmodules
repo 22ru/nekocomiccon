@@ -2,6 +2,3 @@
 	path = microblog-ext
 	url = git@github.com:22ru/microblog.git
 	
-[submodule "donuts"]
-	path = donuts
-	url = git@github.com:22ru/donuts.git
