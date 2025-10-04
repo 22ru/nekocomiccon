@@ -1,4 +1,4 @@
-rating = Math.floor((Date.now()-1630476455735) / 90000000);
+rating = Math.floor((Date.now()-1630476455735) / 9000000);
 
 function refreshScore() {
     document.getElementById("currentRating").innerText = "Current rating: " + rating;
