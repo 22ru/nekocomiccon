@@ -10,7 +10,7 @@
 	max-height: 100vh;
 }
 
-.navbar, #content, #header, #footer, #blognav, #rating, #webring {
+.navbar, #content, #header, #footer, #blognav, #rating, #webring, #viewcount {
 	border-radius: 25px;
 	border-style: solid;
 	position: absolute;
@@ -80,6 +80,13 @@
 	z-index: 40;
 }
 
+#viewcount {
+	position: absolute;
+	top: 405px;
+	left: 907px;
+	z-index: 41;
+}
+
 #webring {
 	height: 58px;
 	width: 290px;
@@ -92,7 +99,9 @@
 	margin: revert;
 }
 
-
+#viewcount p {
+	margin: 5px;
+}
 
 #blognav h4 {
 	margin: 5px;
