@@ -1,0 +1,28 @@
+#container {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header, #navbar, #content, .blognav, #mobileFooter{
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+	border-style: solid;
+    border-color: rgb(209, 0, 105);
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.mobileNav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-size: x-large;
+    color: rgb(228, 135, 181);
+}
+
+a, a:link, a:visited {
+	color: rgb(228, 135, 181);
+	text-decoration: none;
+        cursor: default;
+}

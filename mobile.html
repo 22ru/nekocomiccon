@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+welcome to my hatsite! 
+-->
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>hat's 猫コミコン</title>
+	<meta name="viewport" content="width=device-width, initial-scale=.7"/>
+	<link rel="stylesheet" href="css/mobile.css">
+	<link id="theme" rel="stylesheet" href="css/theme_fashion.css">
+	<link rel="icon" type="image/gif" href="img/decor/favicon.gif">
+	<script src="js/blog.js"></script> 
+	<script>totalPages = 263;</script>
+
+</head>
+
+<body id="main" onload="startiFrame();">
+	<div id="container">
+		<div id="header">
+			<h1>
+			hat's nekocomiccon
+			</h1>
+		</div>
+		<div class="navbar" id="navbar">
+			<div class="mobileNav">
+			<a class="a:link" onclick="changeiFrame('blog')">blog</a>
+			<a class="a:link" onclick="changeiFrame('aboutme');">about me</a>
+			<a class="a:link" onclick="changeiFrame('artbyme');">art</a>
+			<a class="a:link" onclick="changeiFrame('links');">links</a>
+			<a class="a:link" onclick="changeiFrame('cons/index');">conventions</a>
+			</div>
+		</div>
+
+		<div class="blognav" id="blognav"> 
+			<div class="mobileNav">
+				<div class="a:link" id="back" onclick="back()"><</div>
+				<div class="a:link" id="recent" onclick="resetBlogPage()">recent</div>
+				<div class="a:link" id="forward" onclick="forward()">></div>
+			</div>
+		</div>
+
+		<iframe id="content" title="content" name="content" onload="updateAddrBar();
+		this.style.height = this.contentWindow.document.body.offsetHeight + 40 + 'px';
+		"></iframe>
+
+		<div id="mobileFooter">
+			<div class="mobileNav"><a:link onclick="window.scrollTo(0, 0);">Back to top?</a></div>
+			<p>You've reached the end of your free mobile article limit for the month. To access more content, visit <a href="home.html">on your PC</a>.</p>
+		</div>
+
+		<div id="decor"></div>
+
+	</div>
+</body>
