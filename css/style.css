@@ -136,6 +136,7 @@ p {
 	margin-left: 5px;
 	text-align: right;
 	padding: 5px;
+	max-width: 90%;
 }
 
 .doll {
@@ -216,6 +217,7 @@ img {
 	margin-top: .5em;
 	margin-bottom: .5em;
 	border-radius: 7px;
+	max-width: 90%;
 }
 
 .buttonlist {

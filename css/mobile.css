@@ -1,16 +1,29 @@
-#container {
-  max-width: 550px;
-  margin-left: auto;
-  margin-right: auto;
+/*reset*/
+* {
+    box-sizing: border-box;
 }
-#header, #navbar, #content, .blognav, #mobileFooter{
+body, html {
+    margin: 0;
+    overflow-x: hidden;
+}
+/*reset end*/
+
+#container {
+    width: 95vw;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 0 10px;
+    overflow-x: hidden;
+}
+
+#container > * {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
-	border-style: solid;
+    border-style: solid;
     border-color: rgb(209, 0, 105);
     background-color: black;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .mobileNav {
@@ -25,4 +38,8 @@ a, a:link, a:visited {
 	color: rgb(228, 135, 181);
 	text-decoration: none;
         cursor: default;
+}
+
+#decor {
+    visibility: hidden;
 }
