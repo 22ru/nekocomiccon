@@ -36,4 +36,5 @@
     object-fit: cover;
     margin: 0;
     border-radius: 0;
+    max-width: 100%;
 }
