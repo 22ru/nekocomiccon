@@ -515,3 +515,10 @@ img {
 	border-color: rgb(255, 255, 255, .5);
 	border-style: outset;
 }
+
+.imgdesc {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}

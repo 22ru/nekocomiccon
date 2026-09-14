@@ -3,9 +3,16 @@
 <rss version="2.0">
     <channel>
         <title>hat's nekocomiccon</title>
-        <description>#1 Hina Fansite!</description>
+        <description>The #1 Hina Fansite!</description>
         <link>https://hat.neocities.org/</link>
         <lastBuildDate>Thu, 01 Jan 1970 00:00:00 GMT</lastBuildDate>
+
+        <item>
+            <pubDate>Mon, 14 Sep 2026 03:36:07 GMT</pubDate>
+            <title>RCCC 2026 report up</title>
+            <link>https://hat.neocities.org/home.htm#cons/rosecitycomiccon2026</link>
+            <description>fran hat goes to comic con</description>
+        </item>
 
         <item>
             <pubDate>Fri, 21 Aug 2026 01:18:13 GMT</pubDate>
