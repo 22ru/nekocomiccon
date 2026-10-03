@@ -5,7 +5,7 @@ function verifyJavascriptCompatibility() {
 
     hostName = window.location.hostname;
 
-    checkMobile();
+    //checkMobile();
 
     if (!hostName) return;
 
